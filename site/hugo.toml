@@ -1,0 +1,71 @@
+baseURL = "https://scp.net.cn"
+languageCode = "zh-cn"
+title = "Rocnix Site"
+theme = "hugo-bearblog"
+
+# 作者信息
+author = "Rocnix"
+copyright = "© 2024 Rocnix"
+
+# 网站描述
+description = "个人博客和书签网站"
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "博客"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "bookmarks"
+    name = "书签"
+    url = "/bookmarks/"
+    weight = 30
+
+# 主题参数
+[params]
+  # 网站副标题
+  subtitle = "分享技术与生活"
+
+  # 作者社交媒体链接
+  social = [
+    { name = "GitHub", url = "https://github.com/dllen" },
+    { name = "Twitter", url = "https://x.com/rocnix31" }
+  ]
+
+  # 是否显示阅读时间
+  showReadingTime = true
+
+  # 首页显示文章数量
+  postAmount = 10
+
+  # 是否隐藏Made with line
+  hideMadeWithLine=true
+
+# 文章前台配置
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 代码高亮
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "github"
+    tabWidth = 4

@@ -1,14 +1,14 @@
-baseURL = "https://scp.net.cn"
+baseURL = "https://bb4bb.me"
 languageCode = "zh-cn"
-title = "Rocnix Site"
+title = "BB4BB"
 theme = "hugo-bearblog"
 
 # 作者信息
-author = "Rocnix"
-copyright = "© 2024 Rocnix"
+author = "bb4bb"
+copyright = "© 2025 bb4bb"
 
 # 网站描述
-description = "个人博客和书签网站"
+description = "码农的自留地"
 
 # 菜单配置
 [menu]

@@ -2,6 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "zh-cn"
 title = "开源科技周报"
 theme = "tech-weekly"
+buildFuture = true
 
 [pagination]
   pagerSize = 12

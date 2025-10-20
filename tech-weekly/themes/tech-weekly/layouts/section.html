@@ -6,7 +6,12 @@
   {{ end }}
   {{ .Content }}
   <div class="grid" id="grid">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ $pages := .Pages }}
+    {{ $sec := .Section }}
+     {{ if and (eq (len $pages) 0) $sec }}{{ $pages = where (where .Site.Pages "Kind" "page") "Section" $sec }}{{ end }}
+     {{/* DEBUG: show counts */}}
+     <div class="debug" style="display:none">pages={{ len $pages }}, regular={{ len .Site.RegularPages }}, pagesAll={{ len .Site.Pages }}, weeklyReg={{ len (where .Site.RegularPages "Section" "weekly") }}, weeklyAll={{ len (where .Site.Pages "Section" "weekly") }}</div>
+     {{ range $pages.ByDate.Reverse }}
       <article class="card" data-tags="{{ delimit (.Params.tags | default (slice)) "," }}">
         <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         <div class="meta"><i class="ri-calendar-line icon"></i>{{ .Date | time.Format ":date_medium" }}</div>

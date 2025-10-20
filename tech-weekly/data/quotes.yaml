@@ -1,18 +1,54 @@
-- text: "Stay hungry, stay foolish."
-  author: Steve Jobs
-  source: Stanford Commencement, 2005
-- text: "Not all those who wander are lost."
-  author: J.R.R. Tolkien
-  source: The Fellowship of the Ring
-- text: "我们所做的决定，成就了我们。"
-  author: 《命运规划局》
-  source: The Adjustment Bureau
-- text: "知其然，亦知其所以然。"
-  author: 王国维
-  source: 人间词话
-- text: "To live is to risk it all."
-  author: Rick and Morty
-  source: S3E6
-- text: "大道至简，实干为要。"
-  author: 李克强
-  source: 讲话摘录
+- text: "知之者不如好之者，好之者不如乐之者。"
+  author: 孔子
+  source: 论语·雍也
+- text: "路漫漫其修远兮，吾将上下而求索。"
+  author: 屈原
+  source: 离骚
+- text: "采菊东篱下，悠然见南山。"
+  author: 陶渊明
+  source: 饮酒·其五
+- text: "会挽雕弓如满月，西北望，射天狼。"
+  author: 辛弃疾
+  source: 《破阵子·为陈同甫赋壮词以寄之》
+- text: "君不见黄河之水天上来，奔流到海不复回。"
+  author: 李白
+  source: 将进酒
+- text: "天时不如地利，地利不如人和。"
+  author: 孟子
+  source: 孟子·公孙丑下
+- text: "相濡以沫，不如相忘于江湖。"
+  author: 庄子
+  source: 庄子·内篇
+- text: "世事洞明皆学问，人情练达即文章。"
+  author: 曹雪芹
+  source: 红楼梦
+- text: "人生自古谁无死，留取丹心照汗青。"
+  author: 文天祥
+  source: 过零丁洋
+- text: "横眉冷对千夫指，俯首甘为孺子牛。"
+  author: 鲁迅
+  source: 自题小像
+- text: "To be, or not to be: that is the question."
+  author: William Shakespeare
+  source: Hamlet
+- text: "It was the best of times, it was the worst of times."
+  author: Charles Dickens
+  source: A Tale of Two Cities
+- text: "All happy families are alike; each unhappy family is unhappy in its own way."
+  author: Leo Tolstoy
+  source: Anna Karenina
+- text: "Abandon all hope, ye who enter here."
+  author: Dante Alighieri
+  source: The Divine Comedy · Inferno
+- text: "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
+  author: Jane Austen
+  source: Pride and Prejudice
+- text: "The blade itself incites to deeds of violence."
+  author: Homer
+  source: The Iliad
+- text: "The mystery of human existence lies not in just staying alive, but in finding something to live for."
+  author: Fyodor Dostoevsky
+  source: The Brothers Karamazov
+- text: "Whatever you can do or dream you can, begin it. Boldness has genius, power, and magic in it."
+  author: Johann Wolfgang von Goethe
+  source: Maxims and Reflections

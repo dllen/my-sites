@@ -1,0 +1,18 @@
+- name: GitHub Trending
+  url: https://github.com/trending
+  desc: 每日热门开源仓库
+- name: Hacker News
+  url: https://news.ycombinator.com/
+  desc: 科技与创业社区热点
+- name: Kubernetes Releases
+  url: https://github.com/kubernetes/kubernetes/releases
+  desc: K8s 版本发布说明
+- name: Rust Blog
+  url: https://blog.rust-lang.org/
+  desc: Rust 官方博客与版本资讯
+- name: Vite Blog
+  url: https://vitejs.dev/blog/
+  desc: 前端工具链更新
+- name: Mozilla Security Blog
+  url: https://blog.mozilla.org/security/
+  desc: 安全公告与技术文章

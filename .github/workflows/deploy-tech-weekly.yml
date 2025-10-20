@@ -1,0 +1,31 @@
+name: Deploy tech-weekly to Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy-tech-weekly:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build tech-weekly site
+        run: |
+          cd tech-weekly
+          hugo --gc --minify

@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <h1 class="hidden-title">{{ .Title }}</h1>
+  {{ partial "quote.html" . }}
+  {{ .Content }}
+  <div class="grid">
+    {{ range .Pages.ByDate.Reverse }}
+      <article class="card" data-tags="{{ delimit (.Params.tags | default (slice)) "," }}">
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <div class="meta">{{ .Date | time.Format ":date_medium" }}</div>
+        <p>{{ .Summary }}</p>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+         <a class="stretched-link" href="{{ .RelPermalink }}"></a>
+       </article>
+    {{ end }}
+  </div>
+{{ end }}

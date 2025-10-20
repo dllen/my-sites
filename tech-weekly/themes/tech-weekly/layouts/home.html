@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "tag-filter.html" . }}
+  {{ with site.GetPage "section" "weekly" }}
+    <div class="grid" id="grid">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="card" data-tags="{{ delimit (.Params.tags | default (slice)) "," }}">
+          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          <div class="meta"><i class="ri-calendar-line icon"></i>{{ .Date | time.Format "2006-01-02" }}</div>
+          <p>{{ .Summary }}</p>
+          {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+          <a class="stretched-link" href="{{ .RelPermalink }}"></a>
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="prose">暂无周报内容，创建第一期吧。</p>
+  {{ end }}
+{{ end }}

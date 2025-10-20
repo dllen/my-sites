@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="single">
+  <h1>{{ .Title }}</h1>
+  <div class="meta"><i class="ri-calendar-line icon"></i>{{ .Date | time.Format "2006-01-02" }}</div>
+  {{ with .Params.summary }}<p class="lead">{{ . }}</p>{{ end }}
+
+  <div class="single-layout">
+    <aside class="toc">
+      <h3 class="toc-title"><i class="ri-list-check-2 icon"></i> 导航</h3>
+      {{ .TableOfContents }}
+    </aside>
+    <section class="content">
+      {{/* 将 Markdown 列表项转为带简介的卡片结构 */}}
+      {{ $c := .Content | replaceRE `<li><a href="([^"]+)">([^<]+)</a>\s*[—–-]\s*([^<]+)</li>` `<article class="link-item"><h3><a href="$1" target="_blank" rel="noopener"><i class="ri-external-link-line icon"></i> $2</a></h3><p class="desc">$3</p><a class="stretched-link" href="$1" target="_blank" rel="noopener"></a></article>` | replaceRE `(?s)<ul>` `<div class="link-list">` | replaceRE `(?s)</ul>` `</div>` }}
+      {{ $c | safeHTML }}
+    </section>
+  </div>
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</article>
+{{ end }}

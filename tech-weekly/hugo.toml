@@ -1,0 +1,27 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-cn"
+title = "开源科技周报"
+theme = "tech-weekly"
+
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  description = "每周精选：科技趋势、开源动态与优质阅读"
+  accentColor = "#00E5A0"
+  darkMode = true
+  showQuote = true
+
+[menu]
+  [[menu.main]]
+    name = "周报"
+    url = "/weekly/"
+    weight = 10
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 90

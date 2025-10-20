@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h1 class="hidden-title">{{ .Title }}</h1>
+  {{ partial "quote.html" . }}
+  {{ .Content }}
+  {{ $terms := .Data.Terms }}
+  <div class="grid">
+    {{ range sort $terms "Count" "desc" }}
+      <article class="card">
+        <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></h2>
+        <p class="meta">{{ .Count }} 项</p>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

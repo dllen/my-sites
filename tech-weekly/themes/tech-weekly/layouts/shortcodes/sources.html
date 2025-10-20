@@ -1,0 +1,14 @@
+{{/* Render data sources list */}}
+{{ $sources := site.Data.sources }}
+{{ if not $sources }}
+  <p class="prose">暂无来源数据。</p>
+{{ else }}
+  <div class="grid">
+    {{ range $sources }}
+      <article class="card">
+        <h2><a href="{{ .url }}" target="_blank" rel="noopener"><i class="ri-external-link-line icon"></i> {{ .name }}</a></h2>
+        <p class="meta">{{ .desc }}</p>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

@@ -4,6 +4,3 @@
 [submodule "site/themes/hugo-bearblog"]
 	path = site/themes/hugo-bearblog
 	url = https://github.com/janraasch/hugo-bearblog.git
-[submodule "tech-weekly/data/chinese-poetry"]
-	path = tech-weekly/data/chinese-poetry
-	url = https://github.com/chinese-poetry/chinese-poetry.git

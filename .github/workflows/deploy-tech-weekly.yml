@@ -8,6 +8,22 @@ on:
   workflow_dispatch:
 
 jobs:
+  init-submodules:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Sync and update submodules
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive
+          git submodule status
   deploy-tech-weekly:
     runs-on: ubuntu-latest
     permissions:

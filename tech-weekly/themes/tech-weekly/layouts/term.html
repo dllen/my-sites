@@ -1,6 +1,7 @@
 {{ define "main" }}
   <h1 class="hidden-title">{{ .Title }}</h1>
   {{ partial "quote.html" . }}
+  {{ partial "tag-filter.html" . }}
   {{ .Content }}
   <div class="grid">
     {{ range .Pages.ByDate.Reverse }}

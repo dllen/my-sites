@@ -17,6 +17,39 @@ buildFuture = true
   darkMode = true
   showQuote = true
 
+# 忽略 chinese-poetry 子模块中的非 JSON 文件，避免 Hugo 解析报错
+ignoreFiles = [
+  '^data/chinese-poetry/\\.github/.*',
+  '^data/chinese-poetry/images/.*',
+  '^data/chinese-poetry/rank/.*',
+  '^data/chinese-poetry/loader/.*\\.py$',
+  '^data/chinese-poetry/.*\\.md$',
+  '^data/chinese-poetry/.*\\.png$',
+  '^data/chinese-poetry/.*\\.jpg$',
+  '^data/chinese-poetry/.*\\.jpeg$',
+  '^data/chinese-poetry/.*\\.gif$',
+  '^data/chinese-poetry/.*\\.svg$',
+  '^data/chinese-poetry/.*\\.js$',
+  '^data/chinese-poetry/.*\\.log$',
+  '^data/chinese-poetry/.*\\.txt$',
+  '^data/chinese-poetry/.*\\.yml$',
+  '^data/chinese-poetry/.*\\.yaml$',
+  '^data/chinese-poetry/LICENSE',
+  '^data/chinese-poetry/.*LICENSE.*',
+  '^data/chinese-poetry/log\\.log'
+]
+
+# 使用 Hugo 模块挂载，仅将 chinese-poetry 子模块中的 JSON 文件映射到 data/
+[module]
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+    excludeFiles = ["chinese-poetry/**"]
+  [[module.mounts]]
+    source = "data/chinese-poetry"
+    target = "data/chinese-poetry"
+    includeFiles = ["**/*.json"]
+
 [menu]
   [[menu.main]]
     name = "周报"

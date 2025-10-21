@@ -1,11 +1,28 @@
-{{/* Quote bar under H1 (gated by site param) */}}
-{{ $quotes := site.Data.quotes }}
-{{ if and .Site.Params.showQuote $quotes }}
-  {{ $q := index (shuffle $quotes) 0 }}
+{{/* Quote bar under H1: replace with random classical poetry from chinese-poetry submodule */}}
+{{ $poems := index site.Data "chinese-poetry" "全唐诗" "唐诗三百首" }}
+{{ if and .Site.Params.showQuote $poems }}
+  {{ $poem := index (shuffle $poems) 0 }}
+  {{ $lines := $poem.paragraphs }}
+  {{ $line := "" }}
+  {{ if $lines }}
+    {{ $line = index (shuffle $lines) 0 }}
+  {{ end }}
   <div class="quote-bar">
     <i class="ri-double-quotes-l icon"></i>
-    <span class="quote-text">{{ $q.text }}</span>
-    {{ with $q.author }}<span class="quote-author"> — {{ . }}</span>{{ end }}
-    {{ with $q.source }}<span class="quote-source"> · {{ . }}</span>{{ end }}
+    <span class="quote-text">{{ $line }}</span>
+    {{ with $poem.author }}<span class="quote-author"> — {{ . }}</span>{{ end }}
+    {{ with $poem.title }}<span class="quote-source"> · {{ . }}</span>{{ end }}
   </div>
+{{ else }}
+  {{/* Fallback to original quotes data if poetry dataset is unavailable */}}
+  {{ $quotes := site.Data.quotes }}
+  {{ if and .Site.Params.showQuote $quotes }}
+    {{ $q := index (shuffle $quotes) 0 }}
+    <div class="quote-bar">
+      <i class="ri-double-quotes-l icon"></i>
+      <span class="quote-text">{{ $q.text }}</span>
+      {{ with $q.author }}<span class="quote-author"> — {{ . }}</span>{{ end }}
+      {{ with $q.source }}<span class="quote-source"> · {{ . }}</span>{{ end }}
+    </div>
+  {{ end }}
 {{ end }}

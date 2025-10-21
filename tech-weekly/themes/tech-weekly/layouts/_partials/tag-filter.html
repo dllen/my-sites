@@ -1,21 +1,24 @@
-{{/* Tag filter bar */}}
-{{ $all := slice "全部" }}
-{{ $tags := $all }}
+{{/* Tag filter bar: show all tags and highlight current */}}
+{{- $currentTag := "" }}
+{{- if eq .Kind "term" }}
+  {{- $currentTag = .Title }}
+{{- end }}
+{{- $tags := slice }}
 {{ with site.Taxonomies.tags }}
   {{ range . }}
-    {{ $tags = $tags | append .Page.Title }}
+    {{- $tags = $tags | append .Page.Title -}}
   {{ end }}
 {{ end }}
 <div class="filter-bar">
-  {{ range $i, $t := $tags }}
-    {{ if eq $i 0 }}
-      <button class="filter-button active" data-tag="{{ $t }}">
-        <i class="ri-compass-3-line icon"></i>{{ $t }}
+  {{ range $tags }}
+    {{- if eq . $currentTag -}}
+      <button class="filter-button active" data-tag="{{ . }}">
+        <i class="ri-hashtag icon"></i>{{ . }}
       </button>
-    {{ else }}
-      <a class="filter-button" href="{{ printf "/tags/%s/" (urlize $t) | relURL }}" data-tag="{{ $t }}">
-        <i class="ri-hashtag icon"></i>{{ $t }}
+    {{- else -}}
+      <a class="filter-button" href="{{ printf "/tags/%s/" (urlize .) | relURL }}" data-tag="{{ . }}">
+        <i class="ri-hashtag icon"></i>{{ . }}
       </a>
-    {{ end }}
+    {{- end -}}
   {{ end }}
 </div>

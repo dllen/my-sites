@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       deployments: write
     steps:
       - name: Checkout
@@ -28,3 +28,12 @@ jobs:
         run: |
           cd site
           hugo --gc --minify
+
+      - name: Publish site to branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site/public
+          publish_branch: site-build
+          force_orphan: true
+          keep_files: false

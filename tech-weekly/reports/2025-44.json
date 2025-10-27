@@ -1,0 +1,1580 @@
+{
+  "slug": "2025-44",
+  "generated_at": "2025-10-27T11:56:18.341358",
+  "stats": {
+    "https://github.com/ruanyf/weekly/issues": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 3.346543073654175,
+      "_start": 1761537334.881192
+    },
+    "https://github.com/trending": {
+      "ok": true,
+      "count": 15,
+      "error": "",
+      "duration": 3.8534679412841797,
+      "_start": 1761537339.0328739
+    },
+    "https://hn.aimaker.dev/": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 2.6504268646240234,
+      "_start": 1761537343.6914382
+    },
+    "https://www.daemonology.net/hn-weekly/": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 3.7381460666656494,
+      "_start": 1761537347.146955
+    },
+    "https://koala-oss.app/news/": {
+      "ok": true,
+      "count": 15,
+      "error": "",
+      "duration": 0.8208320140838623,
+      "_start": 1761537351.690221
+    },
+    "https://topsub.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.8327040672302246,
+      "_start": 1761537353.3146749
+    },
+    "https://git.news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.6297929286956787,
+      "_start": 1761537354.951196
+    },
+    "https://github.com/howie6879/weekly": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 2.2608630657196045,
+      "_start": 1761537356.386112
+    },
+    "https://github.com/tw93/weekly?tab=readme-ov-file": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 1.5817389488220215,
+      "_start": 1761537359.452068
+    },
+    "https://github.com/ljinkai/weekly": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 2.138444185256958,
+      "_start": 1761537361.838892
+    },
+    "https://hn.buzzing.cc/": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 0.9294998645782471,
+      "_start": 1761537364.7802722
+    },
+    "https://morerss.com/zh": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 1.6557953357696533,
+      "_start": 1761537366.5149179
+    },
+    "https://x-daily.pages.dev/": {
+      "ok": true,
+      "count": 1,
+      "error": "",
+      "duration": 1.2290611267089844,
+      "_start": 1761537368.975826
+    },
+    "https://decohack.com/": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 2.673081159591675,
+      "_start": 1761537371.0100338
+    },
+    "https://github.com/headllines/hackernews-monthly": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 1.6049060821533203,
+      "_start": 1761537374.4834309
+    },
+    "https://weekly.howie6879.com/": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 0.5551700592041016,
+      "_start": 1761537376.892721
+    }
+  },
+  "items": [
+    {
+      "title": "LadybirdBrowser / ladybird",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "source": "github_trending",
+      "summary": "Truly independent web browser",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "yeongpin / cursor-free-vip",
+      "url": "https://github.com/yeongpin/cursor-free-vip",
+      "source": "github_trending",
+      "summary": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "cjpais / Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "source": "github_trending",
+      "summary": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Shubhamsaboo / awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "github_trending",
+      "summary": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensou...",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "title": "microsoft / agent-lightning",
+      "url": "https://github.com/microsoft/agent-lightning",
+      "source": "github_trending",
+      "summary": "The absolute trainer to light up AI agents.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "public-apis / public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "source": "github_trending",
+      "summary": "A collective list of free APIs",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "coinbase / x402",
+      "url": "https://github.com/coinbase/x402",
+      "source": "github_trending",
+      "summary": "A payments protocol for the internet. Built on HTTP.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "donnemartin / system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "source": "github_trending",
+      "summary": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flas...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "MHSanaei / 3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "source": "github_trending",
+      "summary": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Tr...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "2dust / v2rayN",
+      "url": "https://github.com/2dust/v2rayN",
+      "source": "github_trending",
+      "summary": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "chartdb / chartdb",
+      "url": "https://github.com/chartdb/chartdb",
+      "source": "github_trending",
+      "summary": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "go-gitea / gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "source": "github_trending",
+      "summary": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Gi...",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Go"
+      ]
+    },
+    {
+      "title": "hoppscotch / hoppscotch",
+      "url": "https://github.com/hoppscotch/hoppscotch",
+      "source": "github_trending",
+      "summary": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, D...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "paperless-ngx / paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "source": "github_trending",
+      "summary": "A community-supported supercharged document management system: scan, index and archive all your d...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "cloudcommunity / Free-Certifications",
+      "url": "https://github.com/cloudcommunity/Free-Certifications",
+      "source": "github_trending",
+      "summary": "A curated list of free courses with certifications. Also available at https://free-certifications...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HackerNews CN",
+      "url": "https://hn.aimaker.dev/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "24小时热榜",
+      "url": "https://hn.aimaker.dev/category/top",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ViggoZ/hackernews-cn",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/decohack",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sponsored byAI Maker",
+      "url": "https://aimaker.dev",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "让我们在2025年结束之前，帮助NetBSD顺利完成目标。",
+      "url": "https://mail-index.netbsd.org/netbsd-users/2025/10/26/msg033327.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "来自非洲的电影海报，糟糕得让人觉得好玩",
+      "url": "https://www.utterlyinteresting.com/post/bizarre-movie-posters-from-africa-that-are-so-bad-they-re-good",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "我们通过自建“S3”每年节省了50万美元。",
+      "url": "https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "如果征收关税会怎样？",
+      "url": "https://www.swatch.com/en-en/what-if-tariffs-so34z106/SO34Z106.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "2025年代码降临：首次将难题数量从25个减少到12个",
+      "url": "https://adventofcode.com/2025/about#faq_num_days",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "阿尔茨海默病扰乱了清除斑块的脑细胞的昼夜节律。",
+      "url": "https://medicine.washu.edu/news/alzheimers-disrupts-circadian-rhythms-of-plaque-clearing-brain-cells/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "通过网络连接到1980年代的Atari BBS",
+      "url": "https://www.southernamis.com/ataribbsconnect",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "AGI的定义",
+      "url": "https://arxiv.org/abs/2510.18212",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "我如何将Zig变成我编写网络程序的最爱语言",
+      "url": "https://lalinsky.com/2025/10/26/zio-async-io-for-zig.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "主要的AWS故障正在发生",
+      "url": "https://old.reddit.com/r/aws/comments/1obd3lx/dynamodb_down_useast1/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "武装警察在学生身边聚集，因为人工智能将一袋多力多滋误认为武器。",
+      "url": "https://www.dexerto.com/entertainment/armed-police-swarm-student-after-ai-mistakes-bag-of-doritos-for-a-weapon-3273512/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "美国东部（北弗吉尼亚）地区亚马逊DynamoDB服务中断摘要",
+      "url": "https://aws.amazon.com/message/101925/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "国际象棋特级大师丹尼尔·纳罗迪茨基去世。",
+      "url": "https://old.reddit.com/r/chess/comments/1obnbmu/grandmaster_daniel_naroditsky_has_passed_away/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "FBI特工拜访反ICE抗议者：“提到了你的名字。”",
+      "url": "https://www.kenklippenstein.com/p/video-fbi-agents-visit-anti-ice-protester",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "深度搜索光学字符识别（DeepSeek OCR）",
+      "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Replacement.ai",
+      "url": "https://replacement.ai",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45634095",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Doing well in your courses: Andrej's advice for success (2013)",
+      "url": "https://cs.stanford.edu/people/karpathy/advice.html",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45635533",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Space Elevator",
+      "url": "https://neal.fun/space-elevator/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45640226",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45640594",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45640772",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "AWS multiple services outage in us-east-1",
+      "url": "https://health.aws.amazon.com/health/status?ts=20251020",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45640838",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Today is when the Amazon brain drain sent AWS down the spout",
+      "url": "https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45649178",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ChatGPT Atlas",
+      "url": "https://chatgpt.com/atlas",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45658479",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Replacing a $3000/mo Heroku bill with a $55/mo server",
+      "url": "https://disco.cloud/blog/how-idealistorg-replaced-a-3000mo-heroku-bill-with-a-55-server/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45661253",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "MinIO stops distributing free Docker images",
+      "url": "https://github.com/minio/minio/issues/21647#issuecomment-3418675115",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Docker"
+      ]
+    },
+    {
+      "title": "Koala OSS Club",
+      "url": "https://koala-oss.app/",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "俱乐部视频",
+      "url": "https://koala-oss.app/course/",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "AWS 故障复盘",
+      "url": "https://koala-oss.app/news/1448",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Easy Dataset | 微调数据集生成工具",
+      "url": "https://koala-oss.app/news/1447",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Workflow DevKit | Vercel 开源持久化工作流",
+      "url": "https://koala-oss.app/news/1446",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Pogocache | 缓存领域的新挑战者",
+      "url": "https://koala-oss.app/news/1445",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "daily scripts | 开发者的私房工具箱",
+      "url": "https://koala-oss.app/news/1444",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Vitest 4.0 | 测试框架的成熟跃迁",
+      "url": "https://koala-oss.app/news/1443",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "MCP Inspector | MCP 调试工具",
+      "url": "https://koala-oss.app/news/1441",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Halloy | Rust 编写的 IRC 客户端",
+      "url": "https://koala-oss.app/news/1440",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "title": "devpush | 自托管应用部署平台",
+      "url": "https://koala-oss.app/news/1439",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Apache Iceberg | 大数据新标准",
+      "url": "https://koala-oss.app/news/1438",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "WebAV | WebCodecs 视频处理库",
+      "url": "https://koala-oss.app/news/1437",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Cloudflare Sandbox | 边缘网络代码沙盒",
+      "url": "https://koala-oss.app/news/1436",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Cloudflare"
+      ]
+    },
+    {
+      "title": "Github 仓库",
+      "url": "https://github.com/Yuyz0112/koala-oss-app",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fhowie6879%2Fweekly",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Copilot Write better code with AI",
+      "url": "https://github.com/features/copilot",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "GitHub Spark New Build and deploy intelligent apps",
+      "url": "https://github.com/features/spark",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Models New Manage and compare prompts",
+      "url": "https://github.com/features/models",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Advanced Security Find and fix vulnerabilities",
+      "url": "https://github.com/security/advanced-security",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Actions Automate any workflow",
+      "url": "https://github.com/features/actions",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Codespaces Instant dev environments",
+      "url": "https://github.com/features/codespaces",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Issues Plan and track work",
+      "url": "https://github.com/features/issues",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Code Review Manage code changes",
+      "url": "https://github.com/features/code-review",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Discussions Collaborate outside of code",
+      "url": "https://github.com/features/discussions",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Code Search Find more, search less",
+      "url": "https://github.com/features/code-search",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Why GitHub",
+      "url": "https://github.com/why-github",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Documentation",
+      "url": "https://docs.github.com",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Skills",
+      "url": "https://skills.github.com",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Marketplace",
+      "url": "https://github.com/marketplace",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "MCP Registry",
+      "url": "https://github.com/mcp",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "View all features",
+      "url": "https://github.com/features",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Enterprises",
+      "url": "https://github.com/enterprise",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Small and medium teams",
+      "url": "https://github.com/team",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Startups",
+      "url": "https://github.com/enterprise/startups",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftw93%2Fweekly%3Ftab%3Dreadme-ov-file",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fljinkai%2Fweekly",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Hacker News 热门",
+      "url": "https://hn.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Buzzing 首页",
+      "url": "https://www.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "国外新闻头条",
+      "url": "https://news.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Reddit热门",
+      "url": "https://reddit.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Ars Technica",
+      "url": "https://arstechnica.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Reddit提问",
+      "url": "https://ask.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Show HN",
+      "url": "https://showhn.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Lobste",
+      "url": "https://lobste.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "经济学人最新",
+      "url": "https://economistnew.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Reddit新闻小组",
+      "url": "https://worldnews.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "大西洋周刊",
+      "url": "https://atlantic.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "华尔街日报",
+      "url": "https://wsj.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Business Insider",
+      "url": "https://businessinsider.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Politico",
+      "url": "https://politico.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Linux",
+      "url": "https://linux.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "Dev热门",
+      "url": "https://dev.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Nature",
+      "url": "https://nature.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ScienceAlert",
+      "url": "https://sciencealert.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "BigThink",
+      "url": "https://bigthink.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Quora热门",
+      "url": "https://quora.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "English",
+      "url": "https://morerss.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "科技爱好者周刊",
+      "url": "https://www.ruanyifeng.com/blog/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 5527",
+      "url": "https://morerss.com/%E7%A7%91%E6%8A%80%E7%88%B1%E5%A5%BD%E8%80%85%E5%91%A8%E5%88%8A",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "forecho | 蔡正海",
+      "url": "https://blog.forecho.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 488",
+      "url": "https://morerss.com/forecho%20%7C%20%E8%94%A1%E6%AD%A3%E6%B5%B7",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HackerNews AI 摘要",
+      "url": "https://www.supertechfans.com/cn",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "订阅 507",
+      "url": "https://morerss.com/HackerNews%20AI%20%E6%91%98%E8%A6%81",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 621",
+      "url": "https://morerss.com/EST",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 1509",
+      "url": "https://morerss.com/%E6%BD%AE%E6%B5%81%E5%91%A8%E5%88%8A",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "UNTAG",
+      "url": "https://utgd.net/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 175",
+      "url": "https://morerss.com/UNTAG",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "DevTang | 唐巧",
+      "url": "https://blog.devtang.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 2135",
+      "url": "https://morerss.com/DevTang%20%7C%20%E5%94%90%E5%B7%A7",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "onojyun | 莫比烏斯",
+      "url": "https://onojyun.com",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 183",
+      "url": "https://morerss.com/onojyun%20%7C%20%E8%8E%AB%E6%AF%94%E7%83%8F%E6%96%AF",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HelloDog | 王奥",
+      "url": "http://wsgzao.github.io",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 366",
+      "url": "https://morerss.com/HelloDog%20%7C%20%E7%8E%8B%E5%A5%A5",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ZhangXinXu | 张鑫旭",
+      "url": "https://www.zhangxinxu.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 3634",
+      "url": "https://morerss.com/ZhangXinXu%20%7C%20%E5%BC%A0%E9%91%AB%E6%97%AD",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Zhijun TAN | 土木坛子",
+      "url": "https://tumutanzi.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Twitter List",
+      "url": "https://x.com/i/lists/1930877201362334190",
+      "source": "https://x-daily.pages.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "DecoHack周刊",
+      "url": "https://decohack.com/category/decohack-weekly/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜",
+      "url": "https://decohack.com/category/producthunt/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-26",
+      "url": "https://decohack.com/producthunt-daily-2025-10-26/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-25",
+      "url": "https://decohack.com/producthunt-daily-2025-10-25/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-24",
+      "url": "https://decohack.com/producthunt-daily-2025-10-24/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-23",
+      "url": "https://decohack.com/producthunt-daily-2025-10-23/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-22",
+      "url": "https://decohack.com/producthunt-daily-2025-10-22/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-21",
+      "url": "https://decohack.com/producthunt-daily-2025-10-21/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-20",
+      "url": "https://decohack.com/producthunt-daily-2025-10-20/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-19",
+      "url": "https://decohack.com/producthunt-daily-2025-10-19/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-18",
+      "url": "https://decohack.com/producthunt-daily-2025-10-18/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fheadllines%2Fhackernews-monthly",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "howie6879/weekly",
+      "url": "https://github.com/howie6879/weekly",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🌈 创刊寄语",
+      "url": "index.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🐮 2021 ~ 🐲 2024",
+      "url": "2024/12-23~12-29.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC173%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🐍 2025 年刊",
+      "url": "2025/09-01~09-21.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC201%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🍀 今日推荐",
+      "url": "recommend/index.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "💻 软件推荐",
+      "url": "soft/mac.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "👏 GPT Plus",
+      "url": "https://gpt5plus.com/?ref=howie6879_weekly",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🔗 RSS订阅",
+      "url": "rss/rss.xml",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第172期 (12-16~12-22)",
+      "url": "2024/12-16~12-22.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC172%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第171期 (12-09~12-15)",
+      "url": "2024/12-09~12-15.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC171%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第170期 (11-25~12-08)",
+      "url": "2024/11-25~12-08.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC170%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第169期 (11-18~11-24)",
+      "url": "2024/11-18~11-24.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC169%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第168期 (11-11~11-17)",
+      "url": "2024/11-11~11-17.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC168%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第167期 (11-04~11-10)",
+      "url": "2024/11-04~11-10.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC167%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第166期 (10-28~11-03)",
+      "url": "2024/10-28~11-03.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC166%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第165期 (10-21~10-27)",
+      "url": "2024/10-21~10-27.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC165%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第164期 (10-14~10-20)",
+      "url": "2024/10-14~10-20.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC164%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    }
+  ]
+}

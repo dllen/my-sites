@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BB4BB</title><link>https://bb4bb.me/</link><description>Recent content on BB4BB</description><generator>Hugo</generator><language>zh-cn</language><copyright>© 2025 bb4bb</copyright><lastBuildDate>Mon, 01 Jan 2024 12:00:00 +0800</lastBuildDate><atom:link href="https://bb4bb.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 官方文档</title><link>https://bb4bb.me/gohugo.io/documentation/</link><pubDate>Mon, 01 Jan 2024 12:00:00 +0800</pubDate><guid>https://bb4bb.me/gohugo.io/documentation/</guid><description>&lt;p&gt;Hugo 官方文档是学习和使用 Hugo 的最佳资源，提供了全面的指南和示例代码。&lt;/p&gt;</description></item><item><title>Hugo Bear Blog 主题使用体验</title><link>https://bb4bb.me/posts/hugo-bearblog-experience/</link><pubDate>Mon, 01 Jan 2024 10:00:00 +0800</pubDate><guid>https://bb4bb.me/posts/hugo-bearblog-experience/</guid><description>&lt;h1 id="hugo-bear-blog-主题使用体验"&gt;Hugo Bear Blog 主题使用体验&lt;/h1&gt;
+&lt;p&gt;今天开始使用 Hugo Bear Blog 主题来搭建个人博客。这个主题简洁美观，非常适合写作和阅读。&lt;/p&gt;
+&lt;h2 id="主题特点"&gt;主题特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;简洁设计&lt;/strong&gt; - 专注于内容呈现&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;响应式布局&lt;/strong&gt; - 适配各种设备&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;快速加载&lt;/strong&gt; - 静态网站生成，速度极快&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;易于定制&lt;/strong&gt; - 支持多种配置选项&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="安装步骤"&gt;安装步骤&lt;/h2&gt;
+&lt;p&gt;首先克隆主题仓库：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/janraasch/hugo-bearblog.git themes/hugo-bearblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后在 &lt;code&gt;hugo.toml&lt;/code&gt; 中配置主题：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;theme&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;hugo-bearblog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="使用感受"&gt;使用感受&lt;/h2&gt;
+&lt;p&gt;Bear Blog 主题的设计理念非常棒，专注于内容本身，没有多余的装饰元素。对于喜欢写作的人来说，这是一个很好的选择。&lt;/p&gt;
+&lt;p&gt;我会继续探索这个主题的其他功能，并在后续文章中分享更多使用心得。&lt;/p&gt;</description></item><item><title>关于</title><link>https://bb4bb.me/about/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate><guid>https://bb4bb.me/about/</guid><description>&lt;h1 id="关于我"&gt;关于我&lt;/h1&gt;
+&lt;p&gt;你好！我是一个热爱技术的开发者，喜欢分享编程经验和生活感悟。&lt;/p&gt;
+&lt;p&gt;这个网站是我记录学习笔记、分享技术文章和收集有用书签的地方。&lt;/p&gt;
+&lt;h2 id="联系方式"&gt;联系方式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/rocnix"&gt;rocnix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href="mailto:contact@rocnix.com"&gt;contact@rocnix.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;欢迎交流！&lt;/p&gt;</description></item></channel></rss>

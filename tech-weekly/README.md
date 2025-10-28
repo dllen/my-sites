@@ -7,7 +7,7 @@
 - 安装依赖：已使用 Homebrew 安装 `hugo`。
 - 启动开发服务器：
   - `hugo server -D`
-  - 打开浏览器访问 `http://localhost:1313/`
+ - 打开浏览器访问 `http://localhost:1313/`
 
 ## 内容结构
 
@@ -15,6 +15,45 @@
 - 静态资源：`static/`（例如图片 `static/images/2025-10-20/...`）
 - 主题：`themes/tech-weekly/`
 - 站点配置：`hugo.toml`
+
+## AI 图文生成（X 图片 + 哲思短句）
+
+- 脚本：`tech-weekly/scripts/x_image_agent.py`
+- 书籍短句：`tech-weekly/data/philosophy/` 目录下每本书一个 `.txt` 文件（每行一句）
+- 依赖安装：
+  - `pip install -r tech-weekly/scripts/requirements.txt`
+- 使用示例：
+  - 本地短句：
+    - `python tech-weekly/scripts/x_image_agent.py --users "naval,OpenAI" --output tech-weekly/scripts/output --max-per-user 30 --prefer-book "道德经"`
+  - 使用大模型（DeepSeek 或 通义千问）生成：
+    - 先设置环境变量：
+      - `export DEEPSEEK_API_KEY=your_key_here`（DeepSeek）
+      - 或 `export DASHSCOPE_API_KEY=your_key_here`（通义千问 / DashScope）
+    - 运行：
+      - `python tech-weekly/scripts/x_image_agent.py --users "naval,OpenAI" --use-llm true --llm-provider deepseek --prefer-book "道德经"`
+      - 或：`python tech-weekly/scripts/x_image_agent.py --users "naval,OpenAI" --use-llm true --llm-provider qwen --prefer-book "论语"`
+  - 使用配置文件（推荐 YAML）:
+    - 编辑 `tech-weekly/data/x_agent.yml`（示例已提供）：
+      ```yaml
+      users:
+        - naval
+        - OpenAI
+        - HN
+      prefer_book: 道德经
+      use_llm: true
+      llm_provider: deepseek
+      llm_temperature: 0.7
+      llm_max_tokens: 128
+      max_per_user: 30
+      output: tech-weekly/scripts/output
+      ```
+    - 运行：
+      - `python tech-weekly/scripts/x_image_agent.py --config tech-weekly/data/x_agent.yml`
+- 输出：
+  - 在 `tech-weekly/scripts/output/x-agent-YYYYMMDD-HHMMSS/` 生成 `image.jpg` 与 `post.md`
+
+> 注：脚本默认优先从本地七本书中挑选短句。如需补充或替换内容，请将短句按行写入对应书籍文件。
+> 若启用大模型生成（`--use-llm true`），将以指定书籍的本地短句为参考上下文，生成 1-2 句新的哲思文字；当模型不可用或失败时自动回退到本地短句。
 
 ## 新增一期开周报（SOP）
 

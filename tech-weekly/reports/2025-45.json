@@ -1,0 +1,809 @@
+{
+  "slug": "2025-45",
+  "generated_at": "2025-11-04T22:02:25.970885",
+  "stats": {
+    "https://github.com/ruanyf/weekly/issues": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 3.3801732063293457,
+      "_start": 1762264898.926688
+    },
+    "https://github.com/trending": {
+      "ok": true,
+      "count": 17,
+      "error": "",
+      "duration": 2.078101873397827,
+      "_start": 1762264903.111936
+    },
+    "https://hn.aimaker.dev/": {
+      "ok": true,
+      "count": 15,
+      "error": "",
+      "duration": 2.566715955734253,
+      "_start": 1762264905.995119
+    },
+    "https://www.daemonology.net/hn-weekly/": {
+      "ok": true,
+      "count": 19,
+      "error": "",
+      "duration": 2.5859410762786865,
+      "_start": 1762264909.366925
+    },
+    "https://koala-oss.app/news/": {
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "duration": 2.446324110031128,
+      "_start": 1762264912.757946
+    },
+    "https://topsub.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.069406270980835,
+      "_start": 1762264916.006662
+    },
+    "https://git.news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.373650074005127,
+      "_start": 1762264917.877802
+    },
+    "https://github.com/howie6879/weekly": {
+      "ok": true,
+      "count": 3,
+      "error": "",
+      "duration": 1.5488131046295166,
+      "_start": 1762264920.051734
+    },
+    "https://github.com/tw93/weekly?tab=readme-ov-file": {
+      "ok": true,
+      "count": 3,
+      "error": "",
+      "duration": 1.496696949005127,
+      "_start": 1762264922.405642
+    },
+    "https://github.com/ljinkai/weekly": {
+      "ok": true,
+      "count": 3,
+      "error": "",
+      "duration": 1.5640089511871338,
+      "_start": 1762264924.7074292
+    },
+    "https://hn.buzzing.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 5.195994138717651,
+      "_start": 1762264927.076552
+    },
+    "https://morerss.com/zh": {
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "duration": 1.744232177734375,
+      "_start": 1762264933.077638
+    },
+    "https://x-daily.pages.dev/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.282865285873413,
+      "_start": 1762264935.6269708
+    },
+    "https://decohack.com/": {
+      "ok": true,
+      "count": 9,
+      "error": "",
+      "duration": 3.203058958053589,
+      "_start": 1762264937.713322
+    },
+    "https://github.com/headllines/hackernews-monthly": {
+      "ok": true,
+      "count": 3,
+      "error": "",
+      "duration": 1.6725130081176758,
+      "_start": 1762264941.721476
+    },
+    "https://weekly.howie6879.com/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.9215998649597168,
+      "_start": 1762264944.19907
+    }
+  },
+  "items": [
+    {
+      "title": "666ghj / BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "source": "github_trending",
+      "summary": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "sst / opentui",
+      "url": "https://github.com/sst/opentui",
+      "source": "github_trending",
+      "summary": "OpenTUI is a library for building terminal user interfaces (TUIs)",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GeeeekExplorer / nano-vllm",
+      "url": "https://github.com/GeeeekExplorer/nano-vllm",
+      "source": "github_trending",
+      "summary": "Nano vLLM",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "mudler / LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "source": "github_trending",
+      "summary": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Dr...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "1Panel-dev / MaxKB",
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "source": "github_trending",
+      "summary": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "imthenachoman / How-To-Secure-A-Linux-Server",
+      "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+      "source": "github_trending",
+      "summary": "An evolving how-to guide for securing a Linux server.",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "Raphire / Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "source": "github_trending",
+      "summary": "A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well ...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "DearVa / Everywhere",
+      "url": "https://github.com/DearVa/Everywhere",
+      "source": "github_trending",
+      "summary": "A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integra...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HKUDS / DeepCode",
+      "url": "https://github.com/HKUDS/DeepCode",
+      "source": "github_trending",
+      "summary": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Fosowl / agenticSeek",
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "source": "github_trending",
+      "summary": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, brow...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "charmbracelet / glow",
+      "url": "https://github.com/charmbracelet/glow",
+      "source": "github_trending",
+      "summary": "Render markdown on the CLI, with pizzazz! 💅🏻",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "mudler / edgevpn",
+      "url": "https://github.com/mudler/edgevpn",
+      "source": "github_trending",
+      "summary": "⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "hmjz100 / LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "source": "github_trending",
+      "summary": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "coleam00 / ottomator-agents",
+      "url": "https://github.com/coleam00/ottomator-agents",
+      "source": "github_trending",
+      "summary": "All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PKUFlyingPig / cs-self-learning",
+      "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+      "source": "github_trending",
+      "summary": "计算机自学指南",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HandsOnLLM / Hands-On-Large-Language-Models",
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+      "source": "github_trending",
+      "summary": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "mindsdb / mindsdb",
+      "url": "https://github.com/mindsdb/mindsdb",
+      "source": "github_trending",
+      "summary": "Federated query engine for AI - The only MCP Server you'll ever need",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Htmx – 获取()的到来",
+      "url": "https://htmx.org/essays/the-fetchening/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "2025年终端模拟器的现状：误入歧途的冠军",
+      "url": "https://www.jeffquast.com/post/state-of-terminal-emulation-2025/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "人工智能的拨号时代",
+      "url": "https://www.wreflection.com/p/ai-dial-up-era",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "你无法用 cURL 处理边界。",
+      "url": "https://drobinin.com/posts/you-cant-curl-a-border/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "2400马力的纽约消防局超级泵车可以扑灭地狱本身。",
+      "url": "https://bangshift.com/bangshiftxl/mack-super-pumper-system-locomotive-engine-powered-pumper-extinguish-hell-often/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "为什么工程师在编程语言方面无法保持理性",
+      "url": "https://spf13.com/p/the-hidden-conversation/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "学习阅读阿瑟·惠特尼的《C语言学习指南》以变得聪明（2024）",
+      "url": "https://needleful.net/blog/2024/01/arthur_whitney.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "我们为何从 Python 迁移到 Node.js",
+      "url": "https://blog.yakkomajuri.com/blog/python-to-node",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "互联网是在使文化变得更糟吗？",
+      "url": "https://asteriskmag.com/issues/12-books/is-the-internet-making-culture-worse",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "土耳其将不向美国出售稀土元素。",
+      "url": "https://ceenergynews.com/climate/turkiye-rare-earth-elements-usa/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "以色列要求谷歌和亚马逊使用秘密的“眨眼”方式来规避法律命令。",
+      "url": "https://www.theguardian.com/us-news/2025/oct/29/google-amazon-israel-contract-secret-code",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "近90%的Windows游戏现在可以在Linux上运行。",
+      "url": "https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ICE和CBP的特工正在街上扫描人脸以核实公民身份。",
+      "url": "https://www.404media.co/ice-and-cbp-agents-are-scanning-peoples-faces-on-the-street-to-verify-citizenship/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "根据国土安全部的文件，你无法拒绝使用移民和海关执法局（ICE）的面部识别应用进行扫描。",
+      "url": "https://www.404media.co/you-cant-refuse-to-be-scanned-by-ices-facial-recognition-app-dhs-document-says/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "三星将通过即将发布的软件更新正式在智能冰箱上投放广告。",
+      "url": "https://arstechnica.com/gadgets/2025/10/samsung-makes-ads-on-3499-smart-fridges-official-with-upcoming-software-update/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ChatGPT's Atlas: The Browser That's Anti-Web",
+      "url": "https://www.anildash.com//2025/10/22/atlas-anti-web-browser/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45702397",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "A worker fell into a nuclear reactor pool",
+      "url": "https://www.nrc.gov/reading-rm/doc-collections/event-status/event/2025/20251022en?brid=vscAjql9kZL1FfGE7TYHVw#en57996:~:text=TRANSPORT%20OF%20CONTAMINATED%20PERSON%20OFFSITE",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45708292",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "987654321 / 123456789",
+      "url": "https://www.johndcook.com/blog/2025/10/26/987654321/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45712620",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "10M people watched a YouTuber shim a lock; the lock company sued him – bad idea",
+      "url": "https://arstechnica.com/tech-policy/2025/10/suing-a-popular-youtuber-who-shimmed-a-130-lock-what-could-possibly-go-wrong/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45720376",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PSF has withdrawn $1.5M proposal to US Government grant program",
+      "url": "https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45721904",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "It's insulting to read AI-generated blog posts",
+      "url": "https://blog.pabloecortez.com/its-insulting-to-read-your-ai-generated-blog-post/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45722069",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Claude for Excel",
+      "url": "https://www.claude.com/claude-for-excel",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45722639",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "China has added forest the size of Texas since 1990",
+      "url": "https://e360.yale.edu/digest/china-new-forest-report",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45732800",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "EuroLLM: LLM made in Europe built to support all 24 official EU languages",
+      "url": "https://eurollm.io/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45733707",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Using AI to negotiate a $195k hospital bill down to $33k",
+      "url": "https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Deta Surf 开源 | AI 笔记本",
+      "url": "https://koala-oss.app/news/1454",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "NavCat | JS 3D导航网格库",
+      "url": "https://koala-oss.app/news/1453",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ArkRegex | 神奇的类型安全正则",
+      "url": "https://koala-oss.app/news/1452",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "0github | 给 PR 装上热力图",
+      "url": "https://koala-oss.app/news/1451",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GoBackup | 轻量级服务器备份方案",
+      "url": "https://koala-oss.app/news/1450",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GPUI Component | Rust 桌面应用组件库",
+      "url": "https://koala-oss.app/news/1449",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "title": "Code securitySecure your code as you build",
+      "url": "https://github.com/security/advanced-security/code-security",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Secret protectionStop leaks before they start",
+      "url": "https://github.com/security/advanced-security/secret-protection",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Changelog",
+      "url": "https://github.blog/changelog",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Testflight新闻",
+      "url": "https://t.me/TestFlightCN",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 248",
+      "url": "https://morerss.com/Testflight%E6%96%B0%E9%97%BB",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ZyZhang | 张智勇",
+      "url": "https://www.zyzhang.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 61",
+      "url": "https://morerss.com/ZyZhang%20%7C%20%E5%BC%A0%E6%99%BA%E5%8B%87",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "APPINN | 小众软件",
+      "url": "https://www.appinn.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 58028",
+      "url": "https://morerss.com/APPINN%20%7C%20%E5%B0%8F%E4%BC%97%E8%BD%AF%E4%BB%B6",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-04",
+      "url": "https://decohack.com/producthunt-daily-2025-11-04/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-03",
+      "url": "https://decohack.com/producthunt-daily-2025-11-03/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-02",
+      "url": "https://decohack.com/producthunt-daily-2025-11-02/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-01",
+      "url": "https://decohack.com/producthunt-daily-2025-11-01/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-31",
+      "url": "https://decohack.com/producthunt-daily-2025-10-31/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-30",
+      "url": "https://decohack.com/producthunt-daily-2025-10-30/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-29",
+      "url": "https://decohack.com/producthunt-daily-2025-10-29/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-28",
+      "url": "https://decohack.com/producthunt-daily-2025-10-28/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-10-27",
+      "url": "https://decohack.com/producthunt-daily-2025-10-27/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    }
+  ]
+}

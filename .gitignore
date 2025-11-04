@@ -137,3 +137,5 @@ config.local.json
 dist/
 build/
 out/
+
+wx-sites/scripts/config.yml

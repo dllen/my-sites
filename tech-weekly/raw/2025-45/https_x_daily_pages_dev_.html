@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>推特日报 - 每日精选</title>
+
+    <!-- SEO & Social Sharing -->
+    <meta name="description" content="每日精选有价值的推特内容，涵盖AI、创业、科技、独立开发等领域，为您提供最新动态和深度见解。">
+    <meta name="keywords" content="推特,日报,AI,创业,科技,Web3,设计,独立开发,Twitter,Daily">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://x-daily.pages.dev/">
+    <meta property="og:title" content="推特日报 - 每日精选">
+    <meta property="og:description" content="每日精选有价值的推特内容，涵盖AI、创业、科技、独立开发等领域。">
+    <meta property="og:image" content="https://x-daily.pages.dev/og.png">
+    <meta property="og:site_name" content="推特日报">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://x-daily.pages.dev/">
+    <meta property="twitter:title" content="推特日报 - 每日精选">
+    <meta property="twitter:description" content="每日精选有价值的推特内容，涵盖AI、创业、科技、独立开发等领域。">
+    <meta property="twitter:image" content="https://x-daily.pages.dev/og.png">
+    
+    <!-- Libs -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Source+Han+Sans+SC:wght@300;400;500;700&family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --font-family-sans: 'Noto Sans SC', 'Source Han Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --text-primary: #1f2937; /* gray-800 */
+            --text-secondary: #4b5563; /* gray-600 */
+            --text-muted: #9ca3af; /* gray-400 */
+            --accent-primary: #3b82f6; /* blue-500 */
+            --accent-secondary: #1d4ed8; /* blue-700 */
+            --bg-main: #f9fafb; /* gray-50 */
+            --bg-card: #ffffff;
+            --border-color: #e5e7eb; /* gray-200 */
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-family-sans);
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+            font-feature-settings: "kern" 1;
+            font-kerning: normal;
+        }
+
+        .title-gradient {
+            background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        
+        .daily-item {
+            background: var(--bg-card);
+            border-radius: 1rem; /* 16px */
+            padding: 1.75rem; /* 28px */
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .daily-item:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.07), 0 4px 6px -2px rgba(0,0,0,0.05);
+            border-color: var(--accent-primary);
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .tag {
+            font-size: 0.8rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: 500;
+            border: 1px solid transparent;
+            white-space: nowrap;
+        }
+        .tag-ai { background-color: #e0f2fe; color: #0ea5e9; border-color: #bae6fd;}
+        .tag-创业 { background-color: #dcfce7; color: #22c55e; border-color: #bbf7d0;}
+        .tag-科技 { background-color: #eef2ff; color: #6366f1; border-color: #c7d2fe;}
+        .tag-Web3 { background-color: #f5f3ff; color: #8b5cf6; border-color: #ddd6fe;}
+        .tag-设计 { background-color: #fce7f3; color: #ec4899; border-color: #fbcfe8;}
+        .tag-生活 { background-color: #fffbeb; color: #f59e0b; border-color: #fef3c7;}
+        .tag-趣闻 { background-color: #ffedd5; color: #f97316; border-color: #fed7aa;}
+        .tag-default { background-color: #f3f4f6; color: #4b5563; border-color: #e5e7eb;}
+
+        .card-icon-button {
+            width: 2.5rem; height: 2.5rem;
+            display: inline-flex; align-items: center; justify-content: center;
+            border-radius: 50%;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            background: #f3f4f6;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+        .card-icon-button:hover {
+            transform: scale(1.1);
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        /* Modal Styles */
+        .modal-backdrop {
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(4px);
+        }
+        .modal-content {
+            background: var(--bg-card);
+            border-radius: 1rem;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+            height: 90vh;
+            max-height: 800px;
+        }
+        #reportModalIframe {
+            border-radius: 0 0 1rem 1rem;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-secondary);
+            grid-column: 1 / -1;
+            background: var(--bg-card);
+            border-radius: 1rem;
+            border: 1px dashed var(--border-color);
+        }
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-primary);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky top-0 z-40 w-full bg-white border-b border-gray-200 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-2">
+                    <i class="fab fa-twitter text-2xl text-blue-500"></i>
+                    <span class="text-xl font-bold text-gray-800 tracking-tight">推特日报</span>
+                </a>
+                <nav class="flex items-center space-x-4">
+                    <a href="rss.xml" target="_blank" class="text-gray-500 hover:text-blue-500 transition-colors" title="RSS订阅">
+                        <i class="fas fa-rss text-lg"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-6 lg:p-8">
+        <section class="text-center py-12 md:py-16 lg:py-20">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold title-gradient tracking-wider">
+                推特日报精选
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-600">
+                每日为您筛选AI、创业、科技等领域的价值资讯，洞见未来趋势。
+            </p>
+        </section>
+
+        <div id="reports-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+            <!-- 日报卡片将在这里动态生成 -->
+        </div>
+    </main>
+
+    <!-- Modal Structure -->
+    <div id="reportModal" class="fixed inset-0 modal-backdrop hidden items-center justify-center p-4 z-50" onclick="if (event.target === this) closeModal();">
+        <div class="modal-content max-w-4xl w-full flex flex-col">
+            <div class="flex justify-between items-center p-5 border-b border-gray-200">
+                <h3 id="modalTitle" class="text-lg font-semibold text-gray-800">日报详情</h3>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-blue-500 transition-colors p-1 rounded-full text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="flex-grow overflow-y-auto">
+                <iframe id="reportModalIframe" class="w-full h-full border-0" title="日报预览"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-10 mt-12 border-t border-gray-200">
+        <p class="text-gray-500">&copy; 2024-2025 推特日报.</p>
+        <div class="text-gray-400 text-sm mt-2 space-x-4">
+            <span>由 <a href="https://x.com/kiwiflysky" target="_blank" class="text-blue-500 hover:underline">Kiwi</a> 构建</span>
+            <span>|</span>
+            <span>信息来源: <a href="https://x.com/i/lists/1930877201362334190" target="_blank" class="text-blue-500 hover:underline">Twitter List</a></span>
+        </div>
+    </footer>
+
+    <script>
+        let dailyReports = [];
+        let showingAll = false;
+        const INITIAL_DISPLAY_COUNT = 12;
+        const reportModal = document.getElementById('reportModal');
+        const modalIframe = document.getElementById('reportModalIframe');
+        const modalTitle = document.getElementById('modalTitle');
+
+        const tagClassMap = {
+            'AI': 'tag-ai', '创业': 'tag-创业', '科技': 'tag-科技',
+            'Web3': 'tag-web3', '设计': 'tag-设计', '生活': 'tag-生活',
+            '趣闻': 'tag-趣闻',
+        };
+        const defaultTagClass = 'tag-default';
+
+        function getTagClass(tagName) {
+            return tagClassMap[tagName] || defaultTagClass;
+        }
+
+        function initializePage() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const dateParam = urlParams.get('date');
+            if (dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam)) {
+                window.location.href = `daily/${dateParam}.html`;
+                return;
+            }
+            loadReports();
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && !reportModal.classList.contains('hidden')) {
+                    closeModal();
+                }
+            });
+        }
+
+        async function loadReports() {
+            try {
+                // 显示加载骨架屏
+                showLoadingState();
+                const response = await fetch('daily.json?t=' + new Date().getTime());
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const reportsData = await response.json();
+                
+                dailyReports = reportsData.map(report => ({
+                    ...report,
+                    filename: `${report.date}.html`,
+                    title: `${report.date.replace(/-/g, '.')} 推特日报`,
+                    tags: Array.isArray(report.tags) ? report.tags : [],
+                    summary: (typeof report.summary === 'string' || report.summary instanceof String) ? report.summary : ''
+                }));
+
+                dailyReports.sort((a, b) => new Date(b.date) - new Date(a.date));
+                renderReportsList();
+            } catch (error) {
+                console.error('加载日报失败:', error);
+                const container = document.getElementById('reports-container');
+                if (container) showEmptyState(container);
+            }
+        }
+
+        function renderReportsList() {
+            const container = document.getElementById('reports-container');
+            if (!container) return;
+            
+            if (dailyReports.length === 0) {
+                showEmptyState(container);
+                return;
+            }
+
+            const displayCount = showingAll ? dailyReports.length : Math.min(INITIAL_DISPLAY_COUNT, dailyReports.length);
+            const reportsToShow = dailyReports.slice(0, displayCount);
+
+            container.innerHTML = reportsToShow.map(report => `
+                <div class="daily-item flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-sm font-medium text-gray-400">
+                                <i class="far fa-calendar-alt mr-2"></i>${new Date(report.date).toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })}
+                            </span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">${report.title}</h3>
+                        <p class="text-gray-600 text-sm mb-4 h-20 line-clamp-3">${report.summary || '暂无摘要'}</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            ${report.tags.map(tag => `<span class="tag ${getTagClass(tag)}">${tag}</span>`).join('')}
+                        </div>
+                    </div>
+                    <div class="mt-auto pt-4 border-t border-gray-200/80 flex justify-end items-center space-x-3">
+                        <button onclick="showReportInModal('${report.filename}')" class="card-icon-button" title="弹窗速览">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                        <button onclick="openReport('${report.filename}')" class="card-icon-button" title="新标签页打开">
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+
+            if (dailyReports.length > INITIAL_DISPLAY_COUNT) {
+                const toggleButtonContainer = document.createElement('div');
+                toggleButtonContainer.className = 'col-span-full flex justify-center mt-8';
+                
+                const buttonClasses = "px-6 py-3 rounded-full font-semibold text-white transition-all duration-300 shadow-lg";
+                const gradientBg = "bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700";
+                const transform = "transform hover:scale-105";
+
+                toggleButtonContainer.innerHTML = `
+                    <button onclick="toggleShowAll()" class="${buttonClasses} ${gradientBg} ${transform}">
+                        <i class="fas ${showingAll ? 'fa-chevron-up' : 'fa-chevron-down'} mr-2"></i>
+                        ${showingAll ? '收起早期日报' : `查看全部 ${dailyReports.length} 篇日报`}
+                    </button>
+                `;
+                container.appendChild(toggleButtonContainer);
+            }
+        }
+
+        function toggleShowAll() {
+            showingAll = !showingAll;
+            renderReportsList();
+            if (!showingAll) {
+                document.querySelector('main').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function showEmptyState(container) {
+            container.innerHTML = `
+                <div class="empty-state col-span-full">
+                    <i class="fab fa-twitter-square"></i>
+                    <h3 class="text-xl font-semibold mb-2">暂无日报</h3>
+                    <p>正在为您准备今日的精选内容，请稍后再来。</p>
+                </div>
+            `;
+        }
+
+        function showLoadingState() {
+            const container = document.getElementById('reports-container');
+            if (!container) return;
+            const skeletonCard = `
+                <div class="daily-item">
+                    <div class="animate-pulse">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="h-4 w-32 bg-gray-200 rounded"></div>
+                        </div>
+                        <div class="h-6 bg-gray-200 rounded w-3/4 mb-3"></div>
+                        <div class="space-y-2 mb-4">
+                            <div class="h-4 bg-gray-200 rounded w-full"></div>
+                            <div class="h-4 bg-gray-200 rounded w-11/12"></div>
+                            <div class="h-4 bg-gray-200 rounded w-5/6"></div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <div class="h-6 w-16 bg-gray-200 rounded-full"></div>
+                            <div class="h-6 w-20 bg-gray-200 rounded-full"></div>
+                            <div class="h-6 w-14 bg-gray-200 rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="mt-auto pt-4 border-t border-gray-200/80 flex justify-end items-center space-x-3">
+                        <div class="h-10 w-10 bg-gray-200 rounded-full"></div>
+                        <div class="h-10 w-10 bg-gray-200 rounded-full"></div>
+                    </div>
+                </div>`;
+            const skeletonCount = Math.min(INITIAL_DISPLAY_COUNT, 12);
+            container.innerHTML = new Array(skeletonCount).fill('').map(() => skeletonCard).join('');
+        }
+
+        function openReport(filename) {
+            const fileDate = filename.replace('.html', '');
+            const reportDate = new Date(fileDate);
+            const cutoffDate = new Date('2025-07-30');
+            
+            if (reportDate > cutoffDate) {
+                window.open(`daily.html?date=${fileDate}`, '_blank');
+            } else {
+                window.open(`daily/${filename}`, '_blank');
+            }
+        }
+
+        function showReportInModal(filename) {
+            if (!reportModal || !modalIframe || !modalTitle) return;
+            
+            modalTitle.textContent = `日报: ${filename.replace('.html', '').replace(/-/g, '.')}`;
+            modalIframe.src = 'about:blank';
+            
+            reportModal.classList.remove('hidden');
+            reportModal.classList.add('flex');
+            
+            setTimeout(() => {
+                const fileDate = filename.replace('.html', '');
+                const reportDate = new Date(fileDate);
+                const cutoffDate = new Date('2025-07-30');
+                
+                if (reportDate > cutoffDate) {
+                    modalIframe.src = `daily.html?date=${fileDate}`;
+                } else {
+                    modalIframe.src = `daily/${filename}`;
+                }
+            }, 50);
+        }
+
+        function closeModal() {
+            if (!reportModal || !modalIframe) return;
+            reportModal.classList.add('hidden');
+            reportModal.classList.remove('flex');
+            modalIframe.src = 'about:blank';
+        }
+
+        document.addEventListener('DOMContentLoaded', initializePage);
+    </script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4fd7a0ab76b448929579268904200b6f"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

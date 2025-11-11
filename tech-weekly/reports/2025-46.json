@@ -1,0 +1,630 @@
+{
+  "slug": "2025-46",
+  "generated_at": "2025-11-11T19:48:09.206796",
+  "stats": {
+    "https://github.com/ruanyf/weekly/issues": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.1009721755981445,
+      "_start": 1762861647.242154
+    },
+    "https://github.com/trending": {
+      "ok": true,
+      "count": 14,
+      "error": "",
+      "duration": 2.319098949432373,
+      "_start": 1762861650.148252
+    },
+    "https://hn.aimaker.dev/": {
+      "ok": true,
+      "count": 15,
+      "error": "",
+      "duration": 2.484090805053711,
+      "_start": 1762861653.270446
+    },
+    "https://www.daemonology.net/hn-weekly/": {
+      "ok": true,
+      "count": 19,
+      "error": "",
+      "duration": 2.426762104034424,
+      "_start": 1762861656.559664
+    },
+    "https://koala-oss.app/news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.0772008895874023,
+      "_start": 1762861659.7915862
+    },
+    "https://topsub.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.091538906097412,
+      "_start": 1762861661.672256
+    },
+    "https://git.news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.9940721988677979,
+      "_start": 1762861663.568425
+    },
+    "https://github.com/howie6879/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.3900649547576904,
+      "_start": 1762861666.364675
+    },
+    "https://github.com/tw93/weekly?tab=readme-ov-file": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.9730820655822754,
+      "_start": 1762861669.559883
+    },
+    "https://github.com/ljinkai/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.6472349166870117,
+      "_start": 1762861672.3380811
+    },
+    "https://hn.buzzing.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.0467088222503662,
+      "_start": 1762861674.790451
+    },
+    "https://morerss.com/zh": {
+      "ok": true,
+      "count": 2,
+      "error": "",
+      "duration": 1.5918898582458496,
+      "_start": 1762861676.6423092
+    },
+    "https://x-daily.pages.dev/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.2688369750976562,
+      "_start": 1762861679.039307
+    },
+    "https://decohack.com/": {
+      "ok": true,
+      "count": 7,
+      "error": "",
+      "duration": 2.4246370792388916,
+      "_start": 1762861681.110802
+    },
+    "https://github.com/headllines/hackernews-monthly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.348600149154663,
+      "_start": 1762861684.340566
+    },
+    "https://weekly.howie6879.com/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.8474628925323486,
+      "_start": 1762861687.4943092
+    }
+  },
+  "items": [
+    {
+      "title": "google / adk-go",
+      "url": "https://github.com/google/adk-go",
+      "source": "github_trending",
+      "summary": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI ag...",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Go"
+      ]
+    },
+    {
+      "title": "usestrix / strix",
+      "url": "https://github.com/usestrix/strix",
+      "source": "github_trending",
+      "summary": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "umami-software / umami",
+      "url": "https://github.com/umami-software/umami",
+      "source": "github_trending",
+      "summary": "Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Googl...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "TapXWorld / ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "source": "github_trending",
+      "summary": "所有小初高、大学PDF教材。",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "thinking-machines-lab / tinker-cookbook",
+      "url": "https://github.com/thinking-machines-lab/tinker-cookbook",
+      "source": "github_trending",
+      "summary": "Post-training with Tinker",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "iptv-org / iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "source": "github_trending",
+      "summary": "Collection of publicly available IPTV channels from all over the world",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "lzhoang2801 / OpCore-Simplify",
+      "url": "https://github.com/lzhoang2801/OpCore-Simplify",
+      "source": "github_trending",
+      "summary": "A tool designed to simplify the creation of OpenCore EFI",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "YaLTeR / niri",
+      "url": "https://github.com/YaLTeR/niri",
+      "source": "github_trending",
+      "summary": "A scrollable-tiling Wayland compositor.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "bobeff / open-source-games",
+      "url": "https://github.com/bobeff/open-source-games",
+      "source": "github_trending",
+      "summary": "A list of open source games.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "microsoft / call-center-ai",
+      "url": "https://github.com/microsoft/call-center-ai",
+      "source": "github_trending",
+      "summary": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured ph...",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "librespot-org / librespot",
+      "url": "https://github.com/librespot-org/librespot",
+      "source": "github_trending",
+      "summary": "Open Source Spotify client library",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "opencloud-eu / opencloud",
+      "url": "https://github.com/opencloud-eu/opencloud",
+      "source": "github_trending",
+      "summary": "🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the ba...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "end-4 / dots-hyprland",
+      "url": "https://github.com/end-4/dots-hyprland",
+      "source": "github_trending",
+      "summary": "uhh questioning the meaning of dotfiles",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Zie619 / n8n-workflows",
+      "url": "https://github.com/Zie619/n8n-workflows",
+      "source": "github_trending",
+      "summary": "all of the workflows of n8n i could find (also from the site itself)",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "你记得的《玩具总动员》",
+      "url": "https://animationobsessive.substack.com/p/the-toy-story-you-remember",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "大型语言模型（LLMs）是你达宁-克鲁格效应的“类固醇”。",
+      "url": "https://bytesauna.com/post/dunning-kruger",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "意想不到的人事物",
+      "url": "https://bengoldhaber.substack.com/p/unexpected-things-that-are-people",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "警察可以获取你的私人在线数据",
+      "url": "https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "在Zed云中领先",
+      "url": "https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "对领先的人工智能代理进行与Google reCAPTCHA v2的基准测试",
+      "url": "https://research.roundtable.ai/captcha-benchmarking/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "游戏保存工作困难，有时还需要私人侦探的帮助。",
+      "url": "https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "在内容制作中使用生成性人工智能",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "欧洲委员会计划推出“数字综合法案”以简化其科技法律。",
+      "url": "https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "联邦调查局在华盛顿州18个警察机构的车牌摄像头读取器上进行了无授权搜索。",
+      "url": "https://www.seattletimes.com/seattle-news/law-justice/feds-searched-flock-security-systems-at-18-wa-police-agencies-report/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "我对洗碗机洗涤剂胶囊的看法是正确的，现在我可以证明这一点 [视频]",
+      "url": "https://www.youtube.com/watch?v=DAX2_mPr9W8",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "YouTube 删除了超过700个记录以色列人权侵犯的视频。",
+      "url": "https://theintercept.com/2025/11/04/youtube-google-israel-palestine-human-rights-censorship/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "UPS飞机在路易斯维尔机场附近坠毁",
+      "url": "https://avherald.com/h?article=52f5748f&opt=0",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "苹果正在越过史蒂夫·乔布斯设定的红线。",
+      "url": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "德国沃达丰正在逐步扼杀开放互联网——每一次对等连接都是一步。",
+      "url": "https://coffee.link/vodafone-germany-is-killing-the-open-internet-one-peering-connection-at-a-time/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Linux gamers on Steam cross over the 3% mark",
+      "url": "https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45792503",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Facts about throwing good parties",
+      "url": "https://www.atvbt.com/21-facts-about-throwing-good-parties/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45794032",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Tiny electric motor can produce more than 1,000 horsepower",
+      "url": "https://supercarblondie.com/electric-motor-yasa-more-powerful-tesla-mercedes/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45797242",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Tell HN: X is opening any tweet link in a webview whether you press it or not",
+      "url": "https://news.ycombinator.com/item?id=45807775",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Mr TIFF",
+      "url": "https://inventingthefuture.ghost.io/mr-tiff/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45816853",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Zohran Mamdani wins the New York mayoral race",
+      "url": "https://www.nbcnews.com/politics/elections/new-york-city-mayor-election-winner-2025-race-rcna238909",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45818421",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Show HN: I scraped 3B Goodreads reviews to train a better recommendation model",
+      "url": "https://book.sv",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45825733",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "New gel restores dental enamel and could revolutionise tooth repair",
+      "url": "https://www.nottingham.ac.uk/news/new-gel-restores-dental-enamel-and-could-revolutionise-tooth-repair",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45826995",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Solarpunk is happening in Africa",
+      "url": "https://climatedrift.substack.com/p/why-solarpunk-is-already-happening",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45827190",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "End of Japanese community",
+      "url": "https://support.mozilla.org/en-US/forums/contributors/717446",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Owen Young",
+      "url": "https://www.owenyoung.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 815",
+      "url": "https://morerss.com/Owen%20Young",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-11",
+      "url": "https://decohack.com/producthunt-daily-2025-11-11/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-10",
+      "url": "https://decohack.com/producthunt-daily-2025-11-10/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-09",
+      "url": "https://decohack.com/producthunt-daily-2025-11-09/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-08",
+      "url": "https://decohack.com/producthunt-daily-2025-11-08/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-07",
+      "url": "https://decohack.com/producthunt-daily-2025-11-07/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-06",
+      "url": "https://decohack.com/producthunt-daily-2025-11-06/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-05",
+      "url": "https://decohack.com/producthunt-daily-2025-11-05/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    }
+  ]
+}

@@ -19,6 +19,7 @@ import hashlib
 import argparse
 import datetime as dt
 from urllib.parse import urljoin, urlparse
+import traceback
 
 import requests
 from bs4 import BeautifulSoup
@@ -275,6 +276,9 @@ SECTION_MAP = {
     "https://x-daily.pages.dev": "趋势观察",
     "https://decohack.com": "趋势观察",
     "https://weekly.howie6879.com": "阅读推荐",
+    # releases from bookmarks
+    "release_github": "新版本发布",
+    "release_gitee": "新版本发布",
 }
 
 DEFAULT_SECTIONS = ["趋势观察", "开源项目", "新版本发布", "阅读推荐"]
@@ -535,6 +539,165 @@ def run(max_per_source: int, timeout: int, sleep: float, conn: sqlite3.Connectio
     return dedup(all_items), raw_htmls, stats
 
 
+# ---------------------------- releases from bookmarks ----------------------------
+
+def _walk_bookmarks_urls(node, out: list[str]):
+    if isinstance(node, dict):
+        url = node.get("url")
+        if url:
+            out.append(url)
+        children = node.get("children") or []
+        for ch in children:
+            _walk_bookmarks_urls(ch, out)
+    elif isinstance(node, list):
+        for ch in node:
+            _walk_bookmarks_urls(ch, out)
+
+
+def load_repo_candidates_from_bookmarks(bookmarks_path: str) -> list[dict]:
+    try:
+        with open(bookmarks_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        log(f"WARN: failed to read bookmarks: {e}")
+        return []
+    urls: list[str] = []
+    root = data.get("bookmarks", data)
+    _walk_bookmarks_urls(root, urls)
+    candidates = []
+    seen = set()
+    for url in urls:
+        if not isinstance(url, str):
+            continue
+        if ("github.com" in url) or ("gitee.com" in url):
+            parsed = urlparse(url)
+            parts = [p for p in parsed.path.split("/") if p]
+            if len(parts) >= 2:
+                owner, repo = parts[0], parts[1]
+                platform = "github" if "github.com" in parsed.netloc else "gitee"
+                key = (platform, owner, repo)
+                if key in seen:
+                    continue
+                seen.add(key)
+                candidates.append({"platform": platform, "owner": owner, "repo": repo})
+    return candidates
+
+
+def github_latest_release(owner: str, repo: str, timeout: int = 12) -> dict | None:
+    # Try GitHub API first
+    api_headers = {"Accept": "application/vnd.github+json", "User-Agent": UA}
+    try:
+        r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/releases/latest", headers=api_headers, timeout=timeout)
+        if r.status_code == 200:
+            j = r.json()
+            tag = j.get("tag_name")
+            if tag:
+                return {
+                    "tag": tag,
+                    "name": j.get("name") or tag,
+                    "url": j.get("html_url") or f"https://github.com/{owner}/{repo}/releases/tag/{tag}",
+                    "published_at": j.get("published_at") or "",
+                }
+    except Exception as e:
+        log(f"WARN: github api latest failed {owner}/{repo}: {e}")
+    # Fallback to tags API
+    try:
+        r = requests.get(f"https://api.github.com/repos/{owner}/{repo}/tags", headers=api_headers, timeout=timeout)
+        if r.status_code == 200:
+            tags = r.json()
+            if isinstance(tags, list) and tags:
+                tag = (tags[0] or {}).get("name")
+                if tag:
+                    return {
+                        "tag": tag,
+                        "name": tag,
+                        "url": f"https://github.com/{owner}/{repo}/releases/tag/{tag}",
+                        "published_at": "",
+                    }
+    except Exception as e:
+        log(f"WARN: github api tags failed {owner}/{repo}: {e}")
+    # Fallback to releases HTML
+    try:
+        html = fetch_with_retries(f"https://github.com/{owner}/{repo}/releases", timeout=timeout, retries=2, backoff=0.8)
+        soup = make_soup(html)
+        a = soup.select_one("a[href*='/releases/tag/']")
+        if a:
+            href = a.get("href") or ""
+            tag = href.split("/releases/tag/")[-1]
+            if href and tag:
+                if not href.startswith("http"):
+                    href = urljoin(f"https://github.com/{owner}/{repo}/releases", href)
+                name = norm_space(a.get_text()) or tag
+                return {"tag": tag, "name": name, "url": href, "published_at": ""}
+    except Exception as e:
+        log(f"WARN: github releases html failed {owner}/{repo}: {e}")
+    return None
+
+
+def gitee_latest_release(owner: str, repo: str, timeout: int = 12) -> dict | None:
+    # Prefer releases HTML
+    try:
+        html = fetch_with_retries(f"https://gitee.com/{owner}/{repo}/releases", timeout=timeout, retries=2, backoff=0.8)
+        soup = make_soup(html)
+        a = soup.select_one("a[href*='/releases/tag/']")
+        if a:
+            href = a.get("href") or ""
+            tag = href.split("/releases/tag/")[-1]
+            if href and tag:
+                if not href.startswith("http"):
+                    href = urljoin(f"https://gitee.com/{owner}/{repo}/releases", href)
+                name = norm_space(a.get_text()) or tag
+                return {"tag": tag, "name": name, "url": href, "published_at": ""}
+    except Exception as e:
+        log(f"WARN: gitee releases html failed {owner}/{repo}: {e}")
+    # Fallback to tags page
+    try:
+        html = fetch_with_retries(f"https://gitee.com/{owner}/{repo}/tags", timeout=timeout, retries=2, backoff=0.8)
+        soup = make_soup(html)
+        # Attempt to find tag anchors
+        a = soup.select_one("a[href*='/tags/'], a[href*='/tree/']")
+        if a:
+            href = a.get("href") or ""
+            # Try to infer tag from last path segment
+            parsed = urlparse(href)
+            parts = [p for p in parsed.path.split("/") if p]
+            tag = parts[-1] if parts else ""
+            if href and tag:
+                if not href.startswith("http"):
+                    href = urljoin(f"https://gitee.com/{owner}/{repo}/tags", href)
+                name = norm_space(a.get_text()) or tag
+                # Construct releases URL if possible
+                rel_url = f"https://gitee.com/{owner}/{repo}/releases/tag/{tag}"
+                return {"tag": tag, "name": name, "url": rel_url, "published_at": ""}
+    except Exception as e:
+        log(f"WARN: gitee tags html failed {owner}/{repo}: {e}")
+    return None
+
+
+def collect_release_items(bookmarks_path: str, conn: sqlite3.Connection, skip_check: bool, timeout: int = 12) -> list[Item]:
+    items: list[Item] = []
+    repos = load_repo_candidates_from_bookmarks(bookmarks_path)
+    for r in repos:
+        info = None
+        if r["platform"] == "github":
+            info = github_latest_release(r["owner"], r["repo"], timeout=timeout)
+            src = "release_github"
+        else:
+            info = gitee_latest_release(r["owner"], r["repo"], timeout=timeout)
+            src = "release_gitee"
+        if not info:
+            continue
+        it = {
+            "title": f"{r['owner']}/{r['repo']} {info.get('tag','')}",
+            "url": info.get("url", ""),
+            "source": src,
+            "summary": info.get("name", ""),
+        }
+        if skip_check or not has_seen(conn, it["url"]):
+            items.append(it)
+    return items
+
+
 def main():
     ap = argparse.ArgumentParser(description="Fetch sources and generate weekly markdown")
     ap.add_argument("--output", default="content/weekly", help="Output directory under tech-weekly")
@@ -606,6 +769,14 @@ def main():
 
         # aggregate
         items_raw, raw_htmls, stats = run(args.max_per_source, args.timeout, args.sleep, conn, retries=args.retries, backoff=args.retry_backoff, do_health_check=args.health_check, skip_check=args.skip_check)
+        # append releases from bookmarks into "新版本发布" section
+        cwd = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        repo_root = os.path.dirname(cwd)
+        bookmarks_path = os.path.join(repo_root, "tech-weekly", "data", "bookmarks", "bookmarks.json")
+        release_items = collect_release_items(bookmarks_path, conn, skip_check=args.skip_check, timeout=args.timeout)
+        if release_items:
+            log(f"Collected {len(release_items)} release items from bookmarks")
+            items_raw.extend(release_items)
         # enrich with metadata if requested
         items = enrich_items(items_raw, deep_scan=args.deep_scan, timeout=args.timeout, retries=args.retries, backoff=args.retry_backoff, stats=stats)
         # finalize stats

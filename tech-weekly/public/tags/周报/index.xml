@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>周报 on 开源科技周报</title><link>http://localhost:1313/tags/%E5%91%A8%E6%8A%A5/</link><description>Recent content in 周报 on 开源科技周报</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%91%A8%E6%8A%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>开源科技周报 2025-43</title><link>http://localhost:1313/weekly/2025-43/</link><pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/weekly/2025-43/</guid><description>本期聚焦开源与开发者工具：涵盖代理平台 sing-box、机器人学习框架 LeRobot，以及终端与自动化等项目，助你快速掌握关键趋势与可落地资源。
-同时精选趋势观察与阅读推荐，信息简洁、来源可信，便于收藏与深入拓展。</description></item><item><title>开源科技周报 2025-42</title><link>http://localhost:1313/weekly/2025-42/</link><pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/weekly/2025-42/</guid><description>本期精选开源与开发者工具：anthropics / claude-cookbooks、SagerNet / sing-box、DrewThomasson / ebook2audiobook、x1xhlol / system-prompts-and-models-of-ai-tools、huggingface / lerobot 等亮点项目</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>周报 on 开源科技周报</title>
+    <link>http://localhost:1313/tags/%E5%91%A8%E6%8A%A5/</link>
+    <description>Recent content in 周报 on 开源科技周报</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%91%A8%E6%8A%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开源科技周报 2025-46</title>
+      <link>http://localhost:1313/weekly/2025-46/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/weekly/2025-46/</guid>
+      <description>本期精选：google / adk-go、usestrix / strix、umami-software / umami、TapXWorld / ChinaTextbook、thinking-machines-lab / tinker-cookbook</description>
+    </item>
+    <item>
+      <title>开源科技周报 2025-45</title>
+      <link>http://localhost:1313/weekly/2025-45/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/weekly/2025-45/</guid>
+      <description>本期精选：666ghj / BettaFish、sst / opentui、GeeeekExplorer / nano-vllm、mudler / LocalAI、1Panel-dev / MaxKB</description>
+    </item>
+    <item>
+      <title>开源科技周报 2025-44</title>
+      <link>http://localhost:1313/weekly/2025-44/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/weekly/2025-44/</guid>
+      <description>本期精选：LadybirdBrowser / ladybird、yeongpin / cursor-free-vip、cjpais / Handy、Shubhamsaboo / awesome-llm-apps、microsoft / agent-lightning</description>
+    </item>
+    <item>
+      <title>开源科技周报 2025-43</title>
+      <link>http://localhost:1313/weekly/2025-43/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/weekly/2025-43/</guid>
+      <description>本期精选：LadybirdBrowser / ladybird、guofei9987 / blind_watermark、hoppscotch / hoppscotch、zephyrproject-rtos / zephyr、minio / minio</description>
+    </item>
+    <item>
+      <title>开源科技周报 2025-42</title>
+      <link>http://localhost:1313/weekly/2025-42/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/weekly/2025-42/</guid>
+      <description>本期精选开源与开发者工具：anthropics / claude-cookbooks、SagerNet / sing-box、DrewThomasson / ebook2audiobook、x1xhlol / system-prompts-and-models-of-ai-tools、huggingface / lerobot 等亮点项目</description>
+    </item>
+  </channel>
+</rss>

@@ -260,6 +260,13 @@ SOURCES = [
     ("https://decohack.com/", None),
     ("https://github.com/headllines/hackernews-monthly", None),
     ("https://weekly.howie6879.com/", None),
+    ("https://www.zhihu.com/people/githubdaily", None),
+    ("https://github.com/GitHubDaily/GitHubDaily", None),
+    ("https://x.com/GitHub_Daily", None),
+    ("https://hellogithub.com/", None),
+    ("https://github.com/OpenGithubs/github-weekly-rank", None),
+    ("https://open.itc.cn/", None),
+    ("https://www.github-zh.com/top", None),
 ]
 
 SECTION_MAP = {
@@ -276,6 +283,11 @@ SECTION_MAP = {
     "https://x-daily.pages.dev": "趋势观察",
     "https://decohack.com": "趋势观察",
     "https://weekly.howie6879.com": "阅读推荐",
+    "https://www.zhihu.com": "阅读推荐",
+    "https://x.com": "趋势观察",
+    "https://hellogithub.com": "开源项目",
+    "https://open.itc.cn": "趋势观察",
+    "https://www.github-zh.com": "趋势观察",
     # releases from bookmarks
     "release_github": "新版本发布",
     "release_gitee": "新版本发布",

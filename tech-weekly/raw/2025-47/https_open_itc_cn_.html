@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+<!-- Plugins CSS -->
+<link rel="stylesheet" type="text/css" href="/assets/vendor/font-awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/dropzone/dist/dropzone.css" />
+<link rel="stylesheet" type="text/css" href="/assets/vendor/glightbox-master/dist/css/glightbox.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/choices.js/public/assets/styles/choices.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/flatpickr/dist/flatpickr.min.css">
+<!-- Theme CSS -->
+<link id="style-switch" rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-select/bootstrap-select.css">
+<!--<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/bootstrap.min.css">-->
+<!-- Bootstrap JS -->
+<script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Vendors -->
+<script src="/assets/vendor/dropzone/dist/dropzone.js"></script>
+<script src="/assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+<!--<script src="/assets/vendor/glightbox-master/dist/js/glightbox.min.js"></script>-->
+<script src="/assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+<script src="/assets/vendor/jquery/jquery-1.11.0.min.js"></script>
+<script src="/assets/vendor/bootstrap/bootstrap.bundle.js"></script>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="/assets/vendor/bootstrap-select/bootstrap-select.js"></script>
+<!-- spin -->
+<link rel="stylesheet" type="text/css" href="/assets/vendor/spin/spin.css">
+<script src="/assets/vendor/spin/spin.min.js"></script>
+<!-- toastr -->
+<link rel="stylesheet" type="text/css" href="/assets/vendor/toastr/toastr.min.css">
+<script src="/assets/vendor/toastr/toastr.min.js"></script>
+<!-- js -->
+<script>
+    var contextPath = "";
+</script>
+<link rel="stylesheet" type="text/css" href="/assets/css/common.css">
+<!-- Template Functions -->
+<script src="/assets/js/functions.js"></script>
+<script src="/assets/js/common.js"></script>
+
+<!-- JS file -->
+<script src="/assets/vendor/jquery/easyautocomplete/jquery.easy-autocomplete.min.js"></script>
+
+<!-- CSS file -->
+<link rel="stylesheet" href="/assets/vendor/jquery/easyautocomplete/easy-autocomplete.min.css">
+
+<!-- star -->
+<link rel="stylesheet" href="/assets/other/star.css">
+<link rel="stylesheet" href="/assets/other/hidden.css">
+
+
+<title>Open Github社区</title>
+<meta name="title" content="Open Github社区">
+<meta name="url" content="https://open.itc.cn">
+<meta name="keywords" content="Github社区,Github项目挖掘,Github项目升星">
+<meta name="image" content="https://open.itc.cn/images/index/head/logo.png">
+<meta name="description" content="Open Github社区:挖掘Github优质项目,帮助用户发现有趣、实用、流行的开源项目。">
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="/images/index/head/logo.png">
+    </head>
+    <body>
+<link rel="stylesheet" href="/images/head/coin/iconfont.css">
+<style type="text/css">
+    ::-webkit-scrollbar{
+        width: 0 !important;
+    }
+    /* 设置滚动条隐藏 */
+    ::-webkit-scrollbar{
+        width: 0px !important;
+    }
+</style>
+<header class="navbar-light fixed-top header-static bg-mode">
+
+    <!-- Logo Nav START -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo START -->
+            <div class="col-3 col-md-4 col-xl-5">
+                <a href="/">
+                    <img style="width:50px;height:50px" src="/images/index/head/logo.png" alt="logo">
+                </a>
+                <a href="/" class="hidden-element">
+                    <img style="width:120px;height:50px" src="/images/index/head/open-github-text.png" alt="logo">
+                </a>
+            </div>
+            <div class="col-4 col-md-5 col-xl-5">
+                <form id="searchForm" class="form-inline rounded ms-lg-auto mr-2" role="form" style="width: 90%">
+                    <!--<li id="searchList" class="nav-item ms-lg-auto" data-url="/task/list">
+                        <input id="searchRepoId" class="form-control ps-5 bg-light" type="search" placeholder="请输入仓库名">
+                        <button class="btn bg-transparent px-2 py-0 position-absolute top-50 translate-middle-y" type="submit" onclick="doSearch('allList')"><i class="bi bi-search fs-5"> </i></button>
+                    </li>-->
+                    <input id="globalSearchRepoId" class="form-group ps-5 bg-light w-100" type="search" placeholder="搜索感兴趣的仓库或关键词(站内)" value="">
+                    <span id="searchList" onclick="doSearchRepo()" class="nav-item ms-lg-auto">
+                        <a id="searchRepoAId" class="btn bg-transparent px-2 py-0 position-absolute top-50 translate-middle-y" href="" onclick="return false"><i class="bi bi-search fs-5"> </i></a>
+                    </span>
+                </form>
+            </div>
+            <input id="pageIndex" value= 0 hidden>
+            <!-- Nav right START -->
+            <div class="col-3 col-md-3 col-xl-4">
+                <ul class="nav flex-nowrap align-items-center ms-sm-6 list-unstyled">
+
+                    <li class="nav-item ms-6 dropdown">
+                            <a class="btn" href="javascript:void(0)" onclick="commonLoginLoading('4d7dc04415d6be033e3d')" role="button" data-bs-auto-close="outside" data-bs-display="static" aria-expanded="false"><image src="/images/oauth/github.png" width="30px" height="30px"></image>登录</a>
+<!--                            <div class="vr"></div>-->
+<!--                            <a class="btn" href="/user/signin">Token登录</a>-->
+                    </li>
+                    <!-- Profile START -->
+
+                </ul>
+            </div>
+            <!-- Nav right END -->
+        </div>
+    </nav>
+    <!-- Logo Nav END -->
+    <script>
+
+        var uidStr;
+
+        var unReadNum = 0;
+
+        $(function () {
+        });
+
+        function login() {
+            if (!$("#loginToken").val()) {
+                toastr.error("token不能为空");
+                return;
+            }
+            disable("loginBtn")
+            post('/user/login', {
+                token: $("#loginToken").val()
+            }, function (data) {
+                if (data.status == 200) {
+                    toastr.success("登录成功！");
+                    setTimeout("toHome()", 2000);
+                } else {
+                    enable("loginBtn")
+                    toastr.error("登录失败！" + data.message);
+                }
+            });
+        }
+
+        function signInShow() {
+            window.location.href = "/user/signin";
+            // bootstrap.Dropdown.getOrCreateInstance(document.getElementById('signInDropdown')).show();
+            // toastr.warning("请先登录");
+        }
+
+        function logout() {
+            post('/user/logout', {}, function (data) {
+                if (data.status == 200) {
+                    toastr.success("欢迎再次使用Open Github！");
+                    setTimeout("toHome()", 1000);
+                } else {
+                    toastr.error("退出登录失败，" + data.message);
+                }
+            });
+        }
+
+        function initMessage(){
+            var pageIndex = $("#pageIndex").val();
+            loadMessage(pageIndex,true);
+        }
+
+        function loadMore(){
+            var pageIndex = $("#pageIndex").val();
+            loadMessage(parseInt(pageIndex) + 1,false);
+        }
+
+        function loadMessage(pageIndex,same){
+            $.post('/feed/notice.json', {
+                uid: uidStr,
+                page: pageIndex
+            }, function (data) {
+                if (data.status == 200) {
+                    var context = "";
+                    for (let i = 0; i < data.result.length; i++) {
+                        context += "<li>";
+                        if (data.result[i].status == 0){
+                            context += "<div class='list-group-item list-group-item-action rounded badge-unread d-flex border-0 mb-1 p-3'>"
+                        }else {
+                            context += "<div class='list-group-item list-group-item-action rounded d-flex mb-1 p-3' style='border: 1px solid rgba(20,81,154,0.1);'>"
+                        }
+                        context += "<div class='ms-sm-3'>"
+                        context += "<div>"
+                        context += "<div>"
+                        context += "<p class='small m-0'><b>事件内容: </b>"+ data.result[i].eventContent +"</p>"
+                        context += "<p class='small m-0'><b>反馈结果: </b>"+data.result[i].feedBackContent+"</p>"
+                        context += "<p class='small m-0'><b>反馈时间: </b>"+data.result[i].creatTime+"</p>"
+                        context += "</div>"
+                        context += "</div>"
+                        context += "</div>"
+                        context += "</div>"
+                        context += "</li>";
+                        $("#pageIndex").val(parseInt(data.result[i].currentPage));
+                        $('#unread').html(unReadNum + ' 条未读');
+                    }
+                    if (same){
+                        $("#messageUl").find("li").remove();
+                        $("#pageIndex").val(0);
+                    }
+                    $('#messageUl').append(context);
+                }
+            });
+        }
+
+        setInterval(function (){
+            loadUnReadNotice();
+        },10000);
+
+        function loadUnReadNotice(){
+            if (uidStr){
+                $.post('/feed/unRead.json', {
+                    uid: uidStr
+                }, function (data) {
+                    if (data.status == 200) {
+                        if (data.result > 0){
+                            unReadNum = data.result;
+                            $("#notice").removeClass("badge-notif");
+                            $("#notice").addClass("badge-notif")
+                        }else {
+                            $("#notice").removeClass("badge-notif")
+                        }
+                    }
+                })
+            }
+        }
+
+    function doSearchRepo() {
+        var repoName = $("#globalSearchRepoId").val();
+        var tab = "";
+        if(tab != undefined && tab == "search") {
+            window.location.href = "/github/searchIndex?repoName=" + repoName;
+        }
+        window.open("/github/searchIndex?repoName=" + repoName, '_blank');
+    }
+
+    var options = {
+        url: function(phrase) {
+            return "/github/searchName?repoName=" + phrase;
+        },
+
+        getValue: function(element) {
+            return element;
+        },
+
+        ajaxSettings: {
+            dataType: "json",
+            method: "GET"
+        },
+        minCharNumber: 3,
+        requestDelay: 100
+    };
+
+    $().ready(function() {
+        $("#globalSearchRepoId").easyAutocomplete(options);
+    });
+
+    $(function () {
+        document.getElementById("globalSearchRepoId").addEventListener("click", handleClick);
+
+        $("#globalSearchRepoId").keydown(function (event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                $("#searchRepoAId").click();
+            }
+        });
+
+        $("#globalSearchRepoId").change(function(event) {
+            var indexId = $("#globalSearchRepoId").getSelectedItemIndex();
+            var indexData = $("#globalSearchRepoId").getSelectedItemData();
+            if(indexId != undefined && indexId != -1
+                && indexData != undefined && indexData != -1){
+                $("#globalSearchRepoId").val(indexData);
+            }
+            if(indexId != undefined && indexId != -1){
+                $("#searchRepoAId").click();
+            }
+        });
+    });
+
+    function handleClick(){
+        var indexId = $("#globalSearchRepoId").getSelectedItemIndex();
+        var indexData = $("#globalSearchRepoId").getSelectedItemData();
+        if(indexId != undefined && indexId != -1
+            && indexData != undefined && indexData != -1){
+            $("#globalSearchRepoId").val(indexData);
+        }
+        if(indexId != undefined && indexId != -1){
+            $("#searchRepoAId").click();
+        }
+    }
+    </script>
+</header>
+
+        <main>
+<div class="container">
+    <!-- Nav profile pages -->
+    <ul class="nav nav-bottom-line align-items-center justify-content-center justify-content-md-start mb-0 border-0">
+        <li id="home" onclick="jumpTab('home')" class="nav-item"> <a href="" onclick="return false;" class="nav-link active"> <img src="/images/index/github.svg" width="30px" height="30px"> 首页 </a> </li>
+        <li id="repos" onclick="jumpTab('repos')" data-url="/github/dig/repolist" class="nav-item"> <a href="" onclick="return false;" class="nav-link"> <img src="/images/index/hot.svg" width="30px" height="30px"> 项目推荐 </a> </li>
+        <li id="trends" onclick="jumpTab('trends')" data-url="/github/trend" class="nav-item"> <a href="" onclick="return false;" class="nav-link"> <img src="/images/index/trend.svg" width="30px" height="30px"> 趋势榜 </a> </li>
+        <li id="collection" onclick="jumpTab('collection')" data-url="/github/collection" class="nav-item"> <a href="" onclick="return false;" class="nav-link"> <img src="/images/index/collection.svg" width="28px" height="28px"> 期刊 </a> </li>
+        <li id="ai" onclick="jumpTab('ai')" data-url="/github/dig/ai" class="nav-item"> <a href="" onclick="return false;" class="nav-link"> <img src="/images/index/AI.svg" width="35px" height="35px"> AI应用 </a> </li>
+                <li id="search" onclick="jumpTab('search')" data-url="/github/searchRepo" class="nav-item"> <a href="" onclick="return false;" class="nav-link"> <img src="/images/index/search.svg" width="35px" height="35px"> 搜索 </a> </li>
+    </ul>
+</div>
+
+<div class="modal fade" id="loginPrompt" tabindex="-1" aria-hidden="true" data-url="">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <!-- Modal feed header START -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabelCreateAlbum">畅享精彩社区</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="row g-4">
+                    <p class="text-center" id="delContext">您还未登录github，授权后可以操作，现在去授权？</p>
+                </form>
+                <input hidden id="delTaskId">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger-soft me-2" data-bs-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-success" onclick="loginLoading()">去授权</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    /**
+     * 栏目页
+     * @param tab
+     */
+    function showHome(tab){
+
+        if(tab == "home"){
+            window.location.href = "/";
+            return;
+        }
+
+        $.get($("#"+tab).attr("data-url"), function (result) {
+            $("#columnContent").html(result);
+        });
+    }
+
+    function jumpTab(tab){
+        if(tab == "home"){
+            window.location.href = "/";
+            return;
+        }
+        window.location.href = "/?tab="+tab;
+        return;
+    }
+
+    function  activeHomeTab(tab){
+        $("#"+tab).siblings().children("a").removeClass("active");
+        $("#"+tab+" a").addClass("active")
+        // showHome(tab);
+    }
+
+
+    // var i = 0;
+    // var curTab = null;
+    //
+    // 
+
+        function loginLoading() {
+            loading();
+            window.location.href = 'https://github.com/login/oauth/authorize?client_id=4d7dc04415d6be033e3d&scope=user,repo';
+        }
+
+        function loginPrompt(){
+            $('#loginPrompt').modal('show');
+        }
+
+</script>            <div id="cover"></div>
+            <div class="container" id="columnContent">
+
+<script src="/assets/scrollgraph/swdslideshow.js"></script>
+<link rel="stylesheet" href="/assets/scrollgraph/swdslideshow.css" />
+
+<div class="row g-4" xmlns="http://www.w3.org/1999/html">
+    <!-- Main content START -->
+    <div class="col-lg-8 vstack gap-4">
+        <!-- Card START -->
+        <div class="card">
+            <div class="card" id="swd-slideshow">
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://www.deepseek.com/"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>deepseek-ai/DeepSeek-R1</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/deepseek-ai/DeepSeek-R1"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>deepseek-ai/DeepSeek-R1</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDONs2Wmg" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20250205/pic_org_d39aaa41-e402-4f08-8985-81bb466ce8eb.jpg"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/deepseek-ai/DeepSeek-R1" style="color:white;font-size:1rem;float:right;padding-right:5%">先进的大语言大模型</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href=""><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>AI系统学习</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/chenzomi12/DeepLearningSystem"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>chenzomi12/DeepLearningSystem</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOIC4LdA" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20240228/pic_org_f53cbc9b-b1c0-4dd2-9d83-668df76b6716.jpg"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/chenzomi12/DeepLearningSystem" style="color:white;font-size:1rem;float:right;padding-right:5%">本开源项目主要是跟大家一起探讨和学习人工智能、深度学习的系统设计，而整个系统是围绕着 ZOMI 在工作当中所积累、梳理、构建 AI 系统全栈的内容。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://news.agpt.co/"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>AutoGPT</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/Significant-Gravitas/Auto-GPT"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>Significant-Gravitas/Auto-GPT</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOJKSTjA" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/20230511/pic_org_cbb248c4-5f6d-4400-b82e-56aa14a655a6.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/Significant-Gravitas/Auto-GPT" style="color:white;font-size:1rem;float:right;padding-right:5%">Auto-GPT是第一批完全自主运行的GPT-4，推动了人工智能的极限。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://ai.google.dev/gemma?hl=zh-cn"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>google/gemma_pytorch</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/google/gemma_pytorch"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>google/gemma_pytorch</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOLVbOTw" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20240222/pic_org_b02ab28c-45b9-44f9-9db7-2e12a7342e1d.jpg"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/google/gemma_pytorch" style="color:white;font-size:1rem;float:right;padding-right:5%">谷歌宣布推出了一款新的 AI 语言模型系列 —— Gemma。这个系列模型不仅免费、开源，而且采用了与谷歌更为强大的 Gemini 模型类似的技术,它可以在个人电脑上本地运行，这是自 OpenAI 的 ChatGPT 在 2022 年引发 AI 聊天机器人热潮以来，谷歌首次发布的重要开源 LLM。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href=""><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>openai/whisper</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/openai/whisper"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>openai/whisper</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOIAstBQ" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20231124/pic_org_8e80cda2-b2a5-402a-b853-1615756d4ccd.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/openai/whisper" style="color:white;font-size:1rem;float:right;padding-right:5%">whisper是OpenAI开源的多语言识别系统，是一款强大的自动语音识别工具。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href=""><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>数学动画的工具</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/3b1b/manim"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>3b1b/manim</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=MDEwOlJlcG9zaXRvcnkzMjY4OTg2Mw==" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20230915/pic_org_9cb049d5-deff-4068-8fab-85ae642e504d.jpg"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/3b1b/manim" style="color:white;font-size:1rem;float:right;padding-right:5%">一款通过编程的方式，快速帮助用户创建精美酷炫的数学动画的工具。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://www.databerry.ai/"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>Databerry</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/gmpetrov/databerry"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>gmpetrov/databerry</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOJPGcdA" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/20230511/pic_org_48b8bb15-d862-477b-a149-efd80f2d42e8.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/gmpetrov/databerry" style="color:white;font-size:1rem;float:right;padding-right:5%">将自定义数据连接到大型语言模型的无代码平台</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href=""><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>xai-org/grok-1</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/xai-org/grok-1"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>xai-org/grok-1</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOLhdsRA" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20240318/pic_org_7a32a57d-28fb-408c-a63d-33c6a93814c5.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/xai-org/grok-1" style="color:white;font-size:1rem;float:right;padding-right:5%">特斯拉首席执行官（CEO）马斯克的AI创企xAI正式发布3140亿参数的混合专家模型Grok-1。xAI官方网站称，其遵照Apache 2.0协议开放模型权重和架构。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="/?tab=collection&colType=3"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>月刊</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="/?tab=collection"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>Github开源项目精选10月月刊</a>
+                                </div>
+                                <a href="/github/collection/detail?collectionId=01K990A4EX6MPDHRVA7BM3EWJK" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20241104/pic_org_99d851ba-e897-42e4-85c4-5b9c40df6df8.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="/?tab=collection" style="color:white;font-size:1rem;float:right;padding-right:5%">Github开源项目精选10月月刊</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://www.deepspeed.ai/"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>Microsoft</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/microsoft/DeepSpeed"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>microsoft/DeepSpeed</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=MDEwOlJlcG9zaXRvcnkyMzU4NjAyMDQ=" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/20230511/pic_org_f57f8e1b-493d-472c-94dc-f9e108fb0508.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/microsoft/DeepSpeed" style="color:white;font-size:1rem;float:right;padding-right:5%">一个深度学习优化库，它使分布式训练和推理变得简单、高效</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href=""><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>蛋白质结构预测</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/google-deepmind/alphafold"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>google-deepmind/alphafold</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=MDEwOlJlcG9zaXRvcnkzNzc4NTE5NDg=" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/20240516/pic_org_56367f9d-426e-4391-b0ae-e9f83f702669.gif"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/google-deepmind/alphafold" style="color:white;font-size:1rem;float:right;padding-right:5%">一个突破性的生物信息学工具，用于预测蛋白质结构。该项目基于先进的深度学习技术，能够在原子级别上准确预测蛋白质的三维结构，这是生物学和医学研究中的一大挑战。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://research.myshell.ai/open-voice"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>即时语音克隆AI工具</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/myshell-ai/OpenVoice"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>myshell-ai/OpenVoice</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=R_kgDOKzf7EQ" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/q_mini/20240103/pic_org_00649a0e-9cd4-4fb6-8b16-c1d511c6c804.jpg"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/myshell-ai/OpenVoice" style="color:white;font-size:1rem;float:right;padding-right:5%">一款强大的多语言即时语音克隆AI工具，只需提供发言者的短音频片段，即可实现声音的高效克隆。</a></h3>
+                            </div>
+                        </div>
+                        <div class="txtline">
+                                <div class="badge position-absolute ">
+                                    <a class="btn btn-xs btn-success mt-n10" target="_blank" href="https://redis.io/"><img src="/assets/scrollgraph/website.svg" style="height:18px;width:18px"/>Redis云平台</a>
+                                    <a class="btn btn-xs btn-primary mt-n10" target="_blank" href="https://github.com/sohutv/cachecloud"><img src="/assets/scrollgraph/github.svg" style="height:18px;width:18px"/>sohutv/cachecloud</a>
+                                </div>
+                                <a href="github/dig?cateId=recommendHot&repoId=MDEwOlJlcG9zaXRvcnk1MDQwNjU0NA==" target="_blank">
+                                    <img src="http://photocdn.tv.sohu.com/img/20230510/pic_org_c6a9ef4a-d735-4580-89e1-d6f084c1ebc1.png"  style="width:100%;height:100%">
+                                </a>
+                            <div class="txt">
+                                <h3><a href="https://github.com/sohutv/cachecloud" style="color:white;font-size:1rem;float:right;padding-right:5%">Redis云管理平台:支持Redis多种架构，有效降低大规模运维成本，提升资源管控能力和利用率。</a></h3>
+                            </div>
+                        </div>
+            </div>
+
+
+<div class="modal fade" id="releaseRepo" tabindex="-1" aria-labelledby="releaseRepoTable" aria-hidden="true" data-url="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <!-- Modal feed header START -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabelCreateAlbum">发布设置</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-4">
+          <div class="col-12">
+            <label class="form-label">仓库URL</label>
+            <input id="repoUrl" type="email" class="form-control" placeholder="例如: https://github.com/apache/rocketmq">
+          </div>
+          <!-- Description
+          <div class="col-12">
+              <label class="form-label">仓库描述</label>
+              <textarea id="repoDesc" class="form-control" onfocus="copyClipboard('repoDesc')" rows="2" placeholder="例如: Apache RocketMQ is a cloud native messaging and ……"></textarea>
+          </div>-->
+          <!-- 悬赏数量 -->
+          <div class="col-12">
+            <label class="form-label" for="num">悬赏星币</label>
+            <input id="num" type="text" class="form-control" placeholder="您最大的悬赏星币数量：" style="width: 30%"
+                   onkeyup="this.value=this.value.replace(/\D/g,'')">
+            </select>
+          </div>
+        </form>
+        <!-- Form END -->
+      </div>
+      <!-- Modal feed body END -->
+      <!-- Modal footer -->
+      <!-- Button -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger-soft me-2" data-bs-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-success-soft" onclick="releaseTask()">发布</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type='text/javascript'>
+  function releaseTask(){
+    var costVal = 1;
+    var numVal = $("#num").val();
+    numVal = parseInt(numVal);
+    if(isNaN(numVal)){
+      toastr.error("悬赏次数必须为数字类型，请检查后再试");
+      return
+    }
+    var url = $('#repoUrl').val();
+    var desc = $('#repoDesc').val();
+    post('/task/release', {
+      releaseRepoUrl: url,
+      repoDesc: desc,
+      rewardNum: numVal,
+      rewardCost: costVal
+    },function (result) {
+      if (result.status == 200){
+        var coin = result.result.starCoin;
+        $("#headCoin").text(coin);
+        toastr.success("任务发布申请提交成功，正在审核");
+        setTimeout("loadNew()",2000);
+      }else {
+        toastr.error("任务发布失败，"+result.message);
+      }
+      $('#repoUrl').val("");
+      $('#repoDesc').val("");
+      $("#num").val("");
+      $('#releaseRepo').modal('hide');
+    });
+  }
+
+  function loadNew(){
+    window.location.reload(true);
+  }
+</script><div class="modal fade" id="recommendRepo" tabindex="-1" aria-labelledby="recommendRepoTable" aria-hidden="true" data-url="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <form class="row g-1" id="form" enctype="multipart/form-data">
+      <!-- Modal feed header START -->
+      <div class="modal-header">
+        <h5 class="modal-title text-success" id="modalLabelCreateAlbum">开源项目推荐</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-4">
+          <div class="col-12">
+            <input id="repoId" style="display: none"/>
+            <label class="mb-0 h6">Github仓库地址：<span class="text-danger">*</span><span id="tip"></span></label>
+            <input id="githubUrl" class="form-control" placeholder="例如: https://github.com/apache/rocketmq" onchange="checkRepo()">
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">精编标题：<span class="text-danger">*</span></label>
+            <input id="shortTitle" class="form-control" placeholder="例如: RocketMQ消息中间件">
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">封面图：<span class="text-danger">*</span></label>
+            <input id="file" name="file" class="form-control" type="file" accept="image/png,image/gif,image/jpg,image/jpeg,image/bmp,image/tif" maxlength="10485760" style="display: inline; width: 90%; margin-top: 10px">
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">官网地址：</label>
+            <input id="website" class="form-control" placeholder="例如: https://rocketmq.apache.org/">
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">文档地址：</label>
+            <input id="docUrl" class="form-control" placeholder="例如: https://rocketmq.apache.org/docs/">
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">体验地址：</label>
+            <input id="playUrl" class="form-control" placeholder="例如: https://rocketmq.apache.org/download">
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">分类：<span class="text-danger">*</span></label>
+            <select class="form-select" id="categoryId" style="height: 40px;width: 150px;border-radius: 5px;border: 1px solid #ced4da; text-align: center;margin-left:5px;">
+              <option value="-1" >请选择</option>
+                              <option value="01GWPFA3HJQTSW39SF8SNVKZZ2">ChatGPT</option>
+                <option value="01GTK9N7P510TQWFR694MX6GV4">AI</option>
+                <option value="01GXQ2600BGWVD0RKS4WD2CVXX">算法</option>
+                <option value="01GX5RR1PVJXGVK638M2WTXP27">视频图像</option>
+                <option value="01GX5JMQKX6T7Q9340KAVKME3D">监控诊断</option>
+                <option value="01GX54H1G0Q1NJ1JB60GQ8FCD0">中间件</option>
+                <option value="01GTKNAXWNFAQSVZZE35YA9HTY">3D</option>
+                <option value="01GTK9N7QC0X855BDS208W2EQ7">面试求职</option>
+                <option value="01GX5QKQ4NRKG97JR8JSTJ2RJ6">设计</option>
+                <option value="01GTGX6MYVBA4PFXTH4EH6P1SE">工具</option>
+                <option value="01H1XNX0W3YQFDC16DR2F3B0GA">后端</option>
+                <option value="01GX5KH8C0JGFQ9V7RHMHEGTHC">编程语言</option>
+                <option value="01GTGX6MYX7JQ1AN2GGXGPZ6K1">游戏</option>
+                <option value="01GTGX6MXFE85RNYQ9E1WQA5T2">前端</option>
+                <option value="01H8BH56EVA90HBNCF1R98JC2S">应用软件</option>
+                <option value="01H2M09172FGQRN8Q36VNXG3RK">学习社区</option>
+                <option value="01GTK9N7QQJ5W28GRNYNP7NAKZ">资源库</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label class="mb-0 h6">标签：<span class="text-danger">*</span></label>
+            <input id="taginfo" class="form-control" placeholder="例如: 消息队列;Java;">
+          </div>
+
+          <!-- Description -->
+          <div class="col-12">
+              <label class="mb-0 h6">推荐原因：<span class="text-danger">*</span></label>
+              <textarea id="reason" class="form-control"  rows="5" placeholder="例如: 项目的介绍、优势、以及重要特性说明"></textarea>
+          </div>
+
+          <label class="text-success">
+              Tips: 推荐项目规则：<br/>
+                1.近期热门项目或受大众欢迎的项目，最好star>2000以上；<br/>
+                2.推荐原因或理由充分，推荐内容真实有效；<br/>
+                3.审核成功后,会进入"项目推荐"<br/>
+                4.奖励用户2个星币，在"我的奖励"查询状态!
+          </label>
+        </form>
+        <!-- Form END -->
+      </div>
+      <!-- Modal feed body END -->
+      <!-- Modal footer -->
+
+      <!-- Button -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger-soft me-2" data-bs-dismiss="modal">取消</button>
+        <button id="commitBtn" type="button" class="btn btn-success-soft" onclick="commitRepo()">提交</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type='text/javascript'>
+
+  function checkRepo(){
+    var githubUrl = $('#githubUrl').val();
+    if(githubUrl  == null || githubUrl  == ''){
+      alert("请输入Github仓库地址");
+      return;
+    }
+
+    post('/reward/repo/check', {
+      githubUrl: githubUrl ,
+    },function (result) {
+      if (result.status == 200){
+        $('#tip').html("✅");
+        $('#repoId').attr("value",result.message);
+      }else {
+        $('#tip').html("❌<label style=\"color:red\">"+result.message+"</label>");
+        $('#repoId').attr("value","");
+      }
+    });
+  }
+
+  function commitRepo(){
+
+    var shortTitle = $('#shortTitle').val();
+    if(shortTitle  == null || shortTitle  == ''){
+      alert("请输入精编标题");
+      return;
+    }
+    // 推荐原因
+    var reason = $('#reason').val();
+    if(reason  == null || reason  == ''){
+      alert("请输入推荐原因");
+      return;
+    }
+    // 分类信息
+    var categoryId = $('#categoryId option:selected').attr("value");
+    if(categoryId  == null || categoryId  == ''){
+      alert("请选择分类");
+      return;
+    }
+    // 标签信息
+    var taginfo = $('#taginfo').val();
+    if(taginfo  == null || taginfo  == ''){
+      alert("请输入标签信息");
+      return;
+    }
+
+    var file = document.getElementById("file").files[0];
+    if(file != null && file != ''){
+      if(file.size > 5485760){
+        toastr.error("上传图片不能超过5M");
+        return;
+      } else {
+        if (file.name.lastIndexOf('.')==-1){    //如果不存在"."
+          toastr.error("路径不正确!");
+          return;
+        }
+        var AllImgExt=".jpg|.jpeg|.gif|.bmp|.png|.tif|";
+        var extName = file.name.substring(file.name.lastIndexOf(".")).toLowerCase();//（把路径中的所有字母全部转换为小写）
+        if(AllImgExt.indexOf(extName+"|")==-1) {
+          toastr.error("文件类型错误，仅支持上传图片");
+          return;
+        }
+      }
+    }else{
+        alert("请传封面图");
+        return;
+    }
+
+    var repoId = $('#repoId').val();
+    if(repoId == null || repoId == ''){
+      toastr.error("请输入正确的Github仓库地址");
+      return;
+    }
+
+    var form = new FormData($("#form")[0]);
+    form.append("githubUrl", $('#githubUrl').val());
+    form.append("reason", $('#reason').val());
+    form.append("website", $('#website').val());
+    form.append("repoId", repoId);
+    form.append("shortTitle", shortTitle);
+    form.append("categoryId", categoryId);
+    form.append("taginfo", taginfo);
+    form.append("docUrl", $('#docUrl').val());
+    form.append("playUrl", $('#playUrl').val());
+
+    commitBtn.disabled = true;//按钮不可用
+
+    $.ajax({
+      type:"post",
+      url:"/reward/repo/add",
+      dataType:"json",
+      data:form,
+      //是否缓存
+      cache: false,
+      processData: false,
+      contentType: false,
+      success:function (result) {
+        if (result.status == 200){
+          toastr.success("开源项目推荐成功，等待审核");
+          setTimeout("loadNew()",1000);
+          $('#githubUrl').val("");
+          $('#reason').val("");
+          $('#website').val("");
+          $('#repoId').val("");
+          $('#shortTitle').val("");
+          $('#categoryId').val("");
+          $('#docUrl').val("");
+          $('#playUrl').val("");
+          $('#taginfo').val("");
+        }else {
+          toastr.error("推荐项目失败："+result.message);
+        }
+      }
+    });
+
+  }
+
+  function loadNew(){
+    window.location.reload(true);
+  }
+</script><div class="modal fade" id="repoAscend" tabindex="-1" aria-labelledby="repoAscendTable" aria-hidden="true" data-url="">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+                <!-- Modal feed header START -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelCreateAlbum">项目升星</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body pt-0" style="text-align:center">
+                        <img class="avatar-img " style="width:160px;height:160px;" src="/images/index/vip/qq.png" alt="">
+                        <br/>
+                        <span class="text-warnning">QQ客服</span>
+                    </div>
+
+                    <label>
+                        Tips: 如果你有提升项目Star需求或社区/公众号/知乎号推广项目需求，可以联系我们的客服，我们会为你提供专业的服务。<br/>
+                        <span class="text-success">
+                        具体流程：<br/>
+                        1.加我们的QQ/微信客服🤖，备注：你的Github用户名+需求说明<br/>
+                        2.沟通需求,进入我们的VIP群🎉<br/>
+                        3.享受社区VIP用户特权🎟<br/>
+                        </span>
+                    </label>
+                    <!-- Form END -->
+                </div>
+
+        </div>
+    </div>
+</div>
+<script type='text/javascript'>
+
+    var coin = 0;
+
+    $(function(){
+        <!-- 加载选项 -->
+        $.get("/user/basic", function (result) {
+            if (result){
+                coin = result.starCoin;
+                var content = "";
+                for (let i = 1; i <= coin; i++) {
+                    content = content + " <option value="+ i + " style= 'text-align: left'>" + i + "    ⭐</option> "
+                }
+                $("#cost").append(content);
+            }
+        })
+    });
+
+    function loadNum(){
+        $("#num").empty();
+        let val = $("#cost").val();
+        var maxNum = parseInt(coin / val);
+        var content = "";
+        for (let i = 1; i <= maxNum; i++) {
+            content = content + " <option value="+ i + " style= 'text-align: left'>" + i + " ⚡</option> "
+        }
+        $("#num").append(content);
+    }
+</script>            <div class="card-footer mt-3 pt-2 pb-0">
+                <!-- Nav profile pages -->
+                <ul class="nav nav-bottom-line align-items-center justify-content-center justify-content-md-start mb-0 border-0">
+                    <li id="communityFeed" onclick="activeTab('communityFeed')" data-url="/feed/community" class="nav-item"> <a href="" onclick="return false;" class="nav-link active"> <img src="/images/index/community.svg" width="30px" height="30px"/> 社区 <span class="badge bg-success bg-opacity-10 text-success small"> 462</span> </a> </li>
+                    <li id="taskList" onclick="activeTab('taskList')" data-url="/task/taskIndex" class="nav-item"> <a href="" onclick="return false;" class="nav-link"> <img src="/images/index/taskName.svg" width="30px" height="30px"/> 任务 <span class="badge bg-success bg-opacity-10 text-success small"> 124</span></a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card" id="cardBody">
+        </div>
+    </div>
+<div class="col-lg-4">
+    <div class="row g-4">
+                <div class="col-md-6 col-lg-12">
+            <div class="card">
+<div class="card">
+    <div class="card">
+        <div class="card-header border-0 pb-0">
+            <h5 class="card-title">社区规范</h5>
+            <!-- Button modal -->
+        </div>
+        <div class="card-body hstack gap-3 gap-xl-3 justify-content-center">
+            <!-- User stat item -->
+            <div>
+                <a href="/guide" target="_blank"><img class="avatar-img avatar-xs fa-fw" src="/assets/images/icon/clipboard-outline-filled.svg" alt="使用文档"></a><br>
+                文档
+            </div>
+            <div class="vr"></div>
+            <!-- User stat item -->
+            <div>
+                <a href="/reward" target="_blank"><img class="avatar-img avatar-xs fa-fw" src="/images/index/reward/rewards.svg" alt="用户奖励"></a><br>
+                奖励
+            </div>
+            <div class="vr"></div>
+            <!-- User stat item -->
+            <div>
+                <a href="https://qm.qq.com/cgi-bin/qm/qr?k=M-frKdANHJ5D5erFrTZMoLMuqun2WKrb&amp;jump_from=webapi&amp;authKey=c9X5YZU2Nf/01uUNcufrEXentMPHUTAgNwBYrB28JvMGvtbTdC8lof0a6SrhLgVG" target="_blank"><img class="avatar-img avatar-xs fa-fw" src="/assets/images/icon/qq.svg" alt="QQ群"></a><br>
+                QQ群
+            </div>
+            <div class="vr"></div>
+
+            <div>
+                <a href="https://github.com/OpenGithubs" target="_blank"><img class="avatar-img avatar-xs fa-fw" src="/images/index/github.svg" alt="Github"></a><br>
+                Github
+            </div>
+                    </div>
+<!--        <div class="card-body hstack gap-4 gap-xl-3 justify-content-center">-->
+<!--            &lt;!&ndash; User stat item &ndash;&gt;-->
+<!--            <span class="btn btn-success-soft"> 社区用户：442</span>-->
+
+<!--            &lt;!&ndash; User stat item &ndash;&gt;-->
+<!--            <span class="btn btn-success-soft"> 开源项目：666</span>-->
+<!--        </div>-->
+        <div class="card-body pt-0" style="text-align:center">
+            <img class="avatar-img " style="width:160px;height:160px;" src="/assets/images/wechat.png" alt="">
+        </div>
+    </div>
+</div>            </div>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <div class="card">
+<div class="col-sm-6 col-lg-12">
+    <div class="card">
+        <!-- Card header START -->
+        <div class="card-header pb-0 border-0">
+            <h5 class="card-title mb-0">获赞排行</h5>
+        </div>
+        <div class="card-body" id="starRankId">
+                                <div class="hstack gap-2 mb-3">
+                        <div class="avatar">
+                                <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/img/github/114710882.jpg" alt="">
+                        </div>
+                        <div class="overflow-hidden">
+                            <a class="h6 mb-0" href="http://github.com/SimonLarsena" target="_blank">SimonLarsena</a>
+                        </div>
+                        <i class="bi bi-star-fill me-1 ms-auto"></i> 2232
+                    </div>
+                    <div class="hstack gap-2 mb-3">
+                        <div class="avatar">
+                                <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/img/github/117137948.jpg" alt="">
+                        </div>
+                        <div class="overflow-hidden">
+                            <a class="h6 mb-0" href="http://github.com/AralRocais" target="_blank">AralRocais</a>
+                        </div>
+                        <i class="bi bi-star-fill me-1 ms-auto"></i> 1996
+                    </div>
+                    <div class="hstack gap-2 mb-3">
+                        <div class="avatar">
+                                <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/github/125799496.jpg" alt="">
+                        </div>
+                        <div class="overflow-hidden">
+                            <a class="h6 mb-0" href="http://github.com/MaciejCzyzewsk" target="_blank">MaciejCzyzewsk</a>
+                        </div>
+                        <i class="bi bi-star-fill me-1 ms-auto"></i> 1965
+                    </div>
+                    <div class="hstack gap-2 mb-3">
+                        <div class="avatar">
+                                <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/img/github/118788243.jpg" alt="">
+                        </div>
+                        <div class="overflow-hidden">
+                            <a class="h6 mb-0" href="http://github.com/MedRedhatas" target="_blank">MedRedhatas</a>
+                        </div>
+                        <i class="bi bi-star-fill me-1 ms-auto"></i> 1887
+                    </div>
+                    <div class="hstack gap-2 mb-3">
+                        <div class="avatar">
+                                <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/img/github/110893704.jpg" alt="">
+                        </div>
+                        <div class="overflow-hidden">
+                            <a class="h6 mb-0" href="http://github.com/LuausDalmolin" target="_blank">LuausDalmolin</a>
+                        </div>
+                        <i class="bi bi-star-fill me-1 ms-auto"></i> 1787
+                    </div>
+        </div>
+        <div class="d-grid mt-3">
+            <!-- Load more button START -->
+            <a id="userRankNextPageBtn" href="javascript:void(0);" onclick="loadStarRank()"  role="button" class="btn btn-sm btn-loader btn-primary-soft" data-bs-toggle="button" aria-pressed="true">
+                <span class="load-text" id="userRankLoadMore"> View more </span>
+                <div class="load-icon">
+                    <div class="spinner-grow spinner-grow-sm" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Load more button END -->
+        </div>
+        <!-- Card body END -->
+    </div>
+</div>
+
+<script>
+
+    var curStarPage = 0;
+    function loadStarRank() {
+        disable("userRankNextPageBtn");
+        if(curStarPage >= 4){
+            $("#userRankNextPageBtn").attr("style","display: none;")
+            toastr.warning("用户获赞榜单最多展示前20条数据");
+            return;
+        }
+
+        $.get(
+            '/rank/getStarRank.json',
+            {
+                page: (curStarPage + 1)
+            },
+            function (data) {
+                if (data.status == 200) {
+                    var html = '';
+                    for (var i = 0; i < data.result.length; i++){
+                        var imageUrl = (data.result[i].cdnAvatarUrl == null || data.result[i].cdnAvatarUrl == "") ? data.result[i].avatarUrl : data.result[i].cdnAvatarUrl;
+                        html += '<div class="hstack gap-2 mb-3">' +
+                            '<div class="avatar">' +
+                            ' <img class="avatar-img rounded-circle" src="' + imageUrl + '" alt="">' +
+                            '</div>' +
+                            '<div class="overflow-hidden">' +
+                            '<a class="h6 mb-0" href="http://github.com/' + data.result[i].login + '" target="_blank">' + data.result[i].login + '</a>' +
+                            '</div>' +
+                            '<i class="bi bi-star-fill me-1 ms-auto"></i> ' + data.result[i].stargazerCount  +
+                            '</div>';
+                    }
+                    $("#starRankId").append(html);
+                    enable("userRankNextPageBtn");
+                    $("#userRankNextPageBtn").removeClass("active");
+                    curStarPage += 1;
+                }else if(data.status == 201){
+                    $("#userRankNextPageBtn").attr("style","display: none;")
+                    toastr.warning("用户获赞榜单最多展示前20条数据");
+                }
+            }
+        )
+
+    }
+
+</script>            </div>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <div class="card">
+<!-- Card header START -->
+<div class="card-header d-sm-flex justify-content-between align-items-center border-0">
+    <h5 class="card-title">热门仓库 </h5>
+    <a class="btn btn-primary-soft btn-sm" href="javascript:void(0);" onclick="changeHotRepos()" role="button"> 换一换 </a>
+</div>
+<!-- Card header END -->
+<!-- Card body START -->
+<div class="card-body position-relative pt-0">
+    <div class="row g-3" id="hotReposId">
+                        <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/slatedocs/slate">
+                                        <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/54482270?v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-0"><a target="_blank" href="https://github.com/slatedocs/slate">slatedocs/slate</a></h6>
+                            <ul class="list-inline mb-0 text-center text-sm-start mt-3 mt-sm-0">
+                                <li class="list-inline-item">
+                                    <i class="bi bi-star-fill me-1"></i> 34.8k
+                                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                                         data-view-component="true" class="octicon octicon-repo-forked mr-2">
+                                        <path fill-rule="evenodd"
+                                              d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                                    </svg>
+                                    21.8k
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/yarnpkg/yarn">
+                                        <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/22247014?v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-0"><a target="_blank" href="https://github.com/yarnpkg/yarn">yarnpkg/yarn</a></h6>
+                            <ul class="list-inline mb-0 text-center text-sm-start mt-3 mt-sm-0">
+                                <li class="list-inline-item">
+                                    <i class="bi bi-star-fill me-1"></i> 41k
+                                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                                         data-view-component="true" class="octicon octicon-repo-forked mr-2">
+                                        <path fill-rule="evenodd"
+                                              d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                                    </svg>
+                                    2.9k
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/faif/python-patterns">
+                                        <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/1304661?u=3c1b0dbad33966d8eea133e85724bda354dedc89&v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-0"><a target="_blank" href="https://github.com/faif/python-patterns">faif/python-patterns</a></h6>
+                            <ul class="list-inline mb-0 text-center text-sm-start mt-3 mt-sm-0">
+                                <li class="list-inline-item">
+                                    <i class="bi bi-star-fill me-1"></i> 36.2k
+                                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                                         data-view-component="true" class="octicon octicon-repo-forked mr-2">
+                                        <path fill-rule="evenodd"
+                                              d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                                    </svg>
+                                    6.7k
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/vuetifyjs/vuetify">
+                                        <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/22138497?v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-0"><a target="_blank" href="https://github.com/vuetifyjs/vuetify">vuetifyjs/vuetify</a></h6>
+                            <ul class="list-inline mb-0 text-center text-sm-start mt-3 mt-sm-0">
+                                <li class="list-inline-item">
+                                    <i class="bi bi-star-fill me-1"></i> 36.2k
+                                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                                         data-view-component="true" class="octicon octicon-repo-forked mr-2">
+                                        <path fill-rule="evenodd"
+                                              d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                                    </svg>
+                                    6.5k
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</div>
+
+<script>
+    function changeHotRepos() {
+        $.get(
+            '/rank/hotRepos.json',
+            function (data) {
+                if (data.status == 200) {
+                    if(data.result != null){
+                        var content = '';
+                        for (var i = 0; i < data.result.length; i++) {
+                            var stargazerCount = (data.result[i].stargazerCount / 1000).toFixed(1);
+                            var forkCount = (data.result[i].forkCount / 1000).toFixed(1);
+                            var imageUrl = (data.result[i].user.cdnAvatarUrl == null || data.result[i].user.cdnAvatarUrl == "") ? data.result[i].user.avatarUrl : data.result[i].user.cdnAvatarUrl;
+                            content +=
+                                '<div class="col-6">' +
+                                '<div class="card shadow-none text-center h-100">' +
+                                '<div class="card-body p-2 pb-0" >' +
+                                '<div class="avatar avatar-story avatar-xl">' +
+                                '<a target="_blank" href="' + data.result[i].url + '"><img class="avatar-img rounded-circle" src="' + imageUrl + '" alt=""></a>' +
+                                '</div>' +
+                                '<h6 class="card-title mb-0"><a target="_blank" href="' + data.result[i].url + '/stargazers">' + data.result[i].url.replace('https://github.com/', '') + '</a></h6>' +
+                                '<ul class="list-inline mb-0 text-center text-sm-start mt-3 mt-sm-0">' +
+                                '<li class="list-inline-item">' +
+                                '<i class="bi bi-star-fill me-1"></i> ' + stargazerCount + 'k' +
+                                '<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>' +forkCount + 'k' +
+                                '</li>' +
+                                '</ul>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>';
+                        }
+                        $("#hotReposId").html(content);
+                    }else if(data.defaultHtml != null) {
+                        $("#hotReposId").html(data.defaultHtml);
+                    }
+                } else {
+                    alert("Error！请重试！");
+                }
+            }
+        )
+    }
+</script>            </div>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <div class="card">
+<!-- Card header START -->
+<div class="card-header d-sm-flex justify-content-between align-items-center border-0">
+    <h5 class="card-title"> 大V用户 </h5>
+    <a class="btn btn-primary-soft btn-sm" href="javascript:void(0);" onclick="changeBigV()" role="button"> 换一换 </a>
+</div>
+<!-- Card header END -->
+<!-- Card body START -->
+<div class="card-body position-relative pt-0">
+    <div class="row g-3" id="bigVId">
+                        <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/IBM-EPBL">
+                                         <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/102575335?v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a target="_blank" href="https://github.com/IBM-EPBL?tab=followers">IBM-EPBL</a></h6>
+                            <p class="mb-0 small lh-sm"><i class="bi bi-people me-1"></i>follower:2.9k </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/AthosFB">
+                                         <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/80980718?u=9ae21c07de4a88df9ad321be6e3bfa146485b5e8&v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a target="_blank" href="https://github.com/AthosFB?tab=followers">AthosFB</a></h6>
+                            <p class="mb-0 small lh-sm"><i class="bi bi-people me-1"></i>follower:1.6k </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/Vermisse">
+                                         <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/17972943?u=8a87a4958851cd6111f79a57920e89de25deffb2&v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a target="_blank" href="https://github.com/Vermisse?tab=followers">Vermisse</a></h6>
+                            <p class="mb-0 small lh-sm"><i class="bi bi-people me-1"></i>follower:2.5k </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-none text-center h-100">
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a target="_blank" href="https://github.com/saulmm">
+                                         <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/3531999?u=33f2da1f2b89f3f0fe209b607525a05589695b37&v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a target="_blank" href="https://github.com/saulmm?tab=followers">saulmm</a></h6>
+                            <p class="mb-0 small lh-sm"><i class="bi bi-people me-1"></i>follower:2.8k </p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</div>
+
+<script>
+    function changeBigV() {
+        $.get(
+            '/rank/bigV.json',
+            function (data) {
+                if (data.status == 200) {
+                    if(data.result != null){
+                        var content = '';
+                        for (var i = 0; i < data.result.length; i++) {
+                            var followersCount = (data.result[i].followersCount / 1000).toFixed(1);
+                            var imageUrl = (data.result[i].cdnAvatarUrl == null || data.result[i].cdnAvatarUrl == "") ? data.result[i].avatarUrl : data.result[i].cdnAvatarUrl;
+                            content +=
+                                '<div class="col-6">' +
+                                '<div class="card shadow-none text-center h-100">' +
+                                '<div class="card-body p-2 pb-0">' +
+                                '<div class="avatar avatar-story avatar-xl">' +
+                                '<a target="_blank" href="' + data.result[i].url + '"><img class="avatar-img rounded-circle" src="' + imageUrl + '" alt=""></a>' +
+                                '</div>' +
+                                '<h6 class="card-title mb-0"><a target="_blank" href="' + data.result[i].url + '?tab=followers">' + data.result[i].login + '</a></h6>' +
+                                '<p class="mb-0 small lh-sm"><i class="bi bi-people me-1"></i>'+followersCount+'k </p>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>';
+                        }
+                        $("#bigVId").html(content);
+                    }else if(data.defaultHtml != null){
+                        $("#bigVId").html(data.defaultHtml);
+                    }
+                } else {
+                    alert("Error！请重试！");
+                }
+            }
+        )
+    }
+</script>            </div>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <div class="card">
+<!-- Card header START -->
+<div class="card-header d-sm-flex justify-content-between align-items-center border-0">
+    <h5 class="card-title">热门组织</h5>
+    <a class="btn btn-primary-soft btn-sm" href="javascript:void(0);" onclick="changeOrganization()" role="button"> 换一换 </a>
+</div>
+<!-- Card header END -->
+<!-- Card body START -->
+<div class="card-body position-relative pt-0">
+    <div class="row g-3" id="organizationId">
+                        <div class="col-6">
+                    <!-- Friends item START -->
+                    <div class="card shadow-none text-center h-100">
+                        <!-- Card body -->
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a href="#!">
+                                        <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/img/github/792337.jpg" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a href="https://github.com/openshift" target="_blank" > openshift </a></h6>
+                            <p class="mb-0 small lh-sm">
+                                <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt="">Members:320
+                                Repos:653
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Friends item END -->
+                </div>
+                <div class="col-6">
+                    <!-- Friends item START -->
+                    <div class="card shadow-none text-center h-100">
+                        <!-- Card body -->
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a href="#!">
+                                        <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/288276?v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a href="https://github.com/numpy" target="_blank" > numpy </a></h6>
+                            <p class="mb-0 small lh-sm">
+                                <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt="">Members:41
+                                Repos:24
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Friends item END -->
+                </div>
+                <div class="col-6">
+                    <!-- Friends item START -->
+                    <div class="card shadow-none text-center h-100">
+                        <!-- Card body -->
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a href="#!">
+                                        <img class="avatar-img rounded-circle" src="http://photocdn.tv.sohu.com/img/github/56974.jpg" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a href="https://github.com/eclipse" target="_blank" > eclipse </a></h6>
+                            <p class="mb-0 small lh-sm">
+                                <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt="">Members:175
+                                Repos:487
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Friends item END -->
+                </div>
+                <div class="col-6">
+                    <!-- Friends item START -->
+                    <div class="card shadow-none text-center h-100">
+                        <!-- Card body -->
+                        <div class="card-body p-2 pb-0">
+                            <div class="avatar avatar-story avatar-xl">
+                                <a href="#!">
+                                        <img class="avatar-img rounded-circle" src="https://avatars.githubusercontent.com/u/1231870?v=4" alt="">
+                                </a>
+                            </div>
+                            <h6 class="card-title mb-1 mt-3"> <a href="https://github.com/circleci" target="_blank" > circleci </a></h6>
+                            <p class="mb-0 small lh-sm">
+                                <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt="">Members:30
+                                Repos:78
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Friends item END -->
+                </div>
+    </div>
+</div>
+<!-- Card body END -->
+
+<script>
+    function changeOrganization() {
+        $.get(
+            '/rank/organization.json',
+            function (data) {
+                if (data.status == 200) {
+                    if(data.result != null){
+                        var content = '';
+                        for (var i = 0; i < data.result.length; i++) {
+                            var imageUrl = (data.result[i].cdnAvatarUrl == null || data.result[i].cdnAvatarUrl == "") ? data.result[i].avatarUrl : data.result[i].cdnAvatarUrl;
+                            content +=
+                                '<div class="col-6">' +
+                                '<div class="card shadow-none text-center h-100">' +
+                                '<div class="card-body p-2 pb-0" >' +
+                                '<div class="avatar avatar-story avatar-xl">' +
+                                '<a target="_blank" href="' + data.result[i].url + '"><img class="avatar-img rounded-circle" src="' + imageUrl + '" alt=""></a>' +
+                                '</div>' +
+                                '<h6 class="card-title mb-0"><a target="_blank" href="' + data.result[i].url + '">' + data.result[i].url.replace('https://github.com/', '') + '</a></h6>' +
+                                '<p class="mb-0 small lh-sm">' +
+                                '<img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt="">Members: '+data.result[i].membersCount+' Repos: '+data.result[i].repositories.totalCount+'' +
+                                '</p>' +
+                                '</div>' +
+                                '</div>' +
+                                '</div>';
+                        }
+                        $("#organizationId").html(content);
+                    }else if(data.defaultHtml != null) {
+                        $("#organizationId").html(data.defaultHtml);
+                    }
+                } else {
+                    alert("Error！请重试！");
+                }
+            }
+        )
+    }
+</script>            </div>
+        </div>
+    </div>
+</div></div>
+
+
+<!--<script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/0.1.0-beta.5/libs/cn/index.js"></script>-->
+<!--<script>-->
+<!--    new CozeWebSDK.WebChatClient({-->
+<!--        config: {-->
+<!--            bot_id: '7387710821096439823',-->
+<!--        },-->
+<!--        componentProps: {-->
+<!--            title: 'Coze',-->
+<!--        },-->
+<!--    });-->
+<!--</script>-->
+
+
+<script type="text/javascript">
+
+    /**
+     * tab
+     * @param tab
+     */
+    function showTab(tab){
+        $.get($("#"+tab).attr("data-url"), function (result) {
+            $("#cardBody").html(result);
+        });
+    }
+
+    function activeTab(tab){
+        if (tab != "communityFeed" && tab != "taskList" ) {
+                loginPrompt();
+                return;
+        }
+        $("#"+tab).siblings().children("a").removeClass("active");
+        $("#"+tab+" a").addClass("active")
+        showTab(tab);
+    }
+    $(function(){
+        activeTab("communityFeed");
+        $('#signInDropdown').click();
+    });
+
+</script>
+            </div>
+        </main>
+<footer class="bg-mode py-3">
+    <div class="container">
+        <div class="footer-bottom_info text-center mb-0" >Architecture All in <a href="https://redis.io/docs/stack/" target="_blank" >Redis Stack</a>:<a href="https://redis.io/docs/stack/search/" target="_blank">RediSearch</a>-<a href="https://redis.io/docs/stack/json/" target="_blank">RedisJSON</a>-<a href="https://redis.io/docs/stack/get-started/tutorials/stack-spring" target="_blank">Redis OM Spring</a> + <a href="https://docs.github.com/en/graphql" target="_blank">GitHub GraphQL API</a></div>
+        <div class="footer-bottom_copyright text-center">Copyright © 2025 Sohu.com Inc.All Rights Reserved.</div>
+    </div>
+</footer>
+    </body>
+</html>

@@ -25,6 +25,7 @@ import requests
 from bs4 import BeautifulSoup
 import feedparser
 import sqlite3
+import random
 
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -592,7 +593,9 @@ def load_repo_candidates_from_bookmarks(bookmarks_path: str) -> list[dict]:
                     continue
                 seen.add(key)
                 candidates.append({"platform": platform, "owner": owner, "repo": repo})
-    return candidates
+    allowed = {"apache", "google", "facebook", "facebookresearch", "twitter", "x"}
+    filtered = [c for c in candidates if c.get("owner", "").lower() in allowed]
+    return random.sample(filtered, k=min(20, len(filtered)))
 
 
 def github_latest_release(owner: str, repo: str, timeout: int = 12) -> dict | None:

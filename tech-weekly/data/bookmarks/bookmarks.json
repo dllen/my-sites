@@ -1,7 +1,7 @@
 {
   "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
   "version": "0.0.6",
-  "createDate": 1762862333385,
+  "createDate": 1763522656519,
   "bookmarks": [
     {
       "children": [
@@ -81,11 +81,6 @@
               "syncing": true,
               "title": "qdrant/qdrant: Qdrant - Vector Database for the next generation of AI applications. Also available in the cloud https://cloud.qdrant.io/",
               "url": "https://github.com/qdrant/qdrant"
-            },
-            {
-              "syncing": true,
-              "title": "microblog.pub - A self-hosted, single-user, ActivityPub powered microblog.",
-              "url": "https://docs.microblog.pub/installing.html"
             },
             {
               "syncing": true,
@@ -341,11 +336,6 @@
               "syncing": true,
               "title": "cp-algorithms/cp-algorithms: Algorithm and data structure articles for https://cp-algorithms.com (based on http://e-maxx.ru)",
               "url": "https://github.com/cp-algorithms/cp-algorithms"
-            },
-            {
-              "syncing": true,
-              "title": "Developer27149/tabX: 一个 chrome 浏览器插件，支持灵活地管理全部 tab 页面",
-              "url": "https://github.com/Developer27149/tabX"
             },
             {
               "syncing": true,
@@ -824,11 +814,6 @@
             },
             {
               "syncing": true,
-              "title": "Getting Started | Atuin",
-              "url": "https://atuin.sh/docs"
-            },
-            {
-              "syncing": true,
               "title": "diesel-rs/diesel: A safe, extensible ORM and Query Builder for Rust",
               "url": "https://github.com/diesel-rs/diesel"
             },
@@ -836,11 +821,6 @@
               "syncing": true,
               "title": "eunomia-bpf/bpftime: Userspace eBPF runtime for fast Uprobe & Syscall hook & Plugins",
               "url": "https://github.com/eunomia-bpf/bpftime"
-            },
-            {
-              "syncing": true,
-              "title": "ecc usage - eunomia",
-              "url": "https://eunomia.dev/ecc/usage/"
             },
             {
               "syncing": true,
@@ -966,11 +946,6 @@
               "syncing": true,
               "title": "usememos/memos: An open source, lightweight note-taking service. Easily capture and share your great thoughts.",
               "url": "https://github.com/usememos/memos"
-            },
-            {
-              "syncing": true,
-              "title": "Teamlinker/Teamlinker: Teamlinker is a team collaboration platform that integrates multi-functional modules. Users can process tasks in parallel, including six functional modules: project, wiki, calendar, meeting, chat and network disk, achieving seamless integration and improving team collaboration efficiency.",
-              "url": "https://github.com/Teamlinker/Teamlinker/tree/main"
             },
             {
               "syncing": true,
@@ -1129,11 +1104,6 @@
             },
             {
               "syncing": true,
-              "title": "yuzu-emu/yuzu: Nintendo Switch emulator",
-              "url": "https://github.com/yuzu-emu/yuzu"
-            },
-            {
-              "syncing": true,
               "title": "Speykious/cve-rs: Blazingly 🔥 fast 🚀 memory vulnerabilities, written in 100% safe Rust. 🦀",
               "url": "https://github.com/Speykious/cve-rs"
             },
@@ -1216,11 +1186,6 @@
               "syncing": true,
               "title": "apache/servicecomb-java-chassis: ServiceComb Java Chassis is a Software Development Kit (SDK) for rapid development of microservices in Java, providing service registration, service discovery, dynamic routing, and service management features",
               "url": "https://github.com/apache/servicecomb-java-chassis/tree/master"
-            },
-            {
-              "syncing": true,
-              "title": "yesmore/vmail: Open source temporary email tool. 开源临时邮箱工具 👉 vmail.dev",
-              "url": "https://github.com/yesmore/vmail"
             },
             {
               "syncing": true,
@@ -1581,11 +1546,6 @@
               "syncing": true,
               "title": "HigherOrderCO/Bend: A massively parallel, high-level programming language",
               "url": "https://github.com/HigherOrderCO/Bend"
-            },
-            {
-              "syncing": true,
-              "title": "LayerZero-Labs/sybil-report",
-              "url": "https://github.com/LayerZero-Labs/sybil-report"
             },
             {
               "syncing": true,
@@ -2425,11 +2385,6 @@
             },
             {
               "syncing": true,
-              "title": "PDF-Extract-Kit/README-zh_CN.md at main · opendatalab/PDF-Extract-Kit",
-              "url": "https://github.com/opendatalab/PDF-Extract-Kit/blob/main/README-zh_CN.md"
-            },
-            {
-              "syncing": true,
               "title": "benbjohnson/litestream: Streaming replication for SQLite.",
               "url": "https://github.com/benbjohnson/litestream"
             },
@@ -2567,11 +2522,6 @@
               "syncing": true,
               "title": "google/comprehensive-rust: This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.",
               "url": "https://github.com/google/comprehensive-rust"
-            },
-            {
-              "syncing": true,
-              "title": "jooooock/wechat-article-exporter: 微信公众号文章导出工具，100%还原原文样式",
-              "url": "https://github.com/jooooock/wechat-article-exporter"
             },
             {
               "syncing": true,
@@ -3915,11 +3865,6 @@
             },
             {
               "syncing": true,
-              "title": "Soulter/AstrBot: ✨易上手的多平台 LLM 聊天机器人及开发框架✨。支持 QQ、QQ频道、Telegram、微信个人号(Gewechat)、企业微信、飞书、内置 Web Chat，OpenAI GPT、DeepSeek、Ollama、Llama、GLM、Gemini、硅基流动、月之暗面、OneAPI、LLMTuner，支持 LLM Agent 插件开发，可视化面板。一键部署。支持 Dify 工作流、代码执行器、Whisper 语音转文字。",
-              "url": "https://github.com/Soulter/AstrBot"
-            },
-            {
-              "syncing": true,
               "title": "jingyaogong/minimind: 🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!",
               "url": "https://github.com/jingyaogong/minimind"
             },
@@ -4217,11 +4162,6 @@
               "syncing": true,
               "title": "joeseesun/mcp-prompt-server: 这是一个基于Model Context Protocol (MCP)的服务器，用于根据用户任务需求提供预设的prompt模板，帮助Cline/Cursor/Windsurf...更高效地执行各种任务。服务器将预设的prompt作为工具(tools)返回，以便在Cursor和Windsurf等编辑器中更好地使用。",
               "url": "https://github.com/joeseesun/mcp-prompt-server?tab=readme-ov-file"
-            },
-            {
-              "syncing": true,
-              "title": "RandallAnjie/douyin-hot-hub-music: 一个自动抓取抖音热门音乐榜单的工具，支持高潮片段提取和可视化展示，参考SnailDev/douyin-hot-hub",
-              "url": "https://github.com/RandallAnjie/douyin-hot-hub-music"
             },
             {
               "syncing": true,
@@ -5037,6 +4977,121 @@
               "syncing": true,
               "title": "volcengine/MineContext: MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）",
               "url": "https://github.com/volcengine/MineContext?tab=readme-ov-file"
+            },
+            {
+              "syncing": true,
+              "title": "tw93/Mole: 🐹 Dig deep like a mole to clean you Mac. 像鼹鼠一样深入挖掘来清理你的 Mac",
+              "url": "https://github.com/tw93/Mole"
+            },
+            {
+              "syncing": true,
+              "title": "farion1231/cc-switch: A cross-platform desktop app for managing and switching provider configurations & MCP servers for Claude Code and Codex.",
+              "url": "https://github.com/farion1231/cc-switch"
+            },
+            {
+              "syncing": true,
+              "title": "KuroLabs/stegcloak: Hide secrets with invisible characters in plain text securely using passwords 🧙🏻‍♂️⭐",
+              "url": "https://github.com/KuroLabs/stegcloak/"
+            },
+            {
+              "syncing": true,
+              "title": "Zie619/n8n-workflows: all of the workflows of n8n i could find (also from the site itself)",
+              "url": "https://github.com/Zie619/n8n-workflows"
+            },
+            {
+              "syncing": true,
+              "title": "langgptai/wonderful-prompts: 🔥中文 prompt 精选🔥，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！🚀",
+              "url": "https://github.com/langgptai/wonderful-prompts"
+            },
+            {
+              "syncing": true,
+              "title": "MagicMirrorOrg/MagicMirror: MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.",
+              "url": "https://github.com/MagicMirrorOrg/MagicMirror"
+            },
+            {
+              "syncing": true,
+              "title": "aristocratos/btop: A monitor of resources",
+              "url": "https://github.com/aristocratos/btop"
+            },
+            {
+              "syncing": true,
+              "title": "rajivm1991/DroidDock: A sleek macOS desktop application for browsing Android device files via ADB",
+              "url": "https://github.com/rajivm1991/DroidDock"
+            },
+            {
+              "syncing": true,
+              "title": "vicanso/pingap: A reverse proxy like nginx, built on pingora, simple and efficient.",
+              "url": "https://github.com/vicanso/pingap"
+            },
+            {
+              "syncing": true,
+              "title": "tanhuang2016/RedisFX: 🚀 Lightweight Redis GUI 🌐Full platform support🔥为爱发电💞",
+              "url": "https://github.com/tanhuang2016/RedisFX"
+            },
+            {
+              "syncing": true,
+              "title": "bestruirui/Alle: AI识别的邮件聚合客户端",
+              "url": "https://github.com/bestruirui/Alle"
+            },
+            {
+              "syncing": true,
+              "title": "gocronx-team/gocron: distributed scheduled task management system",
+              "url": "https://github.com/gocronx-team/gocron"
+            },
+            {
+              "syncing": true,
+              "title": "Gaurav-Gosain/tuios: Terminal UI OS (Terminal Multiplexer)",
+              "url": "https://github.com/Gaurav-Gosain/tuios"
+            },
+            {
+              "syncing": true,
+              "title": "Simon-He95/markdown-it-ts: A modern, type-safe rewrite of markdown-it in TypeScript: pluggable rules, split parse/render, CommonMark-compatible; fast one-shot parsing and even faster streaming/incremental updates.",
+              "url": "https://github.com/Simon-He95/markdown-it-ts"
+            },
+            {
+              "syncing": true,
+              "title": "davialabs/davia: Documentation that writes itself",
+              "url": "https://github.com/davialabs/davia"
+            },
+            {
+              "syncing": true,
+              "title": "voidmuse-dev/voidmuse: 🚀 Open-source AI IDE plugin for intelligent code completion, codebase indexing & multi-model chat. Learning-oriented AI engineering platform for IntelliJ IDEA & VS Code.",
+              "url": "https://github.com/voidmuse-dev/voidmuse"
+            },
+            {
+              "syncing": true,
+              "title": "halo-dev/upage: 🔥 一款基于大模型的可视化网页构建平台，Lovable 开源替代。",
+              "url": "https://github.com/halo-dev/upage"
+            },
+            {
+              "syncing": true,
+              "title": "599yongyang/DatasetLoom: 一个面向多模态大模型训练的智能数据集构建与评估平台",
+              "url": "https://github.com/599yongyang/DatasetLoom"
+            },
+            {
+              "syncing": true,
+              "title": "1Panel-dev/CordysCRM: 🔥 新一代的开源 AI CRM 系统。An open-source CRM alternative to Salesforce.",
+              "url": "https://github.com/1Panel-dev/CordysCRM"
+            },
+            {
+              "syncing": true,
+              "title": "K-Dense-AI/claude-scientific-skills: A set of ready to use scientific skills for Claude",
+              "url": "https://github.com/K-Dense-AI/claude-scientific-skills"
+            },
+            {
+              "syncing": true,
+              "title": "bytewax/awesome-public-real-time-datasets: A list of publicly available datasets with real-time data maintained by the team at bytewax.io",
+              "url": "https://github.com/bytewax/awesome-public-real-time-datasets"
+            },
+            {
+              "syncing": true,
+              "title": "JasonRobertDestiny/VibeDoc: 🚀 Your AI Product Manager & Architect - Transform ideas into complete development plans with AI coding prompts in 60-180 seconds",
+              "url": "https://github.com/JasonRobertDestiny/VibeDoc"
+            },
+            {
+              "syncing": true,
+              "title": "JasonRobertDestiny/VibeDoc: 🚀 Your AI Product Manager & Architect - Transform ideas into complete development plans with AI coding prompts in 60-180 seconds",
+              "url": "https://github.com/JasonRobertDestiny/VibeDoc/tree/master"
             }
           ],
           "syncing": true,
@@ -5078,11 +5133,6 @@
               "syncing": true,
               "title": "EVM Module · Substrate Developer Hub",
               "url": "https://substrate.dev/docs/en/conceptual/runtime/contracts/evm_module"
-            },
-            {
-              "syncing": true,
-              "title": "[中文] 以太坊白皮书 · ethereum/wiki Wiki",
-              "url": "https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6"
             },
             {
               "syncing": true,
@@ -5152,18 +5202,8 @@
             },
             {
               "syncing": true,
-              "title": "读远：发掘优质电子书资源，提供好书分享、下载与推送。支持mobi/epub/pdf/txt格式。 - 读远",
-              "url": "http://www.readfar.com/"
-            },
-            {
-              "syncing": true,
               "title": "经典短篇小说",
               "url": "http://duanpianxiaoshuo.diandian.com/"
-            },
-            {
-              "syncing": true,
-              "title": "老渔夫 玛丽.芭特斯.布雷 | 每日一文",
-              "url": "http://meiriyiwen.com/"
             },
             {
               "syncing": true,
@@ -5222,11 +5262,6 @@
             },
             {
               "syncing": true,
-              "title": "MongoDB Hosting: Database-as-a-Service by MongoLab",
-              "url": "https://mongolab.com/"
-            },
-            {
-              "syncing": true,
               "title": "codelucas/newspaper: News, full-text, and article metadata extraction in Python 3",
               "url": "https://github.com/codelucas/newspaper"
             },
@@ -5234,16 +5269,6 @@
               "syncing": true,
               "title": "dimonomid/geekmarks: API-Driven, Geeky Bookmarking Service",
               "url": "https://github.com/dimonomid/geekmarks"
-            },
-            {
-              "syncing": true,
-              "title": "All The Tools to Unlock Your Data | Redash",
-              "url": "https://redash.io/features/"
-            },
-            {
-              "syncing": true,
-              "title": "Pachyderm - Containerized Data Analytics",
-              "url": "http://pachyderm.io/"
             },
             {
               "syncing": true,
@@ -5377,11 +5402,6 @@
             },
             {
               "syncing": true,
-              "title": "Index of /ubuntu-releases/19.10/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror",
-              "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/19.10/"
-            },
-            {
-              "syncing": true,
               "title": "Integrate your data, APIs, and cloud services in minutes - Pipedream",
               "url": "https://pipedream.com/"
             },
@@ -5417,11 +5437,6 @@
             },
             {
               "syncing": true,
-              "title": "Grok Debugger",
-              "url": "https://grokdebug.herokuapp.com/"
-            },
-            {
-              "syncing": true,
               "title": "Modular conversion, encoding and encryption online — Cryptii",
               "url": "https://cryptii.com/"
             },
@@ -5453,18 +5468,8 @@
             { "syncing": true, "title": "阅后即焚", "url": "https://yhjf.cc/" },
             {
               "syncing": true,
-              "title": "Random Data API",
-              "url": "https://random-data-api.com/"
-            },
-            {
-              "syncing": true,
               "title": "Codota - AI Code Completions for your IDE",
               "url": "https://www.codota.com/"
-            },
-            {
-              "syncing": true,
-              "title": "Explore - GitBook",
-              "url": "https://www.gitbook.com/explore"
             },
             {
               "syncing": true,
@@ -5536,11 +5541,6 @@
               "syncing": true,
               "title": "Free for developers",
               "url": "https://free-for.dev/#/"
-            },
-            {
-              "syncing": true,
-              "title": "「65页PDF」让 PM 全面理解深度学习 - 产品经理的人工智能学习库",
-              "url": "https://easyai.tech/blog/65pdf-pm-understand-dl/"
             },
             {
               "syncing": true,
@@ -5654,16 +5654,6 @@
             },
             {
               "syncing": true,
-              "title": "How to Manage and Use LVM (Logical Volume Management) in Ubuntu",
-              "url": "https://www.howtogeek.com/howto/40702/how-to-manage-and-use-lvm-logical-volume-management-in-ubuntu/"
-            },
-            {
-              "syncing": true,
-              "title": "Hackjutsu Dojo",
-              "url": "http://hackjutsu.com/"
-            },
-            {
-              "syncing": true,
               "title": "周梦康 - 快乐 coding，认真生活",
               "url": "https://mengkang.net/"
             },
@@ -5676,11 +5666,6 @@
               "syncing": true,
               "title": "php源码分析 | 风雪之隅",
               "url": "http://www.laruence.com/tag/php%e6%ba%90%e7%a0%81%e5%88%86%e6%9e%90"
-            },
-            {
-              "syncing": true,
-              "title": "阿里中间件团队博客",
-              "url": "http://jm.taobao.org/"
             },
             {
               "syncing": true,
@@ -5709,16 +5694,6 @@
             },
             {
               "syncing": true,
-              "title": "[30天快速上手TDD]目錄與附錄 | In 91 - 點部落",
-              "url": "https://dotblogs.com.tw/hatelove/2013/01/11/learning-tdd-in-30-days-catalog-and-reference"
-            },
-            {
-              "syncing": true,
-              "title": "常见电商项目的数据库表设计（MySQL版） - 简书",
-              "url": "https://www.jianshu.com/p/b89127a415df"
-            },
-            {
-              "syncing": true,
               "title": "Netkiller ebook - Linux ebook",
               "url": "http://www.netkiller.cn/"
             },
@@ -5726,16 +5701,6 @@
               "syncing": true,
               "title": "使用 Docker Stack 部署多服务集群 - 简书",
               "url": "https://www.jianshu.com/p/1db6f0150fdb"
-            },
-            {
-              "syncing": true,
-              "title": "从Docker Machine到K8S：容器管理为啥有这么多工具？ - 简书",
-              "url": "https://www.jianshu.com/p/a9955a058b90"
-            },
-            {
-              "syncing": true,
-              "title": "教你编译调试Elasticsearch 6.3.2源码 | 小旋锋",
-              "url": "https://laijianfeng.org/2018/08/%E6%95%99%E4%BD%A0%E7%BC%96%E8%AF%91%E8%B0%83%E8%AF%95Elasticsearch-6-3-2%E6%BA%90%E7%A0%81/"
             },
             {
               "syncing": true,
@@ -5774,11 +5739,6 @@
             },
             {
               "syncing": true,
-              "title": "golang解决TCP粘包问题 - 每天进步一点点",
-              "url": "https://www.ddhigh.com/2018/03/02/golang-tcp-stick-package.html"
-            },
-            {
-              "syncing": true,
               "title": "段永平的博客",
               "url": "http://subblognteswjqm66.lofter.com/"
             },
@@ -5796,11 +5756,6 @@
               "syncing": true,
               "title": "EZLippi-浮生志",
               "url": "https://www.ezlippi.com/"
-            },
-            {
-              "syncing": true,
-              "title": "柔性事务 ：TCC两阶段补偿型_分布式事务教程_田守枝Java技术博客",
-              "url": "http://www.tianshouzhi.com/api/tutorials/distributed_transaction/388"
             },
             {
               "syncing": true,
@@ -5856,11 +5811,6 @@
               "syncing": true,
               "title": "https://kk.org",
               "url": "https://kk.org/"
-            },
-            {
-              "syncing": true,
-              "title": "首页 - 郑振龙个人主页",
-              "url": "http://efinance.org.cn/"
             },
             {
               "syncing": true,
@@ -6035,11 +5985,6 @@
             },
             {
               "syncing": true,
-              "title": "Shenzhi Wang's Homepage | Academic",
-              "url": "https://shenzhi-wang.netlify.app/"
-            },
-            {
-              "syncing": true,
               "title": "The Matrix Calculus You Need For Deep Learning",
               "url": "https://explained.ai/matrix-calculus/"
             },
@@ -6142,16 +6087,6 @@
               "syncing": true,
               "title": "redis集群代理twemproxy源码阅读总结 | L的博客",
               "url": "https://damotiansheng.github.io/twemproxy/2023-06-21/redis%E9%9B%86%E7%BE%A4%E4%BB%A3%E7%90%86twemproxy%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.html"
-            },
-            {
-              "syncing": true,
-              "title": "Pigsty 博客文章 | Pigsty",
-              "url": "https://pigsty.cc/zh/blog/"
-            },
-            {
-              "syncing": true,
-              "title": "ZhiHu Legend",
-              "url": "https://l-m-sherlock.github.io/ZhiHuLegend/"
             },
             {
               "syncing": true,
@@ -6263,6 +6198,11 @@
               "syncing": true,
               "title": "ExplorableScience | Explore Science Through Interactive Simulations",
               "url": "https://www.explorablescience.com/"
+            },
+            {
+              "syncing": true,
+              "title": "新的原野 – 一片新的原野，一个充满爱与善良的博客",
+              "url": "https://sinyalee.com/blog/"
             }
           ],
           "syncing": true,
@@ -6270,11 +6210,6 @@
         },
         {
           "children": [
-            {
-              "syncing": true,
-              "title": "Java 读写锁实现原理 - 编辑部的故事的个人空间 - 开源中国",
-              "url": "https://my.oschina.net/editorial-story/blog/1928306"
-            },
             {
               "syncing": true,
               "title": "Why Should You Use Java for Your Backend Infrastructure? - DevTeam.Space",
@@ -6388,11 +6323,6 @@
             },
             {
               "syncing": true,
-              "title": "绿帽子大学 – 我是那个做电台的栋哥",
-              "url": "https://lmzdx.com/"
-            },
-            {
-              "syncing": true,
               "title": "柴少鹏的官方网站-技术在分享中进步，水平在学习中升华",
               "url": "http://www.51niux.com/"
             },
@@ -6478,11 +6408,6 @@
             },
             {
               "syncing": true,
-              "title": "flyleft/tip: 整合学习编程的资源，大部分为java，包括代码实现，博客，开源项目收藏，算法，设计模式等",
-              "url": "https://github.com/flyleft/tip"
-            },
-            {
-              "syncing": true,
               "title": "Aresyi/HowTomcatWorks: 《How Tomcat Works》 every chapter demo",
               "url": "https://github.com/Aresyi/HowTomcatWorks"
             },
@@ -6520,11 +6445,6 @@
               "syncing": true,
               "title": "Huxpro/js-module-7day: Slides: JavaScript Modularization Journey",
               "url": "https://github.com/Huxpro/js-module-7day"
-            },
-            {
-              "syncing": true,
-              "title": "爵獅",
-              "url": "http://jazzlion.github.io/"
             },
             {
               "syncing": true,
@@ -6583,18 +6503,8 @@
             },
             {
               "syncing": true,
-              "title": "极客书-最实用的编程在线教程集合",
-              "url": "http://gitbook.net/index.html"
-            },
-            {
-              "syncing": true,
               "title": "Deep Learning Book Series · 2.1 Scalars Vectors Matrices and Tensors",
               "url": "https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.1-Scalars-Vectors-Matrices-and-Tensors/"
-            },
-            {
-              "syncing": true,
-              "title": "关于 Android 进程保活，你所需要知道的一切 - DiyCode",
-              "url": "https://www.diycode.cc/topics/45"
             },
             {
               "syncing": true,
@@ -6620,11 +6530,6 @@
               "syncing": true,
               "title": "Application-Layer DDoS Attack Protection with HAProxy - HAProxy Technologies",
               "url": "https://www.haproxy.com/blog/application-layer-ddos-attack-protection-with-haproxy/"
-            },
-            {
-              "syncing": true,
-              "title": "Home | Enqueue Zero",
-              "url": "https://enqueuezero.com/"
             },
             {
               "syncing": true,
@@ -6673,11 +6578,6 @@
             },
             {
               "syncing": true,
-              "title": "gwuhaolin/dive-into-webpack: 全面的Webpack教程《深入浅出Webpack》电子书",
-              "url": "https://github.com/gwuhaolin/dive-into-webpack"
-            },
-            {
-              "syncing": true,
               "title": "让世界听到龙的声音",
               "url": "https://www.leetcode.cn/"
             },
@@ -6713,11 +6613,6 @@
             },
             {
               "syncing": true,
-              "title": "程序人生 阅读快乐 · 语雀",
-              "url": "https://www.yuque.com/winforlife/vgzph9"
-            },
-            {
-              "syncing": true,
               "title": "macOS 10.14 Mojave Apache Setup: Multiple PHP Versions | Grav",
               "url": "https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions"
             },
@@ -6725,11 +6620,6 @@
               "syncing": true,
               "title": "Home — Christian's Blog",
               "url": "https://www.jann.cc/index.html"
-            },
-            {
-              "syncing": true,
-              "title": "语言计算与机器学习研究组",
-              "url": "http://lanco.pku.edu.cn/"
             },
             {
               "syncing": true,
@@ -6933,11 +6823,6 @@
             },
             {
               "syncing": true,
-              "title": "今日掘金",
-              "url": "http://zy2071.com/Fun/todayJueJin.html"
-            },
-            {
-              "syncing": true,
               "title": "521xueweihan/HelloGitHub: 一个分享 GitHub 上有趣、入门级的开源项目。让你找到编程的乐趣，欢迎推荐、自荐项目「每月28号更新」",
               "url": "https://github.com/521xueweihan/HelloGitHub"
             },
@@ -6945,11 +6830,6 @@
               "syncing": true,
               "title": "fatedier blog",
               "url": "https://blog.fatedier.com/"
-            },
-            {
-              "syncing": true,
-              "title": "frp端口映射穿透内网 | Bingo's Blog",
-              "url": "https://bingozb.github.io/55.html"
             },
             {
               "syncing": true,
@@ -6998,11 +6878,6 @@
             },
             {
               "syncing": true,
-              "title": "田小波的技术博客",
-              "url": "http://www.tianxiaobo.com/"
-            },
-            {
-              "syncing": true,
               "title": "Spring IOC 容器源码分析",
               "url": "https://javadoop.com/post/spring-ioc"
             },
@@ -7010,11 +6885,6 @@
               "syncing": true,
               "title": "实例详解ZooKeeper ZAB协议、分布式锁与领导选举 - 架构 - dbaplus社群：围绕Data、Blockchain、AiOps的企业级专业社群。技术大咖、原创干货，每天精品原创文章推送，每周线上技术分享，每月线下技术",
               "url": "https://dbaplus.cn/news-141-1875-1.html"
-            },
-            {
-              "syncing": true,
-              "title": "图解分布式一致性协议Paxos - loop in codes",
-              "url": "http://codemacro.com/2014/10/15/explain-poxos/"
             },
             {
               "syncing": true,
@@ -7043,16 +6913,6 @@
             },
             {
               "syncing": true,
-              "title": "docs/java/jvm/JDK监控和故障处理工具总结.md · SnailClimb/JavaGuide - 码云 Gitee.com",
-              "url": "https://gitee.com/SnailClimb/JavaGuide/blob/master/docs/java/jvm/JDK%E7%9B%91%E6%8E%A7%E5%92%8C%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E6%80%BB%E7%BB%93.md"
-            },
-            {
-              "syncing": true,
-              "title": "docs/system-design/framework/spring/SpringInterviewQuestions.md · SnailClimb/JavaGuide - 码云 Gitee.com",
-              "url": "https://gitee.com/SnailClimb/JavaGuide/blob/master/docs/system-design/framework/spring/SpringInterviewQuestions.md"
-            },
-            {
-              "syncing": true,
               "title": "龙果博客",
               "url": "https://blog.roncoo.com/"
             },
@@ -7065,11 +6925,6 @@
               "syncing": true,
               "title": "首页 | 李乾坤的博客",
               "url": "http://qiankunli.github.io/"
-            },
-            {
-              "syncing": true,
-              "title": "刘未鹏 | Mind Hacks – 思维改变生活",
-              "url": "http://mindhacks.cn/"
             },
             {
               "syncing": true,
@@ -7159,11 +7014,6 @@
             },
             {
               "syncing": true,
-              "title": "Hacknews2019-11-26新闻 | MojoTech",
-              "url": "https://mojotv.cn/2019/11/26/hacknews"
-            },
-            {
-              "syncing": true,
               "title": "research!rsc",
               "url": "https://research.swtch.com/"
             },
@@ -7214,18 +7064,8 @@
             },
             {
               "syncing": true,
-              "title": "浅谈数据库同步和迁移",
-              "url": "http://vinllen.com/qian-tan-shu-ju-ku-tong-bu-he-qian-yi/"
-            },
-            {
-              "syncing": true,
               "title": "Java HashMap 源码解析 | Keep Coding",
               "url": "https://liujiacai.net/blog/2015/09/03/java-hashmap/"
-            },
-            {
-              "syncing": true,
-              "title": "基于形变分析模型的异常检测系统建设与实践 | Panda",
-              "url": "http://siye1982.github.io/2018/12/16/shape_change/"
             },
             {
               "syncing": true,
@@ -7294,11 +7134,6 @@
             },
             {
               "syncing": true,
-              "title": "引言 · 穿透Laravel · idoc",
-              "url": "http://www.idocloud.net/pttl/index.html"
-            },
-            {
-              "syncing": true,
               "title": "A Very Technical Look at ZeroNet · Zola's Blog",
               "url": "https://znano.eu.org/blog/posts/a-very-technical-look-at-zeronet"
             },
@@ -7331,11 +7166,6 @@
               "syncing": true,
               "title": "An introduction to Linux's EXT4 filesystem | Opensource.com",
               "url": "https://opensource.com/article/17/5/introduction-ext4-filesystem"
-            },
-            {
-              "syncing": true,
-              "title": "滴普科技DEEPEXI - SegmentFault 思否",
-              "url": "https://segmentfault.com/u/deepexicode"
             },
             {
               "syncing": true,
@@ -7601,11 +7431,6 @@
               "syncing": true,
               "title": "GPU Survival Toolkit for the AI age: The bare minimum every developer must know",
               "url": "https://journal.hexmos.com/gpu-survival-toolkit/"
-            },
-            {
-              "syncing": true,
-              "title": "程序员备忘录",
-              "url": "https://www.orzzone.com/writings"
             },
             {
               "syncing": true,
@@ -7946,11 +7771,6 @@
             },
             {
               "syncing": true,
-              "title": "TextTo.site",
-              "url": "https://textto.site/"
-            },
-            {
-              "syncing": true,
               "title": "Base64 string encoder/decoder - IT Tools",
               "url": "https://it-tools.tech/base64-string-converter"
             },
@@ -7958,11 +7778,6 @@
               "syncing": true,
               "title": "Math.now：在线免费的AI数学求解器，由Math GPT提供支持",
               "url": "https://math.now/zh-CN"
-            },
-            {
-              "syncing": true,
-              "title": "AI图像编辑器 | 一站式免费AI图片处理工具",
-              "url": "https://aiimageeditor.me/zh"
             },
             {
               "syncing": true,
@@ -8173,11 +7988,6 @@
             },
             {
               "syncing": true,
-              "title": "sourcegraph/sourcegraph: Code search and intelligence, self-hosted and scalable",
-              "url": "https://github.com/sourcegraph/sourcegraph"
-            },
-            {
-              "syncing": true,
               "title": "Bytes to MB Conversion",
               "url": "https://www.gbmb.org/bytes-to-mb"
             },
@@ -8190,11 +8000,6 @@
               "syncing": true,
               "title": "hub · the command-line wrapper for git",
               "url": "https://hub.github.com/"
-            },
-            {
-              "syncing": true,
-              "title": "Mixnode: Pricing",
-              "url": "https://www.mixnode.com/pricing"
             },
             {
               "syncing": true,
@@ -8283,11 +8088,6 @@
             },
             {
               "syncing": true,
-              "title": "Fault Injection — envoy 1.9.0-dev-8a1cf4 documentation",
-              "url": "https://www.envoyproxy.io/docs/envoy/latest/configuration/http_filters/fault_filter"
-            },
-            {
-              "syncing": true,
               "title": "yoda | Man Parvesh Singh Randhawa",
               "url": "https://manparvesh.com/project/yoda/"
             },
@@ -8330,11 +8130,6 @@
               "syncing": true,
               "title": "Unitech/pm2: Node.js Production Process Manager with a built-in Load Balancer.",
               "url": "https://github.com/Unitech/pm2"
-            },
-            {
-              "syncing": true,
-              "title": "Dreamacro/clash: A rule based proxy in Go.",
-              "url": "https://github.com/Dreamacro/clash"
             },
             {
               "syncing": true,
@@ -8443,11 +8238,6 @@
             },
             {
               "syncing": true,
-              "title": "| F-Droid - Free and Open Source Android App Repository",
-              "url": "https://f-droid.org/zh_Hant/packages/2/index.html"
-            },
-            {
-              "syncing": true,
               "title": "tsenart/vegeta: HTTP load testing tool and library. It's over 9000!",
               "url": "https://github.com/tsenart/vegeta"
             },
@@ -8460,11 +8250,6 @@
               "syncing": true,
               "title": "List of languages that compile to JS · jashkenas/coffeescript Wiki",
               "url": "https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS"
-            },
-            {
-              "syncing": true,
-              "title": "Dragonfly",
-              "url": "https://d7y.io/en-us/index.html"
             },
             {
               "syncing": true,
@@ -8748,11 +8533,6 @@
             },
             {
               "syncing": true,
-              "title": "PHP在线运行-代码在线运行工具",
-              "url": "http://code.y444.cn/"
-            },
-            {
-              "syncing": true,
               "title": "压缩图 -在线图片压缩工具(jpg、png、gif)无损压缩50%",
               "url": "https://www.yasuotu.com/"
             },
@@ -8763,18 +8543,8 @@
             },
             {
               "syncing": true,
-              "title": "What is the Wayback Machine? | How the Internet Archive uses Web Crawlers to Preserve Internet History | 256 Kilobytes",
-              "url": "https://www.256kilobytes.com/content/show/4808/what-is-the-wayback-machine-how-the-internet-archive-uses-web-crawlers-to-preserve-internet-history"
-            },
-            {
-              "syncing": true,
               "title": "中國哲學書電子化計劃",
               "url": "https://ctext.org/zh"
-            },
-            {
-              "syncing": true,
-              "title": "Page Sandbox",
-              "url": "https://zjcqoo.github.io/"
             },
             {
               "syncing": true,
@@ -8840,11 +8610,6 @@
               "syncing": true,
               "title": "JSON转csv,JSON转excel-BeJSON.com",
               "url": "http://www.bejson.com/json/json2excel/"
-            },
-            {
-              "syncing": true,
-              "title": "一个工具箱 - 好用的在线工具都在这里！",
-              "url": "http://www.atoolbox.net/"
             },
             {
               "syncing": true,
@@ -9033,23 +8798,8 @@
             },
             {
               "syncing": true,
-              "title": "Java Code Example Search",
-              "url": "https://www.programcreek.com/java-api-examples/?action=search"
-            },
-            {
-              "syncing": true,
               "title": "Qwerty Learner",
               "url": "https://qwerty-learner.vercel.app/"
-            },
-            {
-              "syncing": true,
-              "title": "MegaEase",
-              "url": "https://megaease.com/zh/"
-            },
-            {
-              "syncing": true,
-              "title": "🤣 Emoji表情大全，颜文字百科 💌 - EmojiXD",
-              "url": "https://emojixd.com/"
             },
             {
               "syncing": true,
@@ -9060,11 +8810,6 @@
               "syncing": true,
               "title": "披露易",
               "url": "http://sc.hkexnews.hk/TuniS/www.hkexnews.hk/index_c.htm"
-            },
-            {
-              "syncing": true,
-              "title": "Jayway JsonPath evaluator",
-              "url": "https://jsonpath.herokuapp.com/"
             },
             {
               "syncing": true,
@@ -9133,11 +8878,6 @@
             },
             {
               "syncing": true,
-              "title": "首页 | Server酱",
-              "url": "https://sc.ftqq.com/3.version"
-            },
-            {
-              "syncing": true,
               "title": "美股实时行情,港股实时行情_老虎社区,老虎证券旗下 - 老虎社区",
               "url": "https://www.laohu8.com/hq?f=baidu"
             },
@@ -9185,11 +8925,6 @@
               "syncing": true,
               "title": "百度指数",
               "url": "https://index.baidu.com/v2/index.html#/"
-            },
-            {
-              "syncing": true,
-              "title": "找资源 - 阿里云盘资源搜索引擎",
-              "url": "https://zhaoziyuan.la/"
             },
             {
               "syncing": true,
@@ -9255,11 +8990,6 @@
               "syncing": true,
               "title": "GopeedLab/gopeed: High speed downloader that supports all platforms.",
               "url": "https://github.com/GopeedLab/gopeed"
-            },
-            {
-              "syncing": true,
-              "title": "Threads — Pricing",
-              "url": "https://threads.com/pricing"
             },
             {
               "syncing": true,
@@ -9825,11 +9555,6 @@
           "children": [
             {
               "syncing": true,
-              "title": "Manjaro Linux - enjoy the simplicity",
-              "url": "https://manjaro.github.io/homepage/public/download/deepin/"
-            },
-            {
-              "syncing": true,
               "title": "postmarketOS // real Linux distribution for phones",
               "url": "https://postmarketos.org/"
             }
@@ -9891,11 +9616,6 @@
             },
             {
               "syncing": true,
-              "title": "wangwei-tongxue/data_analysis_practice: 一份关于数据分析的常用技能、实战示例",
-              "url": "https://github.com/wangwei-tongxue/data_analysis_practice"
-            },
-            {
-              "syncing": true,
               "title": "ZHENFENG13/concurrent-programming: 《实战java高并发程序设计》源码整理",
               "url": "https://github.com/ZHENFENG13/concurrent-programming"
             },
@@ -9903,11 +9623,6 @@
               "syncing": true,
               "title": "Snailclimb/Java-Guide: A core knowledge that most Java programmers need to master",
               "url": "https://github.com/Snailclimb/Java-Guide"
-            },
-            {
-              "syncing": true,
-              "title": "chrome.cookies - Google Chrome 扩展程序开发文档（非官方中文版）",
-              "url": "https://crxdoc-zh.appspot.com/extensions/cookies"
             },
             {
               "syncing": true,
@@ -10341,16 +10056,6 @@
             },
             {
               "syncing": true,
-              "title": "GokuMohandas/practicalAI: 📚A practical approach to learning machine learning.",
-              "url": "https://github.com/GokuMohandas/practicalAI"
-            },
-            {
-              "syncing": true,
-              "title": "Speaking JavaScript",
-              "url": "http://speakingjs.com/es5/index.html#toc_ch16"
-            },
-            {
-              "syncing": true,
               "title": "anthonychu/functions-serverless-realtime-tutorial",
               "url": "https://github.com/anthonychu/functions-serverless-realtime-tutorial"
             },
@@ -10363,11 +10068,6 @@
               "syncing": true,
               "title": "dypsilon/frontend-dev-bookmarks: Manually curated collection of resources for frontend web developers.",
               "url": "https://github.com/dypsilon/frontend-dev-bookmarks"
-            },
-            {
-              "syncing": true,
-              "title": "IPFS Documentation",
-              "url": "https://docs.ipfs.io/"
             },
             {
               "syncing": true,
@@ -10426,11 +10126,6 @@
             },
             {
               "syncing": true,
-              "title": "你快回来~ ⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ | 如何在 VirtualBox 内安装 Arch Linux - Linfinite",
-              "url": "https://cli.ee/archlinux-virtualbox"
-            },
-            {
-              "syncing": true,
               "title": "chokcoco/CSS-Inspiration: CSS Inspiration，在这里找到写 CSS 的灵感！",
               "url": "https://github.com/chokcoco/CSS-Inspiration"
             },
@@ -10473,11 +10168,6 @@
               "syncing": true,
               "title": "thepracticaldev/dev.to: Where programmers share ideas and help each other grow",
               "url": "https://github.com/thepracticaldev/dev.to"
-            },
-            {
-              "syncing": true,
-              "title": "CodeTank 代码坦克 - 互联网智能代码坦克机器人编程游戏",
-              "url": "http://codetank.alloyteam.com/"
             },
             {
               "syncing": true,
@@ -10554,11 +10244,6 @@
               "syncing": true,
               "title": "Composing Programs",
               "url": "https://composingprograms.com/"
-            },
-            {
-              "syncing": true,
-              "title": "mbinary/USTC-CS-Courses-Resource: 中国科学技术大学计算机学院课程资源(https://mbinary.xyz/ustc-cs/)",
-              "url": "https://github.com/mbinary/USTC-CS-Courses-Resource"
             },
             {
               "syncing": true,
@@ -10787,18 +10472,8 @@
             },
             {
               "syncing": true,
-              "title": "arpitjindal97/technology_books: Premium eBook free for Geeks",
-              "url": "https://github.com/arpitjindal97/technology_books"
-            },
-            {
-              "syncing": true,
               "title": "What every computer science major should know",
               "url": "http://matt.might.net/articles/what-cs-majors-should-know/"
-            },
-            {
-              "syncing": true,
-              "title": "nivelle/javaInterview: java中高级面试指南",
-              "url": "https://github.com/nivelle/javaInterview"
             },
             {
               "syncing": true,
@@ -11072,11 +10747,6 @@
             },
             {
               "syncing": true,
-              "title": "The Missing Semester of Your CS Education · the missing semester of your cs education",
-              "url": "https://missing-semester-zh-hant.github.io/"
-            },
-            {
-              "syncing": true,
               "title": "Getting Source Code for PAs · GitBook",
               "url": "https://nju-projectn.github.io/ics-pa-gitbook/ics2022/0.6.html"
             },
@@ -11252,11 +10922,6 @@
             },
             {
               "syncing": true,
-              "title": "02. 算法复杂度 | 算法通关手册（LeetCode）",
-              "url": "https://algo.itcharge.cn/00.Introduction/02.Algorithm-Complexity/"
-            },
-            {
-              "syncing": true,
               "title": "How To Build A Complete Distributed File Storage In Golang_哔哩哔哩_bilibili",
               "url": "https://www.bilibili.com/video/BV1bG3JedEG9/?spm_id_from=333.1007.tianma.1-3-3.click&vd_source=1bfc57312907ba3db0d8d29bb0388030"
             },
@@ -11359,11 +11024,6 @@
               "syncing": true,
               "title": "mohitmishra786/amILearningEnough: Low-Level Programming Roadmap and Resources",
               "url": "https://github.com/mohitmishra786/amILearningEnough/tree/main"
-            },
-            {
-              "syncing": true,
-              "title": "Introduction to C Programming Language and Data Structures | CodeAhoy",
-              "url": "https://codeahoy.com/learn/cprogramming/toc/"
             },
             {
               "syncing": true,
@@ -11612,11 +11272,6 @@
           "children": [
             {
               "syncing": true,
-              "title": "伯乐在线",
-              "url": "http://www.jobbole.com/"
-            },
-            {
-              "syncing": true,
               "title": "ImportNew - 专注Java & Android 技术分享",
               "url": "http://www.importnew.com/"
             },
@@ -11629,11 +11284,6 @@
               "syncing": true,
               "title": "Golang教程 – 微度网络",
               "url": "http://www.widuu.com/archives/tag/golang%e6%95%99%e7%a8%8b"
-            },
-            {
-              "syncing": true,
-              "title": "JavaScript Patterns",
-              "url": "http://shichuan.github.io/javascript-patterns/"
             },
             {
               "syncing": true,
@@ -11667,11 +11317,6 @@
             },
             {
               "syncing": true,
-              "title": "Open Hub Code Search",
-              "url": "http://code.openhub.net/"
-            },
-            {
-              "syncing": true,
               "title": "Leanote",
               "url": "https://leanote.com/"
             },
@@ -11679,11 +11324,6 @@
               "syncing": true,
               "title": "Explore - GitCafe",
               "url": "https://gitcafe.com/explore"
-            },
-            {
-              "syncing": true,
-              "title": "Coding - 让开发更简单！",
-              "url": "https://coding.net/home.html"
             },
             {
               "syncing": true,
@@ -11699,11 +11339,6 @@
               "syncing": true,
               "title": "Mr. Data Converter",
               "url": "http://shancarter.github.io/mr-data-converter/"
-            },
-            {
-              "syncing": true,
-              "title": "Fenby | 免费课程",
-              "url": "http://www.fenby.com/courses/"
             },
             {
               "syncing": true,
@@ -11852,11 +11487,6 @@
             },
             {
               "syncing": true,
-              "title": "Learn",
-              "url": "http://elm-lang.org/Learn.elm"
-            },
-            {
-              "syncing": true,
               "title": "四大魔道编程天王：王垠，田春，胡正，李杀 ！ | Life is Marathon !",
               "url": "http://xinguniverse.com/it/%E5%9B%9B%E5%A4%A7%E9%AD%94%E9%81%93%E7%BC%96%E7%A8%8B%E5%A4%A9%E7%8E%8B%EF%BC%9A%E7%8E%8B%E5%9E%A0%EF%BC%8C%E7%94%B0%E6%98%A5%EF%BC%8C%E8%83%A1%E6%AD%A3%EF%BC%8C%E6%9D%8E%E6%9D%80-%EF%BC%81/"
             },
@@ -11917,11 +11547,6 @@
             },
             {
               "syncing": true,
-              "title": "图解",
-              "url": "https://cangsdarm.github.io/illustrate/quic"
-            },
-            {
-              "syncing": true,
               "title": "01. IntelliJ IDEA 介绍（新用户必看） · IntelliJ-IDEA-Tutorial",
               "url": "https://youmeek.gitbooks.io/intellij-idea-tutorial/content/introduce.html"
             },
@@ -11966,7 +11591,6 @@
               "title": "Michael Kerrisk - man7.org",
               "url": "https://man7.org/index.html"
             },
-            { "children": [], "syncing": true, "title": "JAVA优秀开源项目" },
             {
               "children": [
                 {
@@ -12161,11 +11785,6 @@
                 },
                 {
                   "syncing": true,
-                  "title": "Ververica - Apache Flink 开发者资料",
-                  "url": "https://ververica.cn/developers-resources"
-                },
-                {
-                  "syncing": true,
                   "title": "Reactor",
                   "url": "https://github.com/reactor"
                 },
@@ -12263,11 +11882,6 @@
                   "syncing": true,
                   "title": "大数据分析常用去重算法分析『HyperLogLog 篇』",
                   "url": "https://kyligence.io/zh/blog/count-distinct-hyperloglog/"
-                },
-                {
-                  "syncing": true,
-                  "title": "Hadoop YARN架构设计要点 - 简书",
-                  "url": "https://www.jianshu.com/p/bd0869c1ea3c"
                 },
                 {
                   "syncing": true,
@@ -12383,7 +11997,6 @@
           "syncing": true,
           "title": "视频"
         },
-        { "children": [], "syncing": true, "title": "语法" },
         {
           "children": [
             {
@@ -12397,11 +12010,6 @@
         },
         {
           "children": [
-            {
-              "syncing": true,
-              "title": "InterviewMap",
-              "url": "https://yuchengkai.cn/docs/"
-            },
             {
               "syncing": true,
               "title": "Data structures reference, for coding interviews and computer science classes | Interview Cake",
@@ -12614,11 +12222,6 @@
         },
         {
           "children": [
-            {
-              "syncing": true,
-              "title": "Java Code Examples",
-              "url": "https://www.programcreek.com/java-api-examples/index.php?action=search"
-            },
             { "syncing": true, "title": "grep.app", "url": "https://grep.app/" }
           ],
           "syncing": true,
@@ -12659,11 +12262,6 @@
             },
             {
               "syncing": true,
-              "title": "太极书馆 -- 让智慧更近",
-              "url": "http://www.8bei8.com/"
-            },
-            {
-              "syncing": true,
               "title": "Chinese Text Project",
               "url": "https://ctext.org/"
             },
@@ -12692,11 +12290,6 @@
               "syncing": true,
               "title": "302 TiDB 高级系统管理",
               "url": "https://learn.pingcap.com/learner/course/120005"
-            },
-            {
-              "syncing": true,
-              "title": "Java Design Patterns in Stories",
-              "url": "https://www.programcreek.com/java-design-patterns-in-stories/"
             },
             {
               "syncing": true,
@@ -12829,11 +12422,6 @@
             },
             {
               "syncing": true,
-              "title": "Web3 Infrastructure for Everyone | Solana",
-              "url": "https://solana.com/zh"
-            },
-            {
-              "syncing": true,
               "title": "taikoxyz/taiko-mono: A based rollup. 🥁",
               "url": "https://github.com/taikoxyz/taiko-mono"
             },
@@ -12868,11 +12456,6 @@
               "syncing": true,
               "title": "e-books/doc at master · ningyu1/e-books",
               "url": "https://github.com/ningyu1/e-books/tree/master/doc"
-            },
-            {
-              "syncing": true,
-              "title": "內酷网-电子书大全",
-              "url": "http://neikuw.com/"
             },
             {
               "syncing": true,
@@ -12944,11 +12527,6 @@
               "syncing": true,
               "title": "Dribbble - ididi",
               "url": "https://dribbble.com/ididi"
-            },
-            {
-              "syncing": true,
-              "title": "Pinterest: Discover and save creative ideas",
-              "url": "https://www.pinterest.com/categories/kids/"
             },
             {
               "syncing": true,
@@ -13036,11 +12614,6 @@
               "syncing": true,
               "title": "imClumsyPanda/langchain-ChatGLM: langchain-ChatGLM, local knowledge based ChatGLM with langchain ｜ 基于本地知识的 ChatGLM 问答",
               "url": "https://github.com/imClumsyPanda/langchain-ChatGLM"
-            },
-            {
-              "syncing": true,
-              "title": "transformers/README_zh-hans.md at main · huggingface/transformers · GitHub",
-              "url": "https://github.com/huggingface/transformers/blob/main/README_zh-hans.md"
             },
             {
               "syncing": true,
@@ -13244,11 +12817,6 @@
             },
             {
               "syncing": true,
-              "title": "morph-labs/rift: Rift: an AI-native language server for your personal AI software engineer",
-              "url": "https://github.com/morph-labs/rift"
-            },
-            {
-              "syncing": true,
               "title": "FlagAlpha/Llama2-Chinese: Llama中文社区，最好的中文Llama大模型，完全开源可商用",
               "url": "https://github.com/FlagAlpha/Llama2-Chinese"
             },
@@ -13422,11 +12990,6 @@
             },
             {
               "syncing": true,
-              "title": "YesChat-ChatGPT4V Dalle3 Claude 2 一体化免费服务",
-              "url": "https://www.yeschat.ai/zh-CN"
-            },
-            {
-              "syncing": true,
               "title": "llamafile is the new best way to run a LLM on your own computer",
               "url": "https://simonwillison.net/2023/Nov/29/llamafile/"
             },
@@ -13434,11 +12997,6 @@
               "syncing": true,
               "title": "Strut — The all-in-one AI workspace for writing",
               "url": "https://strut.so/"
-            },
-            {
-              "syncing": true,
-              "title": "Strut",
-              "url": "https://strut.so/new"
             },
             {
               "syncing": true,
@@ -13470,11 +13028,6 @@
               "syncing": true,
               "title": "babaohuang/GeminiProChat: Minimal web UI for GeminiPro.",
               "url": "https://github.com/babaohuang/GeminiProChat?tab=readme-ov-file"
-            },
-            {
-              "syncing": true,
-              "title": "Photo to Anime - Free AI Anime Filter with Privacy Protected",
-              "url": "https://photo-to-anime.com/en"
             },
             {
               "syncing": true,
@@ -13532,12 +13085,6 @@
               "title": "pre.dev",
               "url": "https://pre.dev/"
             },
-            {
-              "syncing": true,
-              "title": "ushare 命令 - AI Search",
-              "url": "https://aoyo.ai/search/?q=ushare%20%E5%91%BD%E4%BB%A4"
-            },
-            { "syncing": true, "title": "AI搜索", "url": "https://aoyo.ai/" },
             {
               "syncing": true,
               "title": "microsoft/TaskWeaver: A code-first agent framework for seamlessly planning and executing data analytics tasks.",
@@ -13795,11 +13342,6 @@
             },
             {
               "syncing": true,
-              "title": "免费在线体验OpenAI的先进多模态AI平台GPT-4",
-              "url": "https://gpt4o.so/zh-CN/app"
-            },
-            {
-              "syncing": true,
               "title": "AI Math GPT Solver Powered by GPT-4o Free Online | Math Bot",
               "url": "https://math.bot/"
             },
@@ -13977,11 +13519,6 @@
           "children": [
             {
               "syncing": true,
-              "title": "Koala hacker news",
-              "url": "https://zutjoe.github.io/Koala_hacker_news/"
-            },
-            {
-              "syncing": true,
               "title": "History of JavaScript Frameworks",
               "url": "https://programmingsoup.com/history-of-javascript-frameworks"
             },
@@ -14089,11 +13626,6 @@
               "syncing": true,
               "title": "Hunt for interesting videos - YTHunt.com",
               "url": "https://ythunt.com/"
-            },
-            {
-              "syncing": true,
-              "title": "值得一读技术博客|技术文档|发现创造",
-              "url": "https://daily-blog.chlinlearn.top/blogs/1"
             },
             {
               "syncing": true,
@@ -14533,11 +14065,6 @@
           "children": [
             {
               "syncing": true,
-              "title": "Hermchats",
-              "url": "https://hermchats.com/"
-            },
-            {
-              "syncing": true,
               "title": "Playground - GroqCloud",
               "url": "https://console.groq.com/playground"
             },
@@ -14736,14 +14263,6 @@
     },
     {
       "children": [
-        { "children": [], "syncing": true, "title": " 工具" },
-        {
-          "children": [
-            { "children": [], "syncing": true, "title": "默认面板" }
-          ],
-          "syncing": true,
-          "title": "侧边栏垂直书签和标签页管理器数据"
-        },
         {
           "syncing": true,
           "title": "スタジオジブリの作品 - スタジオジブリ｜STUDIO GHIBLI",
@@ -14756,11 +14275,6 @@
     },
     {
       "children": [
-        {
-          "syncing": true,
-          "title": "一只特立独行的猪-王小波-书架-每日一文，经典有意思",
-          "url": "http://book.meiriyiwen.com/book/chapter_list/?bid=10"
-        },
         {
           "syncing": true,
           "title": "Emojicode",

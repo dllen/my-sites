@@ -1,0 +1,1240 @@
+{
+  "slug": "2025-47",
+  "generated_at": "2025-11-19T11:39:10.076383",
+  "stats": {
+    "https://github.com/ruanyf/weekly/issues": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.8990178108215332,
+      "_start": 1763523467.304476
+    },
+    "https://github.com/trending": {
+      "ok": true,
+      "count": 11,
+      "error": "",
+      "duration": 2.3610527515411377,
+      "_start": 1763523470.0086012
+    },
+    "https://hn.aimaker.dev/": {
+      "ok": true,
+      "count": 15,
+      "error": "",
+      "duration": 2.892752170562744,
+      "_start": 1763523473.174794
+    },
+    "https://www.daemonology.net/hn-weekly/": {
+      "ok": true,
+      "count": 17,
+      "error": "",
+      "duration": 3.270451784133911,
+      "_start": 1763523476.870728
+    },
+    "https://koala-oss.app/news/": {
+      "ok": true,
+      "count": 12,
+      "error": "",
+      "duration": 1.0698480606079102,
+      "_start": 1763523480.946291
+    },
+    "https://topsub.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.0702459812164307,
+      "_start": 1763523482.817316
+    },
+    "https://git.news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.0417368412017822,
+      "_start": 1763523484.691627
+    },
+    "https://github.com/howie6879/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.7247209548950195,
+      "_start": 1763523486.538497
+    },
+    "https://github.com/tw93/weekly?tab=readme-ov-file": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.08728289604187,
+      "_start": 1763523489.0683331
+    },
+    "https://github.com/ljinkai/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.305790901184082,
+      "_start": 1763523491.960694
+    },
+    "https://hn.buzzing.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.536383867263794,
+      "_start": 1763523495.067719
+    },
+    "https://morerss.com/zh": {
+      "ok": true,
+      "count": 2,
+      "error": "",
+      "duration": 1.3412208557128906,
+      "_start": 1763523497.405132
+    },
+    "https://x-daily.pages.dev/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.7403810024261475,
+      "_start": 1763523499.551459
+    },
+    "https://decohack.com/": {
+      "ok": true,
+      "count": 7,
+      "error": "",
+      "duration": 2.452641010284424,
+      "_start": 1763523502.096629
+    },
+    "https://github.com/headllines/hackernews-monthly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.3063502311706543,
+      "_start": 1763523505.3543649
+    },
+    "https://weekly.howie6879.com/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.6549131870269775,
+      "_start": 1763523508.4654348
+    },
+    "https://www.zhihu.com/people/githubdaily": {
+      "ok": false,
+      "count": 0,
+      "error": "error: 403 Client Error: Forbidden for url: https://www.zhihu.com/people/githubdaily",
+      "duration": 0.16269278526306152,
+      "_start": 1763523509.9254432
+    },
+    "https://github.com/GitHubDaily/GitHubDaily": {
+      "ok": true,
+      "count": 1,
+      "error": "",
+      "duration": 1.929595947265625,
+      "_start": 1763523510.088309
+    },
+    "https://x.com/GitHub_Daily": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.1421608924865723,
+      "_start": 1763523512.823044
+    },
+    "https://hellogithub.com/": {
+      "ok": true,
+      "count": 4,
+      "error": "",
+      "duration": 0.22183489799499512,
+      "_start": 1763523514.769224
+    },
+    "https://github.com/OpenGithubs/github-weekly-rank": {
+      "ok": true,
+      "count": 1,
+      "error": "",
+      "duration": 1.507106065750122,
+      "_start": 1763523515.79618
+    },
+    "https://open.itc.cn/": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 0.5787899494171143,
+      "_start": 1763523518.108454
+    },
+    "https://www.github-zh.com/top": {
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "duration": 4.001157999038696,
+      "_start": 1763523519.488259
+    }
+  },
+  "items": [
+    {
+      "title": "sansan0 / TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "source": "github_trending",
+      "summary": "🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "nvm-sh / nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "source": "github_trending",
+      "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "traefik / traefik",
+      "url": "https://github.com/traefik/traefik",
+      "source": "github_trending",
+      "summary": "The Cloud Native Application Proxy",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HKUDS / LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "source": "github_trending",
+      "summary": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "volcengine / verl",
+      "url": "https://github.com/volcengine/verl",
+      "source": "github_trending",
+      "summary": "verl: Volcano Engine Reinforcement Learning for LLMs",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GibsonAI / Memori",
+      "url": "https://github.com/GibsonAI/Memori",
+      "source": "github_trending",
+      "summary": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "yangshun / tech-interview-handbook",
+      "url": "https://github.com/yangshun/tech-interview-handbook",
+      "source": "github_trending",
+      "summary": "Curated coding interview preparation materials for busy software engineers",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "MustardChef / WSABuilds",
+      "url": "https://github.com/MustardChef/WSABuilds",
+      "source": "github_trending",
+      "summary": "Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries wi...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "playcanvas / engine",
+      "url": "https://github.com/playcanvas/engine",
+      "source": "github_trending",
+      "summary": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "milvus-io / milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "source": "github_trending",
+      "summary": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "wolfpld / tracy",
+      "url": "https://github.com/wolfpld/tracy",
+      "source": "github_trending",
+      "summary": "Frame profiler",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Cloudflare、X等服务出现故障。",
+      "url": "https://www.cloudflarestatus.com/?t=1",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Cloudflare"
+      ]
+    },
+    {
+      "title": "谷歌反重力",
+      "url": "https://antigravity.google/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "双子座3号",
+      "url": "https://blog.google/products/gemini/gemini-3/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Gemini 3 为开发者提供：新的推理能力和自主代理功能",
+      "url": "https://blog.google/technology/developers/gemini-3-developers/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Gemini 3 Pro 预览在 AI 工作室直播中",
+      "url": "https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "几乎所有英国司机都表示车灯太亮。",
+      "url": "https://www.bbc.com/news/articles/c1j8ewy1p86o",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "谷歌反重力：人工智能辅助软件开发的新纪元",
+      "url": "https://antigravity.google/blog/introducing-google-antigravity",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "2025年11月18日Cloudflare故障事后分析",
+      "url": "https://blog.cloudflare.com/18-november-2025-outage/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub: Git 操作失败",
+      "url": "https://www.githubstatus.com/incidents/5q7nmlxz30sk",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Gemini 3 Pro 型号卡 [pdf]",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "天文摄影师捕捉到跳伞者在太阳前坠落的瞬间",
+      "url": "https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "内华达州州长办公室掩盖了Boring公司安全违规行为。",
+      "url": "https://fortune.com/2025/11/12/elon-musk-boring-company-tunnels-injuries-osha-citations-fines-rescinded-nevada-governor-office-documents-altered/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GPT-5.1：更智能、更具对话性的ChatGPT",
+      "url": "https://openai.com/index/gpt-5-1/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Go的甜蜜16岁",
+      "url": "https://go.dev/blog/16years",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Laptops with Stickers",
+      "url": "https://stickertop.art/main/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45789674",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "I Am Mark Zuckerberg",
+      "url": "https://iammarkzuckerberg.com/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45863360",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Marble Fountain",
+      "url": "https://willmorrison.net/posts/marble-fountain/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45866697",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "XSLT RIP",
+      "url": "https://xslt.rip/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45873434",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45877257",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45883788",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "FFmpeg to Google: Fund us or stop sending bugs",
+      "url": "https://thenewstack.io/ffmpeg-to-google-fund-us-or-stop-sending-bugs/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45891016",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Yann LeCun to depart Meta and launch AI startup focused on 'world models'",
+      "url": "https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45897271",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Yt-dlp: External JavaScript runtime now required for full YouTube support",
+      "url": "https://github.com/yt-dlp/yt-dlp/issues/15012",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45898407",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "The last-ever penny will be minted today in Philadelphia",
+      "url": "https://www.cnn.com/2025/11/12/business/last-penny-minted",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Figma Weave | Figma 收购创意平台",
+      "url": "https://koala-oss.app/news/1475",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Valdi | Snapchat 开源跨平台框架",
+      "url": "https://koala-oss.app/news/1474",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Thermoptic | HTTP 隐身代理",
+      "url": "https://koala-oss.app/news/1473",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Gametje | 聚会小游戏大全",
+      "url": "https://koala-oss.app/news/1472",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Ratatui | 终端界面也能很现代",
+      "url": "https://koala-oss.app/news/1471",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Strix | AI 渗透测试工具",
+      "url": "https://koala-oss.app/news/1470",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Skyvern | AI 浏览器自动化",
+      "url": "https://koala-oss.app/news/1466",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "pg_lake | Postgres 湖仓集成",
+      "url": "https://koala-oss.app/news/1465",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Fang | Go CLI 应用脚手架",
+      "url": "https://koala-oss.app/news/1464",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Go"
+      ]
+    },
+    {
+      "title": "TOON | LLM 专属数据格式",
+      "url": "https://koala-oss.app/news/1463",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "title": "OpenTUI | JS TUI 框架新选择",
+      "url": "https://koala-oss.app/news/1462",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "slime | LLM RL 训练框架",
+      "url": "https://koala-oss.app/news/1461",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "title": "BYVoid | 郭家宝",
+      "url": "https://byvoid.com/zhs/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 268",
+      "url": "https://morerss.com/BYVoid%20%7C%20%E9%83%AD%E5%AE%B6%E5%AE%9D",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-18",
+      "url": "https://decohack.com/producthunt-daily-2025-11-18/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-17",
+      "url": "https://decohack.com/producthunt-daily-2025-11-17/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-16",
+      "url": "https://decohack.com/producthunt-daily-2025-11-16/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-15",
+      "url": "https://decohack.com/producthunt-daily-2025-11-15/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-14",
+      "url": "https://decohack.com/producthunt-daily-2025-11-14/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-13",
+      "url": "https://decohack.com/producthunt-daily-2025-11-13/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-12",
+      "url": "https://decohack.com/producthunt-daily-2025-11-12/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FGitHubDaily%2FGitHubDaily",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "服务器由提供",
+      "url": "https://www.ucloud.cn/site/active/kuaijiesale.html?utm_term=logo&utm_campaign=hellogithub&utm_source=otherdsp&utm_medium=display&ytag=logo_hellogithub_otherdsp_display",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "专业的提供云存储服务",
+      "url": "https://www.upyun.com/?from=hellogithub",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "京ICP备17046648号-1",
+      "url": "https://beian.miit.gov.cn/",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "京公网安备11011402013237号",
+      "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011402013237",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FOpenGithubs%2Fgithub-weekly-rank",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://www.deepseek.com/",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "AI系统学习",
+      "url": "",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "chenzomi12/DeepLearningSystem",
+      "url": "https://github.com/chenzomi12/DeepLearningSystem",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "AutoGPT",
+      "url": "https://news.agpt.co/",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Significant-Gravitas/Auto-GPT",
+      "url": "https://github.com/Significant-Gravitas/Auto-GPT",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "google/gemma_pytorch",
+      "url": "https://ai.google.dev/gemma?hl=zh-cn",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "google/gemma_pytorch",
+      "url": "https://github.com/google/gemma_pytorch",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Databerry",
+      "url": "https://www.databerry.ai/",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "gmpetrov/databerry",
+      "url": "https://github.com/gmpetrov/databerry",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub 中文社区",
+      "url": "https://www.github-zh.com/",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "CodeCrafters@codecrafters-io",
+      "url": "https://github.com/codecrafters-io",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "#学习与技能提升#",
+      "url": "https://www.github-zh.com/collections/learn-to-code",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "tutorial-code",
+      "url": "https://www.github-zh.com/topics/tutorial-code",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "tutorial-exercises",
+      "url": "https://www.github-zh.com/topics/tutorial-exercises",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "freeCodeCamp.org@freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "learn-to-code",
+      "url": "https://www.github-zh.com/topics/learn-to-code",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "nonprofits",
+      "url": "https://www.github-zh.com/topics/nonprofits",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Node.js",
+      "url": "https://www.github-zh.com/topics/nodejs",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "React",
+      "url": "https://www.github-zh.com/topics/react",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sindre Sorhus@sindresorhus",
+      "url": "https://github.com/sindresorhus",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Awesome Lists",
+      "url": "https://www.github-zh.com/topics/awesome",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "unicorns",
+      "url": "https://www.github-zh.com/topics/unicorns",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "lists",
+      "url": "https://www.github-zh.com/topics/lists",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Hackathon-Kit",
+      "url": "https://www.github-zh.com/topics/resources",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "google/zerocopy v0.8.27",
+      "url": "https://github.com/google/zerocopy/releases/tag/v0.8.27",
+      "source": "release_github",
+      "summary": "v0.8.27",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/incubator-teaclave v0.6.0",
+      "url": "https://github.com/apache/teaclave/releases/tag/v0.6.0",
+      "source": "release_github",
+      "summary": "Apache Teaclave (incubating) 0.6.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/superset 5.0.0",
+      "url": "https://github.com/apache/superset/releases/tag/5.0.0",
+      "source": "release_github",
+      "summary": "5.0.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/helix helix-1.4.3",
+      "url": "https://github.com/apache/helix/releases/tag/helix-1.4.3",
+      "source": "release_github",
+      "summary": "helix-1.4.3",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "google/gemma.cpp v0.1.4",
+      "url": "https://github.com/google/gemma.cpp/releases/tag/v0.1.4",
+      "source": "release_github",
+      "summary": "v0.1.4",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/servicecomb-java-chassis 2.9.2",
+      "url": "https://github.com/apache/servicecomb-java-chassis/releases/tag/2.9.2",
+      "source": "release_github",
+      "summary": "Apache ServiceComb Java-Chassis 2.9.2",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "facebook/sapling 0.2.20250521-115337+25ed6ac4",
+      "url": "https://github.com/facebook/sapling/releases/tag/0.2.20250521-115337%2B25ed6ac4",
+      "source": "release_github",
+      "summary": "0.2.20250521-115337+25ed6ac4",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "facebook/kuduraft 1.8.0",
+      "url": "https://github.com/facebook/kuduraft/releases/tag/1.8.0",
+      "source": "release_github",
+      "summary": "1.8.0",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/brpc 1.15.0",
+      "url": "https://github.com/apache/brpc/releases/tag/1.15.0",
+      "source": "release_github",
+      "summary": "Apache bRPC 1.15.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/arrow apache-arrow-22.0.0",
+      "url": "https://github.com/apache/arrow/releases/tag/apache-arrow-22.0.0",
+      "source": "release_github",
+      "summary": "Apache Arrow 22.0.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "twitter/pelikan 0.1.2",
+      "url": "https://github.com/twitter/pelikan/releases/tag/0.1.2",
+      "source": "release_github",
+      "summary": "Version 0.1.2",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/incubator-answer v1.7.0",
+      "url": "https://github.com/apache/answer/releases/tag/v1.7.0",
+      "source": "release_github",
+      "summary": "v1.7.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/arrow-rs 57.0.0",
+      "url": "https://github.com/apache/arrow-rs/releases/tag/57.0.0",
+      "source": "release_github",
+      "summary": "arrow 57.0.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/auron v6.0.0",
+      "url": "https://github.com/apache/auron/releases/tag/v6.0.0",
+      "source": "release_github",
+      "summary": "v6.0.0-incubating",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/datafusion python-0.4.0",
+      "url": "https://github.com/apache/datafusion/releases/tag/python-0.4.0",
+      "source": "release_github",
+      "summary": "python-0.4.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache",
+        "Python"
+      ]
+    }
+  ]
+}

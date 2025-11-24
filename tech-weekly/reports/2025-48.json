@@ -1,0 +1,856 @@
+{
+  "slug": "2025-48",
+  "generated_at": "2025-11-24T23:50:08.853594",
+  "stats": {
+    "https://github.com/ruanyf/weekly/issues": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.1992688179016113,
+      "_start": 1763999311.518381
+    },
+    "https://github.com/trending": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 8.90111494064331,
+      "_start": 1763999314.521861
+    },
+    "https://hn.aimaker.dev/": {
+      "ok": true,
+      "count": 12,
+      "error": "",
+      "duration": 2.820707082748413,
+      "_start": 1763999324.226908
+    },
+    "https://www.daemonology.net/hn-weekly/": {
+      "ok": true,
+      "count": 17,
+      "error": "",
+      "duration": 2.672877788543701,
+      "_start": 1763999327.850352
+    },
+    "https://koala-oss.app/news/": {
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "duration": 0.8320930004119873,
+      "_start": 1763999331.325342
+    },
+    "https://topsub.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.2814788818359375,
+      "_start": 1763999332.959882
+    },
+    "https://git.news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.2363882064819336,
+      "_start": 1763999335.0425549
+    },
+    "https://github.com/howie6879/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 3.209796905517578,
+      "_start": 1763999338.083043
+    },
+    "https://github.com/tw93/weekly?tab=readme-ov-file": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 3.8367221355438232,
+      "_start": 1763999342.097931
+    },
+    "https://github.com/ljinkai/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.808154821395874,
+      "_start": 1763999346.738404
+    },
+    "https://hn.buzzing.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.9383578300476074,
+      "_start": 1763999349.349843
+    },
+    "https://morerss.com/zh": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.9325246810913086,
+      "_start": 1763999352.0929852
+    },
+    "https://x-daily.pages.dev/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.8564412593841553,
+      "_start": 1763999354.826103
+    },
+    "https://decohack.com/": {
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "duration": 2.7796878814697266,
+      "_start": 1763999357.486346
+    },
+    "https://github.com/headllines/hackernews-monthly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.9124729633331299,
+      "_start": 1763999361.068969
+    },
+    "https://weekly.howie6879.com/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.5266430377960205,
+      "_start": 1763999363.785082
+    },
+    "https://www.zhihu.com/people/githubdaily": {
+      "ok": false,
+      "count": 0,
+      "error": "error: 403 Client Error: Forbidden for url: https://www.zhihu.com/people/githubdaily",
+      "duration": 0.11408877372741699,
+      "_start": 1763999366.112481
+    },
+    "https://github.com/GitHubDaily/GitHubDaily": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 7.716518878936768,
+      "_start": 1763999366.226645
+    },
+    "https://x.com/GitHub_Daily": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.0288989543914795,
+      "_start": 1763999374.743645
+    },
+    "https://hellogithub.com/": {
+      "ok": true,
+      "count": 9,
+      "error": "",
+      "duration": 0.3474109172821045,
+      "_start": 1763999376.57298
+    },
+    "https://github.com/OpenGithubs/github-weekly-rank": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 5.262089014053345,
+      "_start": 1763999377.721878
+    },
+    "https://open.itc.cn/": {
+      "ok": true,
+      "count": 10,
+      "error": "",
+      "duration": 0.938316822052002,
+      "_start": 1763999383.7858381
+    },
+    "https://www.github-zh.com/top": {
+      "ok": true,
+      "count": 11,
+      "error": "",
+      "duration": 2.212207794189453,
+      "_start": 1763999385.52763
+    }
+  },
+  "items": [
+    {
+      "title": "爱荷华城的公交车免费了，交通畅通无阻，空气也变得清新。",
+      "url": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "X的新原产国功能显示许多标记为“美国”的账户实际上是由外国运营的。",
+      "url": "https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "消费者在微软眼中只是技术债务吗？",
+      "url": "https://birchtree.me/blog/are-consumers-just-tech-debt-to-microsoft/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "一个免费的工具，通过数千个隐形的Unicode字符让大型语言模型（LLMs）感到震惊。",
+      "url": "https://gibberifier.com",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "日本冒险将北海道打造成全球芯片中心",
+      "url": "https://www.bbc.com/news/articles/c8676qpxgnqo",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "沙赫卢德归来：超过300个NPM包被感染",
+      "url": "https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "“良好的工程管理”是一种潮流。",
+      "url": "https://lethain.com/good-eng-mgmt-is-a-fad/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "µcad：一种新的开源编程语言，可以生成二维草图和三维模型。",
+      "url": "https://microcad.xyz/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "73%的人工智能初创公司仅仅是提示工程。",
+      "url": "https://pub.towardsai.net/i-reverse-engineered-200-ai-startups-73-are-lying-a8610acab0d3",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "在欧洲核子研究中心（CERN）使用人工智能的基本原则",
+      "url": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "专利局即将使不良专利变得无法触碰。",
+      "url": "https://www.eff.org/deeplinks/2025/11/patent-office-about-make-bad-patents-untouchable",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "一位法国法官如何被美国数字切断联系",
+      "url": "https://www.heise.de/en/news/How-a-French-judge-was-digitally-cut-off-by-the-USA-11087561.html",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Show HN: I built a synth for my daughter",
+      "url": "https://bitsnpieces.dev/posts/a-synth-for-my-daughter/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45900425",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "AirPods libreated from Apple's ecosystem",
+      "url": "https://github.com/kavishdevar/librepods",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45941596",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Anthropic’s paper smells like bullshit",
+      "url": "https://djnn.sh/posts/anthropic-s-paper-smells-like-bullshit/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45944296",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Heretic: Automatic censorship removal for language models",
+      "url": "https://github.com/p-e-w/heretic",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45945587",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Open-source Zig book",
+      "url": "https://www.zigbook.net",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45947810",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "I have recordings proving Coinbase knew about breach months before disclosure",
+      "url": "https://jonathanclark.com/posts/coinbase-breach-timeline.html",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45948058",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Rebecca Heineman has died",
+      "url": "https://www.pcgamer.com/gaming-industry/legendary-game-designer-programmer-space-invaders-champion-and-lgbtq-trailblazer-rebecca-heineman-has-died/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45960368",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Cloudflare Global Network experiencing issues",
+      "url": "https://www.cloudflarestatus.com/incidents/8gmgl950y3h7",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Cloudflare"
+      ]
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45963780",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=45966251",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Gemini 3 | Google 的「满配」旗舰",
+      "url": "https://koala-oss.app/news/1481",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Blockly 毕业，加入树莓派基金会",
+      "url": "https://koala-oss.app/news/1480",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Tracy | 纳秒级的性能显微镜",
+      "url": "https://koala-oss.app/news/1479",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Rallly | 告别邮件来回的日程协调",
+      "url": "https://koala-oss.app/news/1478",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Wealthfolio | 开源离线私人投资管家",
+      "url": "https://koala-oss.app/news/1477",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Lima | macOS 上的 Linux 虚拟机神器",
+      "url": "https://koala-oss.app/news/1476",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-24",
+      "url": "https://decohack.com/producthunt-daily-2025-11-24/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-23",
+      "url": "https://decohack.com/producthunt-daily-2025-11-23/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-22",
+      "url": "https://decohack.com/producthunt-daily-2025-11-22/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-21",
+      "url": "https://decohack.com/producthunt-daily-2025-11-21/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-20",
+      "url": "https://decohack.com/producthunt-daily-2025-11-20/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-19",
+      "url": "https://decohack.com/producthunt-daily-2025-11-19/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "æœ€æ–°",
+      "url": "https://hellogithub.com/?sort_by=featured",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "æœˆåº¦",
+      "url": "https://hellogithub.com/?rank_by=montly",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "å¹´åº¦",
+      "url": "https://hellogithub.com/?rank_by=yearly",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "å…¨éƒ¨",
+      "url": "https://hellogithub.com/?sort_by=all",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "å�‹æƒ…é“¾æ�¥",
+      "url": "https://hellogithub.com/links",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ç”¨æˆ·å��è®®",
+      "url": "https://hellogithub.com/help/ats",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ç¤¾åŒºæº�ç �",
+      "url": "https://github.com/HelloGitHub-Team/geese",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ç«™ç‚¹åœ°å›¾",
+      "url": "https://hellogithub.com/server-sitemap-index.xml",
+      "source": "https://hellogithub.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Redisäº‘å¹³å�°",
+      "url": "https://redis.io/",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "sohutv/cachecloud",
+      "url": "https://github.com/sohutv/cachecloud",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "æœˆåˆŠ",
+      "url": "https://open.itc.cn/?tab=collection&colType=3",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Githubå¼€æº�é¡¹ç›®ç²¾é€‰10æœˆæœˆåˆŠ",
+      "url": "https://open.itc.cn/?tab=collection",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "å�³æ—¶è¯­éŸ³å…‹éš†AIå·¥å…·",
+      "url": "https://research.myshell.ai/open-voice",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "myshell-ai/OpenVoice",
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "xai-org/grok-1",
+      "url": "https://github.com/xai-org/grok-1",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "è®ºå�›",
+      "url": "https://forum.github-zh.com",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "æ�’è¡Œæ¦œ",
+      "url": "https://www.github-zh.com/top",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "è¶‹åŠ¿",
+      "url": "https://www.github-zh.com/trending",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ç™»å½•",
+      "url": "https://www.github-zh.com/auth/github",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "é›†å�ˆ",
+      "url": "https://www.github-zh.com/collections",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ä¸»é¢˜",
+      "url": "https://www.github-zh.com/topics",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ç¼–ç¨‹",
+      "url": "https://www.github-zh.com/topics/programming",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "æ•™ç¨‹",
+      "url": "https://www.github-zh.com/topics/tutorials",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "å…�è´¹",
+      "url": "https://www.github-zh.com/topics/free",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/commons-pool start@560659",
+      "url": "https://github.com/apache/commons-pool/releases/tag/start@560659",
+      "source": "release_github",
+      "summary": "start@560659",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/servicecomb-java-chassis 3.3.0",
+      "url": "https://github.com/apache/servicecomb-java-chassis/releases/tag/3.3.0",
+      "source": "release_github",
+      "summary": "Apache ServiceComb Java-Chassis 3.3.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/opendal v0.55.0",
+      "url": "https://github.com/apache/opendal/releases/tag/v0.55.0",
+      "source": "release_github",
+      "summary": "v0.55.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/incubator-opendal v0.55.0",
+      "url": "https://github.com/apache/opendal/releases/tag/v0.55.0",
+      "source": "release_github",
+      "summary": "v0.55.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "facebook/zstd v1.5.7",
+      "url": "https://github.com/facebook/zstd/releases/tag/v1.5.7",
+      "source": "release_github",
+      "summary": "Zstandard v1.5.7",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/dubbo-spi-extensions v3.3.1",
+      "url": "https://github.com/apache/dubbo-spi-extensions/releases/tag/v3.3.1",
+      "source": "release_github",
+      "summary": "v3.3.1",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/dubbo-go-pixiu v1.0.0-rc4",
+      "url": "https://github.com/apache/dubbo-go-pixiu/releases/tag/v1.0.0-rc4",
+      "source": "release_github",
+      "summary": "v1.0.0-rc4",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache",
+        "Go"
+      ]
+    },
+    {
+      "title": "apache/cassandra cassandra-5.0.6",
+      "url": "https://github.com/apache/cassandra/releases/tag/cassandra-5.0.6",
+      "source": "release_github",
+      "summary": "cassandra-5.0.6",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "google/nftables v0.3.0",
+      "url": "https://github.com/google/nftables/releases/tag/v0.3.0",
+      "source": "release_github",
+      "summary": "v0.3.0",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    }
+  ]
+}

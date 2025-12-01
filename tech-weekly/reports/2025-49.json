@@ -1,0 +1,605 @@
+{
+  "slug": "2025-49",
+  "generated_at": "2025-12-01T23:09:12.879142",
+  "stats": {
+    "https://github.com/ruanyf/weekly/issues": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.500887155532837,
+      "_start": 1764601652.81264
+    },
+    "https://github.com/trending": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 4.820931673049927,
+      "_start": 1764601656.1144361
+    },
+    "https://hn.aimaker.dev/": {
+      "ok": true,
+      "count": 15,
+      "error": "",
+      "duration": 2.3348441123962402,
+      "_start": 1764601661.7354429
+    },
+    "https://www.daemonology.net/hn-weekly/": {
+      "ok": true,
+      "count": 18,
+      "error": "",
+      "duration": 2.6937053203582764,
+      "_start": 1764601664.873371
+    },
+    "https://koala-oss.app/news/": {
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "duration": 2.0200188159942627,
+      "_start": 1764601668.3673952
+    },
+    "https://topsub.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.233062744140625,
+      "_start": 1764601671.188043
+    },
+    "https://git.news/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.6829218864440918,
+      "_start": 1764601673.22502
+    },
+    "https://github.com/howie6879/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.9901788234710693,
+      "_start": 1764601675.712773
+    },
+    "https://github.com/tw93/weekly?tab=readme-ov-file": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.0247628688812256,
+      "_start": 1764601678.504514
+    },
+    "https://github.com/ljinkai/weekly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.114169120788574,
+      "_start": 1764601681.329344
+    },
+    "https://hn.buzzing.cc/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.576860189437866,
+      "_start": 1764601684.244201
+    },
+    "https://morerss.com/zh": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.6217520236968994,
+      "_start": 1764601687.625278
+    },
+    "https://x-daily.pages.dev/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.4770970344543457,
+      "_start": 1764601690.047572
+    },
+    "https://decohack.com/": {
+      "ok": true,
+      "count": 7,
+      "error": "",
+      "duration": 2.2165539264678955,
+      "_start": 1764601691.329654
+    },
+    "https://github.com/headllines/hackernews-monthly": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.6738030910491943,
+      "_start": 1764601694.346433
+    },
+    "https://weekly.howie6879.com/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.5562920570373535,
+      "_start": 1764601696.824223
+    },
+    "https://www.zhihu.com/people/githubdaily": {
+      "ok": false,
+      "count": 0,
+      "error": "error: 403 Client Error: Forbidden for url: https://www.zhihu.com/people/githubdaily",
+      "duration": 0.07473373413085938,
+      "_start": 1764601698.1844962
+    },
+    "https://github.com/GitHubDaily/GitHubDaily": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 3.905397891998291,
+      "_start": 1764601698.259274
+    },
+    "https://x.com/GitHub_Daily": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.1665129661560059,
+      "_start": 1764601702.968534
+    },
+    "https://hellogithub.com/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.22368264198303223,
+      "_start": 1764601704.9399512
+    },
+    "https://github.com/OpenGithubs/github-weekly-rank": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 1.5725390911102295,
+      "_start": 1764601705.963976
+    },
+    "https://open.itc.cn/": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 0.44533228874206543,
+      "_start": 1764601708.338363
+    },
+    "https://www.github-zh.com/top": {
+      "ok": true,
+      "count": 0,
+      "error": "",
+      "duration": 2.1760239601135254,
+      "_start": 1764601709.586248
+    }
+  },
+  "items": [
+    {
+      "title": "谷歌反重力刚刚删除了整个驱动器的内容。",
+      "url": "https://old.reddit.com/r/google_antigravity/comments/1p82or6/google_antigravity_just_deleted_the_contents_of/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "为什么要执行 xor eax, eax？",
+      "url": "https://xania.org/202512/01-xor-eax-eax",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "从GitHub到Codeberg：我的经历",
+      "url": "https://eldred.fr/blog/forge-migration/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "致FreeBSD的一封情书",
+      "url": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "关于阮清妃",
+      "url": "https://hn.aimaker.dev/item/46102451",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "1GB Raspberry Pi 5及其受内存驱动的价格上涨",
+      "url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "不要强迫我们接受人工智能。",
+      "url": "https://gpt3experiments.substack.com/p/dont-push-ai-down-our-throats",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "使用反作弊系统的游戏及其与GNU/Linux或Wine/Proton的兼容性",
+      "url": "https://areweanticheatyet.com/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "《思维游戏电影 - 谷歌DeepMind纪录片》",
+      "url": "https://thinkinggamefilm.com",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "英国政府计划赋予新权力，将异议运动标记为“颠覆”。",
+      "url": "https://netpol.org/2025/11/28/government-plans-new-powers-to-label-dissenting-movements-as-subversion/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "太空中的数据中心是行不通的。",
+      "url": "https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "TPU与GPU的比较，以及为什么谷歌在长期内有望赢得人工智能竞争",
+      "url": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitLab 发现广泛的 NPM 供应链攻击",
+      "url": "https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "克劳德·奥普斯 4.5",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "法国威胁GrapheneOS，因其拒绝后门而可能面临逮捕或服务器被扣押。",
+      "url": "https://mamot.fr/@LaQuadrature/115581775965025042",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "We Induced Smells With Ultrasound",
+      "url": "https://writetobrain.com/olfactory",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46008332",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Personal blogs are back, should niche blogs be next?",
+      "url": "https://disassociated.com/personal-blogs-back-niche-blogs-next/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46009894",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "The privacy nightmare of browser fingerprinting",
+      "url": "https://kevinboone.me/fingerprinting.html",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46016249",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "A monopoly ISP refuses to fix upstream infrastructure",
+      "url": "https://sacbear.com/xfinity-wont-fix-internet/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46019685",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "After my dad died, we found the love letters",
+      "url": "https://www.jenn.site/after-my-dad-died-we-found-the-love-letters/",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46021825",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Fran Sans – font inspired by San Francisco light rail displays",
+      "url": "https://emilysneddon.com/fran-sans-essay",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46025942",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46032539",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Pebble Watch software is now open source",
+      "url": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46037626",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "(comments)",
+      "url": "https://news.ycombinator.com/item?id=46037637",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Claude Advanced Tool Use",
+      "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "hl | 高性能日志解析器",
+      "url": "https://koala-oss.app/news/1487",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Prisma 7 | 告别Rust重构成功",
+      "url": "https://koala-oss.app/news/1486",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "gitlogue | 把 Git 历史拍成终端大片",
+      "url": "https://koala-oss.app/news/1485",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "KTransformers | 大模型异构计算框架",
+      "url": "https://koala-oss.app/news/1484",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "CrossPaste | 跨设备剪贴板神器",
+      "url": "https://koala-oss.app/news/1483",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Weblate | 开源本地化平台",
+      "url": "https://koala-oss.app/news/1482",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-12-01",
+      "url": "https://decohack.com/producthunt-daily-2025-12-01/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-30",
+      "url": "https://decohack.com/producthunt-daily-2025-11-30/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-29",
+      "url": "https://decohack.com/producthunt-daily-2025-11-29/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-28",
+      "url": "https://decohack.com/producthunt-daily-2025-11-28/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-27",
+      "url": "https://decohack.com/producthunt-daily-2025-11-27/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-26",
+      "url": "https://decohack.com/producthunt-daily-2025-11-26/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-25",
+      "url": "https://decohack.com/producthunt-daily-2025-11-25/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "google/zerocopy v0.8.31",
+      "url": "https://github.com/google/zerocopy/releases/tag/v0.8.31",
+      "source": "release_github",
+      "summary": "v0.8.31",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/helix helix-1.3.2",
+      "url": "https://github.com/apache/helix/releases/tag/helix-1.3.2",
+      "source": "release_github",
+      "summary": "Apache Helix 1.3.2",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/servicecomb-java-chassis 2.8.29",
+      "url": "https://github.com/apache/servicecomb-java-chassis/releases/tag/2.8.29",
+      "source": "release_github",
+      "summary": "Apache ServiceComb Java-Chassis 2.8.29",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    }
+  ]
+}

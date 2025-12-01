@@ -26,6 +26,7 @@ from bs4 import BeautifulSoup
 import feedparser
 import sqlite3
 import random
+import codecs
 
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -47,11 +48,61 @@ def norm_space(s: str) -> str:
     return re.sub(r"\s+", " ", s or "").strip()
 
 
+def _detect_encoding(resp: requests.Response, url: str) -> str:
+    """Detect a reasonable encoding for the response body.
+
+    Preference order:
+    1) HTTP header charset
+    2) <meta charset> or meta content-type in HTML head
+    3) BOM detection
+    4) requests' apparent_encoding
+    5) fallback to UTF-8
+
+    Includes a site-specific fix for decohack.com which should be UTF-8.
+    """
+    enc = None
+    # 1) From HTTP header
+    ct = resp.headers.get("Content-Type", "")
+    m = re.search(r"charset=([^\s;]+)", ct, flags=re.IGNORECASE)
+    if m:
+        enc = m.group(1).strip().strip('"').lower()
+
+    # 2) From HTML meta in the first chunk
+    if not enc:
+        content = resp.content or b""
+        try:
+            head = content[:8192].decode("utf-8", errors="ignore")
+        except Exception:
+            head = ""
+        m1 = re.search(r"<meta[^>]+charset=\s*[\"']?([\w\-]+)", head, flags=re.IGNORECASE)
+        if m1:
+            enc = m1.group(1).lower()
+        else:
+            m2 = re.search(r"<meta[^>]+content=\s*[\"'][^\"']*charset=([\w\-]+)", head, flags=re.IGNORECASE)
+            if m2:
+                enc = m2.group(1).lower()
+
+    # 3) BOM detection
+    if not enc and (resp.content or b"")[:3] == codecs.BOM_UTF8:
+        enc = "utf-8"
+
+    # 4) requests apparent encoding
+    if not enc and getattr(resp, "apparent_encoding", None):
+        enc = resp.apparent_encoding
+
+    # Site-specific fix
+    host = urlparse(url).netloc.lower()
+    if "decohack.com" in host:
+        enc = "utf-8"
+
+    return enc or "utf-8"
+
+
 def fetch(url: str, timeout: int = 15) -> str:
     log(f"GET {url}")
     resp = requests.get(url, headers=HEADERS, timeout=timeout)
     resp.raise_for_status()
-    resp.encoding = resp.apparent_encoding or "utf-8"
+    resp.encoding = _detect_encoding(resp, url)
     return resp.text
 
 

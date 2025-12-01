@@ -1,4 +1,27 @@
 title,url,source,author,published_at,tags,summary
+sansan0 / TrendRadar,https://github.com/sansan0/TrendRadar,github_trending,,,,🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+...
+google / adk-go,https://github.com/google/adk-go,github_trending,,,Go,An open-source; code-first Go toolkit for building; evaluating; and deploying sophisticated AI ag...
+TapXWorld / ChinaTextbook,https://github.com/TapXWorld/ChinaTextbook,github_trending,,,,所有小初高、大学PDF教材。
+yeongpin / cursor-free-vip,https://github.com/yeongpin/cursor-free-vip,github_trending,,,,[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升...
+nvm-sh / nvm,https://github.com/nvm-sh/nvm,github_trending,,,,Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
+traefik / traefik,https://github.com/traefik/traefik,github_trending,,,,The Cloud Native Application Proxy
+HKUDS / LightRAG,https://github.com/HKUDS/LightRAG,github_trending,,,,[EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation"
+bobeff / open-source-games,https://github.com/bobeff/open-source-games,github_trending,,,,A list of open source games.
+volcengine / verl,https://github.com/volcengine/verl,github_trending,,,,verl: Volcano Engine Reinforcement Learning for LLMs
+GibsonAI / Memori,https://github.com/GibsonAI/Memori,github_trending,,,,Open-Source Memory Engine for LLMs; AI Agents & Multi-Agent Systems
+yangshun / tech-interview-handbook,https://github.com/yangshun/tech-interview-handbook,github_trending,,,,Curated coding interview preparation materials for busy software engineers
+microsoft / call-center-ai,https://github.com/microsoft/call-center-ai,github_trending,,,AI,Send a phone call from AI agent; in an API call. Or; directly call the bot from the configured ph...
+MustardChef / WSABuilds,https://github.com/MustardChef/WSABuilds,github_trending,,,,Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries wi...
+playcanvas / engine,https://github.com/playcanvas/engine,github_trending,,,,Powerful web graphics runtime built on WebGL; WebGPU; WebXR and glTF
+iptv-org / iptv,https://github.com/iptv-org/iptv,github_trending,,,,Collection of publicly available IPTV channels from all over the world
+Zie619 / n8n-workflows,https://github.com/Zie619/n8n-workflows,github_trending,,,,all of the workflows of n8n i could find (also from the site itself)
+milvus-io / milvus,https://github.com/milvus-io/milvus,github_trending,,,,Milvus is a high-performance; cloud-native vector database built for scalable vector ANN search
+wolfpld / tracy,https://github.com/wolfpld/tracy,github_trending,,,,Frame profiler
+HackerNews CN,https://hn.aimaker.dev/,https://hn.aimaker.dev,,,,
+24小时热榜,https://hn.aimaker.dev/category/top,https://hn.aimaker.dev,,,,
+GitHub,https://github.com/ViggoZ/hackernews-cn,https://hn.aimaker.dev,,,,
+Twitter,https://twitter.com/decohack,https://hn.aimaker.dev,,,,
+Sponsored byAI Maker,https://aimaker.dev,https://hn.aimaker.dev,,,,
 爱荷华城的公交车免费了，交通畅通无阻，空气也变得清新。,https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html,https://hn.aimaker.dev,,,,
 X的新原产国功能显示许多标记为“美国”的账户实际上是由外国运营的。,https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html,https://hn.aimaker.dev,,,,
 消费者在微软眼中只是技术债务吗？,https://birchtree.me/blog/are-consumers-just-tech-debt-to-microsoft/,https://hn.aimaker.dev,,,,
@@ -11,6 +34,10 @@ X的新原产国功能显示许多标记为“美国”的账户实际上是由�
 在欧洲核子研究中心（CERN）使用人工智能的基本原则,https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern,https://hn.aimaker.dev,,,,
 专利局即将使不良专利变得无法触碰。,https://www.eff.org/deeplinks/2025/11/patent-office-about-make-bad-patents-untouchable,https://hn.aimaker.dev,,,,
 一位法国法官如何被美国数字切断联系,https://www.heise.de/en/news/How-a-French-judge-was-digitally-cut-off-by-the-USA-11087561.html,https://hn.aimaker.dev,,,,
+Cloudflare、X等服务出现故障。,https://www.cloudflarestatus.com/?t=1,https://hn.aimaker.dev,,,Cloudflare,
+谷歌反重力,https://antigravity.google/,https://hn.aimaker.dev,,,,
+双子座3号,https://blog.google/products/gemini/gemini-3/,https://hn.aimaker.dev,,,,
+Hacker News,https://news.ycombinator.com/,hn_weekly,,,,
 Show HN: I built a synth for my daughter,https://bitsnpieces.dev/posts/a-synth-for-my-daughter/,hn_weekly,,,,
 (comments),https://news.ycombinator.com/item?id=45900425,hn_weekly,,,,
 AirPods libreated from Apple's ecosystem,https://github.com/kavishdevar/librepods,hn_weekly,,,,
@@ -27,49 +54,166 @@ Rebecca Heineman has died,https://www.pcgamer.com/gaming-industry/legendary-game
 (comments),https://news.ycombinator.com/item?id=45960368,hn_weekly,,,,
 Cloudflare Global Network experiencing issues,https://www.cloudflarestatus.com/incidents/8gmgl950y3h7,hn_weekly,,,Cloudflare,
 (comments),https://news.ycombinator.com/item?id=45963780,hn_weekly,,,,
+Nearly all UK drivers say headlights are too bright,https://www.bbc.com/news/articles/c1j8ewy1p86o,hn_weekly,,,,
 (comments),https://news.ycombinator.com/item?id=45966251,hn_weekly,,,,
+Koala OSS Club,https://koala-oss.app/,https://koala-oss.app,,,,
+俱乐部视频,https://koala-oss.app/course/,https://koala-oss.app,,,,
 Gemini 3 | Google 的「满配」旗舰,https://koala-oss.app/news/1481,https://koala-oss.app,,,,
 Blockly 毕业，加入树莓派基金会,https://koala-oss.app/news/1480,https://koala-oss.app,,,,
 Tracy | 纳秒级的性能显微镜,https://koala-oss.app/news/1479,https://koala-oss.app,,,,
 Rallly | 告别邮件来回的日程协调,https://koala-oss.app/news/1478,https://koala-oss.app,,,,
 Wealthfolio | 开源离线私人投资管家,https://koala-oss.app/news/1477,https://koala-oss.app,,,,
 Lima | macOS 上的 Linux 虚拟机神器,https://koala-oss.app/news/1476,https://koala-oss.app,,,Linux,
-PHä»Šæ—¥çƒ­æ¦œ | 2025-11-24,https://decohack.com/producthunt-daily-2025-11-24/,https://decohack.com,,,,
-PHä»Šæ—¥çƒ­æ¦œ | 2025-11-23,https://decohack.com/producthunt-daily-2025-11-23/,https://decohack.com,,,,
-PHä»Šæ—¥çƒ­æ¦œ | 2025-11-22,https://decohack.com/producthunt-daily-2025-11-22/,https://decohack.com,,,,
-PHä»Šæ—¥çƒ­æ¦œ | 2025-11-21,https://decohack.com/producthunt-daily-2025-11-21/,https://decohack.com,,,,
-PHä»Šæ—¥çƒ­æ¦œ | 2025-11-20,https://decohack.com/producthunt-daily-2025-11-20/,https://decohack.com,,,,
-PHä»Šæ—¥çƒ­æ¦œ | 2025-11-19,https://decohack.com/producthunt-daily-2025-11-19/,https://decohack.com,,,,
-æœ€æ–°,https://hellogithub.com/?sort_by=featured,https://hellogithub.com,,,,
-æœˆåº¦,https://hellogithub.com/?rank_by=montly,https://hellogithub.com,,,,
-å¹´åº¦,https://hellogithub.com/?rank_by=yearly,https://hellogithub.com,,,,
-å…¨éƒ¨,https://hellogithub.com/?sort_by=all,https://hellogithub.com,,,,
-å�‹æƒ…é“¾æ�¥,https://hellogithub.com/links,https://hellogithub.com,,,,
-ç”¨æˆ·å��è®®,https://hellogithub.com/help/ats,https://hellogithub.com,,,,
-ç¤¾åŒºæº�ç �,https://github.com/HelloGitHub-Team/geese,https://hellogithub.com,,,,
-ç«™ç‚¹åœ°å›¾,https://hellogithub.com/server-sitemap-index.xml,https://hellogithub.com,,,,
-Redisäº‘å¹³å�°,https://redis.io/,https://open.itc.cn,,,,
+Figma Weave | Figma 收购创意平台,https://koala-oss.app/news/1475,https://koala-oss.app,,,,
+Valdi | Snapchat 开源跨平台框架,https://koala-oss.app/news/1474,https://koala-oss.app,,,,
+Thermoptic | HTTP 隐身代理,https://koala-oss.app/news/1473,https://koala-oss.app,,,,
+Gametje | 聚会小游戏大全,https://koala-oss.app/news/1472,https://koala-oss.app,,,,
+Ratatui | 终端界面也能很现代,https://koala-oss.app/news/1471,https://koala-oss.app,,,,
+Strix | AI 渗透测试工具,https://koala-oss.app/news/1470,https://koala-oss.app,,,AI,
+Github 仓库,https://github.com/Yuyz0112/koala-oss-app,https://koala-oss.app,,,,
+Sign in,https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fhowie6879%2Fweekly,https://github.com,,,,
+GitHub Copilot Write better code with AI,https://github.com/features/copilot,https://github.com,,,AI,
+GitHub Spark New Build and deploy intelligent apps,https://github.com/features/spark,https://github.com,,,,
+GitHub Models New Manage and compare prompts,https://github.com/features/models,https://github.com,,,,
+GitHub Advanced Security Find and fix vulnerabilities,https://github.com/security/advanced-security,https://github.com,,,,
+Actions Automate any workflow,https://github.com/features/actions,https://github.com,,,,
+Codespaces Instant dev environments,https://github.com/features/codespaces,https://github.com,,,,
+Issues Plan and track work,https://github.com/features/issues,https://github.com,,,,
+Code Review Manage code changes,https://github.com/features/code-review,https://github.com,,,,
+Discussions Collaborate outside of code,https://github.com/features/discussions,https://github.com,,,,
+Code Search Find more  search less,https://github.com/features/code-search,https://github.com,,,,
+Why GitHub,https://github.com/why-github,https://github.com,,,,
+Documentation,https://docs.github.com,https://github.com,,,,
+GitHub Skills,https://skills.github.com,https://github.com,,,,
+GitHub Marketplace,https://github.com/marketplace,https://github.com,,,,
+MCP Registry,https://github.com/mcp,https://github.com,,,,
+View all features,https://github.com/features,https://github.com,,,,
+Enterprises,https://github.com/enterprise,https://github.com,,,,
+Small and medium teams,https://github.com/team,https://github.com,,,,
+Startups,https://github.com/enterprise/startups,https://github.com,,,,
+Sign in,https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftw93%2Fweekly%3Ftab%3Dreadme-ov-file,https://github.com,,,,
+Sign in,https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fljinkai%2Fweekly,https://github.com,,,,
+Hacker News 热门,https://hn.buzzing.cc/,https://hn.buzzing.cc,,,,
+Buzzing 首页,https://www.buzzing.cc/,https://hn.buzzing.cc,,,,
+国外新闻头条,https://news.buzzing.cc/,https://hn.buzzing.cc,,,,
+Reddit热门,https://reddit.buzzing.cc/,https://hn.buzzing.cc,,,,
+Ars Technica,https://arstechnica.buzzing.cc/,https://hn.buzzing.cc,,,,
+Reddit提问,https://ask.buzzing.cc/,https://hn.buzzing.cc,,,,
+Show HN,https://showhn.buzzing.cc/,https://hn.buzzing.cc,,,,
+Lobste,https://lobste.buzzing.cc/,https://hn.buzzing.cc,,,,
+经济学人最新,https://economistnew.buzzing.cc/,https://hn.buzzing.cc,,,,
+Reddit新闻小组,https://worldnews.buzzing.cc/,https://hn.buzzing.cc,,,,
+大西洋周刊,https://atlantic.buzzing.cc/,https://hn.buzzing.cc,,,,
+华尔街日报,https://wsj.buzzing.cc/,https://hn.buzzing.cc,,,,
+Business Insider,https://businessinsider.buzzing.cc/,https://hn.buzzing.cc,,,,
+Politico,https://politico.buzzing.cc/,https://hn.buzzing.cc,,,,
+Linux,https://linux.buzzing.cc/,https://hn.buzzing.cc,,,Linux,
+Dev热门,https://dev.buzzing.cc/,https://hn.buzzing.cc,,,,
+Nature,https://nature.buzzing.cc/,https://hn.buzzing.cc,,,,
+ScienceAlert,https://sciencealert.buzzing.cc/,https://hn.buzzing.cc,,,,
+BigThink,https://bigthink.buzzing.cc/,https://hn.buzzing.cc,,,,
+Quora热门,https://quora.buzzing.cc/,https://hn.buzzing.cc,,,,
+English,https://morerss.com/,https://morerss.com,,,,
+科技爱好者周刊,https://www.ruanyifeng.com/blog/,https://morerss.com,,,,
+订阅 5527,https://morerss.com/%E7%A7%91%E6%8A%80%E7%88%B1%E5%A5%BD%E8%80%85%E5%91%A8%E5%88%8A,https://morerss.com,,,,
+HackerNews AI 摘要,https://www.supertechfans.com/cn,https://morerss.com,,,AI,
+订阅 507,https://morerss.com/HackerNews%20AI%20%E6%91%98%E8%A6%81,https://morerss.com,,,,
+订阅 621,https://morerss.com/EST,https://morerss.com,,,,
+BYVoid | 郭家宝,https://byvoid.com/zhs/,https://morerss.com,,,,
+订阅 268,https://morerss.com/BYVoid%20%7C%20%E9%83%AD%E5%AE%B6%E5%AE%9D,https://morerss.com,,,,
+UNTAG,https://utgd.net/,https://morerss.com,,,,
+订阅 175,https://morerss.com/UNTAG,https://morerss.com,,,,
+1Q43 | 虹线,https://1q43.blog/,https://morerss.com,,,,
+订阅 918,https://morerss.com/1Q43%20%7C%20%E8%99%B9%E7%BA%BF,https://morerss.com,,,,
+forecho | 蔡正海,https://blog.forecho.com/,https://morerss.com,,,,
+订阅 488,https://morerss.com/forecho%20%7C%20%E8%94%A1%E6%AD%A3%E6%B5%B7,https://morerss.com,,,,
+HelloDog | 王奥,http://wsgzao.github.io,https://morerss.com,,,,
+订阅 366,https://morerss.com/HelloDog%20%7C%20%E7%8E%8B%E5%A5%A5,https://morerss.com,,,,
+订阅 1509,https://morerss.com/%E6%BD%AE%E6%B5%81%E5%91%A8%E5%88%8A,https://morerss.com,,,,
+onojyun | 莫比烏斯,https://onojyun.com,https://morerss.com,,,,
+订阅 183,https://morerss.com/onojyun%20%7C%20%E8%8E%AB%E6%AF%94%E7%83%8F%E6%96%AF,https://morerss.com,,,,
+APPINN | 小众软件,https://www.appinn.com/,https://morerss.com,,,,
+Twitter List,https://x.com/i/lists/1930877201362334190,https://x-daily.pages.dev,,,,
+DecoHack周刊,https://decohack.com/category/decohack-weekly/,https://decohack.com,,,,
+PH今日热榜,https://decohack.com/category/producthunt/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-24,https://decohack.com/producthunt-daily-2025-11-24/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-23,https://decohack.com/producthunt-daily-2025-11-23/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-22,https://decohack.com/producthunt-daily-2025-11-22/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-21,https://decohack.com/producthunt-daily-2025-11-21/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-20,https://decohack.com/producthunt-daily-2025-11-20/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-19,https://decohack.com/producthunt-daily-2025-11-19/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-18,https://decohack.com/producthunt-daily-2025-11-18/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-17,https://decohack.com/producthunt-daily-2025-11-17/,https://decohack.com,,,,
+PH今日热榜 | 2025-11-16,https://decohack.com/producthunt-daily-2025-11-16/,https://decohack.com,,,,
+Sign in,https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fheadllines%2Fhackernews-monthly,https://github.com,,,,
+howie6879/weekly,https://github.com/howie6879/weekly,https://weekly.howie6879.com,,,,
+🌈 创刊寄语,index.html,https://weekly.howie6879.com,,,,
+🐮 2021 ~ 🐲 2024,2024/12-23~12-29.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC173%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+🐍 2025 年刊,2025/09-01~09-21.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC201%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+🍀 今日推荐,recommend/index.html,https://weekly.howie6879.com,,,,
+💻 软件推荐,soft/mac.html,https://weekly.howie6879.com,,,,
+👏 GPT Plus,https://gpt5plus.com/?ref=howie6879_weekly,https://weekly.howie6879.com,,,,
+🔗 RSS订阅,rss/rss.xml,https://weekly.howie6879.com,,,,
+第172期 (12-16~12-22),2024/12-16~12-22.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC172%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第171期 (12-09~12-15),2024/12-09~12-15.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC171%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第170期 (11-25~12-08),2024/11-25~12-08.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC170%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第169期 (11-18~11-24),2024/11-18~11-24.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC169%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第168期 (11-11~11-17),2024/11-11~11-17.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC168%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第167期 (11-04~11-10),2024/11-04~11-10.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC167%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第166期 (10-28~11-03),2024/10-28~11-03.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC166%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第165期 (10-21~10-27),2024/10-21~10-27.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC165%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+第164期 (10-14~10-20),2024/10-14~10-20.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC164%E6%9C%9F%EF%BC%89.html,https://weekly.howie6879.com,,,,
+Sign in,https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FGitHubDaily%2FGitHubDaily,https://github.com,,,,
+服务器由提供,https://www.ucloud.cn/site/active/kuaijiesale.html?utm_term=logo&utm_campaign=hellogithub&utm_source=otherdsp&utm_medium=display&ytag=logo_hellogithub_otherdsp_display,https://hellogithub.com,,,,
+专业的提供云存储服务,https://www.upyun.com/?from=hellogithub,https://hellogithub.com,,,,
+京ICP备17046648号-1,https://beian.miit.gov.cn/,https://hellogithub.com,,,,
+京公网安备11011402013237号,http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011402013237,https://hellogithub.com,,,,
+Sign in,https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FOpenGithubs%2Fgithub-weekly-rank,https://github.com,,,,
+数学动画的工具,,https://open.itc.cn,,,,
+3b1b/manim,https://github.com/3b1b/manim,https://open.itc.cn,,,,
+Databerry,https://www.databerry.ai/,https://open.itc.cn,,,,
+gmpetrov/databerry,https://github.com/gmpetrov/databerry,https://open.itc.cn,,,,
+Github开源项目精选10月月刊,https://open.itc.cn/?tab=collection,https://open.itc.cn,,,,
+chenzomi12/DeepLearningSystem,https://github.com/chenzomi12/DeepLearningSystem,https://open.itc.cn,,,,
+google-deepmind/alphafold,https://github.com/google-deepmind/alphafold,https://open.itc.cn,,,,
+deepseek-ai/DeepSeek-R1,https://www.deepseek.com/,https://open.itc.cn,,,AI,
+deepseek-ai/DeepSeek-R1,https://github.com/deepseek-ai/DeepSeek-R1,https://open.itc.cn,,,AI,
+Redis云平台,https://redis.io/,https://open.itc.cn,,,,
 sohutv/cachecloud,https://github.com/sohutv/cachecloud,https://open.itc.cn,,,,
-æœˆåˆŠ,https://open.itc.cn/?tab=collection&colType=3,https://open.itc.cn,,,,
-Githubå¼€æº�é¡¹ç›®ç²¾é€‰10æœˆæœˆåˆŠ,https://open.itc.cn/?tab=collection,https://open.itc.cn,,,,
-å�³æ—¶è¯­éŸ³å…‹éš†AIå·¥å…·,https://research.myshell.ai/open-voice,https://open.itc.cn,,,,
-myshell-ai/OpenVoice,https://github.com/myshell-ai/OpenVoice,https://open.itc.cn,,,AI,
-xai-org/grok-1,https://github.com/xai-org/grok-1,https://open.itc.cn,,,,
-è®ºå�›,https://forum.github-zh.com,https://www.github-zh.com,,,,
-æ�’è¡Œæ¦œ,https://www.github-zh.com/top,https://www.github-zh.com,,,,
-è¶‹åŠ¿,https://www.github-zh.com/trending,https://www.github-zh.com,,,,
-ç™»å½•,https://www.github-zh.com/auth/github,https://www.github-zh.com,,,,
-é›†å�ˆ,https://www.github-zh.com/collections,https://www.github-zh.com,,,,
-ä¸»é¢˜,https://www.github-zh.com/topics,https://www.github-zh.com,,,,
-ç¼–ç¨‹,https://www.github-zh.com/topics/programming,https://www.github-zh.com,,,,
-æ•™ç¨‹,https://www.github-zh.com/topics/tutorials,https://www.github-zh.com,,,,
-å…�è´¹,https://www.github-zh.com/topics/free,https://www.github-zh.com,,,,
-apache/commons-pool start@560659,https://github.com/apache/commons-pool/releases/tag/start@560659,release_github,,,Apache,start@560659
-apache/servicecomb-java-chassis 3.3.0,https://github.com/apache/servicecomb-java-chassis/releases/tag/3.3.0,release_github,,,Apache,Apache ServiceComb Java-Chassis 3.3.0
-apache/opendal v0.55.0,https://github.com/apache/opendal/releases/tag/v0.55.0,release_github,,,Apache,v0.55.0
-apache/incubator-opendal v0.55.0,https://github.com/apache/opendal/releases/tag/v0.55.0,release_github,,,Apache,v0.55.0
-facebook/zstd v1.5.7,https://github.com/facebook/zstd/releases/tag/v1.5.7,release_github,,,,Zstandard v1.5.7
-apache/dubbo-spi-extensions v3.3.1,https://github.com/apache/dubbo-spi-extensions/releases/tag/v3.3.1,release_github,,,Apache,v3.3.1
-apache/dubbo-go-pixiu v1.0.0-rc4,https://github.com/apache/dubbo-go-pixiu/releases/tag/v1.0.0-rc4,release_github,,,Apache;Go,v1.0.0-rc4
+GitHub 中文社区,https://www.github-zh.com/,https://www.github-zh.com,,,,
+build-your-own-x,https://github.com/codecrafters-io/build-your-own-x,https://www.github-zh.com,,,,
+CodeCrafters@codecrafters-io,https://github.com/codecrafters-io,https://www.github-zh.com,,,,
+#学习与技能提升#,https://www.github-zh.com/collections/learn-to-code,https://www.github-zh.com,,,,
+tutorial-code,https://www.github-zh.com/topics/tutorial-code,https://www.github-zh.com,,,,
+tutorial-exercises,https://www.github-zh.com/topics/tutorial-exercises,https://www.github-zh.com,,,,
+freeCodeCamp,https://github.com/freeCodeCamp/freeCodeCamp,https://www.github-zh.com,,,,
+freeCodeCamp.org@freeCodeCamp,https://github.com/freeCodeCamp,https://www.github-zh.com,,,,
+learn-to-code,https://www.github-zh.com/topics/learn-to-code,https://www.github-zh.com,,,,
+nonprofits,https://www.github-zh.com/topics/nonprofits,https://www.github-zh.com,,,,
+Node.js,https://www.github-zh.com/topics/nodejs,https://www.github-zh.com,,,,
+React,https://www.github-zh.com/topics/react,https://www.github-zh.com,,,,
+awesome,https://github.com/sindresorhus/awesome,https://www.github-zh.com,,,,
+Sindre Sorhus@sindresorhus,https://github.com/sindresorhus,https://www.github-zh.com,,,,
+Awesome Lists,https://www.github-zh.com/topics/awesome,https://www.github-zh.com,,,,
+unicorns,https://www.github-zh.com/topics/unicorns,https://www.github-zh.com,,,,
+lists,https://www.github-zh.com/topics/lists,https://www.github-zh.com,,,,
+Hackathon-Kit,https://www.github-zh.com/topics/resources,https://www.github-zh.com,,,,
+apache/superset 5.0.0,https://github.com/apache/superset/releases/tag/5.0.0,release_github,,,Apache,5.0.0
+apache/auron v6.0.0,https://github.com/apache/auron/releases/tag/v6.0.0,release_github,,,Apache,v6.0.0-incubating
+apache/arrow-rs 57.0.0,https://github.com/apache/arrow-rs/releases/tag/57.0.0,release_github,,,Apache,arrow 57.0.0
+google/gemma.cpp v0.1.4,https://github.com/google/gemma.cpp/releases/tag/v0.1.4,release_github,,,,v0.1.4
+apache/incubator-teaclave v0.6.0,https://github.com/apache/teaclave/releases/tag/v0.6.0,release_github,,,Apache,Apache Teaclave (incubating) 0.6.0
+google/zerocopy v0.8.28,https://github.com/google/zerocopy/releases/tag/v0.8.28,release_github,,,,v0.8.28
+google/jimfs v1.3.1,https://github.com/google/jimfs/releases/tag/v1.3.1,release_github,,,,1.3.1
+apache/carbondata carbondata-parent-apache-carbondata-2.3.1-rc1,https://github.com/apache/carbondata/releases/tag/carbondata-parent-apache-carbondata-2.3.1-rc1,release_github,,,Apache,carbondata-parent-apache-carbondata-2.3.1-rc1
+google/volley 1.2.1,https://github.com/google/volley/releases/tag/1.2.1,release_github,,,,Volley 1.2.1
+apache/helix helix-1.4.3,https://github.com/apache/helix/releases/tag/helix-1.4.3,release_github,,,Apache,Apache Helix 1.4.3
 apache/cassandra cassandra-5.0.6,https://github.com/apache/cassandra/releases/tag/cassandra-5.0.6,release_github,,,Apache,cassandra-5.0.6
+apache/brpc 1.15.0,https://github.com/apache/brpc/releases/tag/1.15.0,release_github,,,Apache,Apache bRPC 1.15.0
+apache/datafusion python-0.4.0,https://github.com/apache/datafusion/releases/tag/python-0.4.0,release_github,,,Apache;Python,python-0.4.0
+apache/servicecomb-java-chassis 3.3.0,https://github.com/apache/servicecomb-java-chassis/releases/tag/3.3.0,release_github,,,Apache,Apache ServiceComb Java-Chassis 3.3.0
 google/nftables v0.3.0,https://github.com/google/nftables/releases/tag/v0.3.0,release_github,,,,v0.3.0
+apache/commons-pool start@560659,https://github.com/apache/commons-pool/releases/tag/start@560659,release_github,,,Apache,start@560659
+apache/opendal v0.55.0,https://github.com/apache/opendal/releases/tag/v0.55.0,release_github,,,Apache,v0.55.0
+apache/arrow apache-arrow-22.0.0,https://github.com/apache/arrow/releases/tag/apache-arrow-22.0.0,release_github,,,Apache,Apache Arrow 22.0.0
+facebook/sapling 0.2.20250521-115337+25ed6ac4,https://github.com/facebook/sapling/releases/tag/0.2.20250521-115337%2B25ed6ac4,release_github,,,,0.2.20250521-115337+25ed6ac4

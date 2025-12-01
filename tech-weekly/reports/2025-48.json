@@ -1,170 +1,381 @@
 {
   "slug": "2025-48",
-  "generated_at": "2025-11-24T23:50:08.853594",
+  "generated_at": "2025-11-25T00:03:50.743680",
   "stats": {
     "https://github.com/ruanyf/weekly/issues": {
       "ok": true,
       "count": 0,
       "error": "",
-      "duration": 2.1992688179016113,
-      "_start": 1763999311.518381
+      "duration": 7.714016914367676,
+      "_start": 1764000128.616454
     },
     "https://github.com/trending": {
       "ok": true,
-      "count": 0,
+      "count": 18,
       "error": "",
-      "duration": 8.90111494064331,
-      "_start": 1763999314.521861
+      "duration": 2.556286096572876,
+      "_start": 1764000137.133457
     },
     "https://hn.aimaker.dev/": {
       "ok": true,
-      "count": 12,
+      "count": 20,
       "error": "",
-      "duration": 2.820707082748413,
-      "_start": 1763999324.226908
+      "duration": 6.189218044281006,
+      "_start": 1764000140.49363
     },
     "https://www.daemonology.net/hn-weekly/": {
       "ok": true,
-      "count": 17,
+      "count": 20,
       "error": "",
-      "duration": 2.672877788543701,
-      "_start": 1763999327.850352
+      "duration": 2.108150005340576,
+      "_start": 1764000147.48675
     },
     "https://koala-oss.app/news/": {
       "ok": true,
-      "count": 6,
+      "count": 15,
       "error": "",
-      "duration": 0.8320930004119873,
-      "_start": 1763999331.325342
+      "duration": 1.5597021579742432,
+      "_start": 1764000150.396132
     },
     "https://topsub.cc/": {
       "ok": true,
       "count": 0,
       "error": "",
-      "duration": 1.2814788818359375,
-      "_start": 1763999332.959882
+      "duration": 0.8474371433258057,
+      "_start": 1764000152.758636
     },
     "https://git.news/": {
       "ok": true,
       "count": 0,
       "error": "",
-      "duration": 2.2363882064819336,
-      "_start": 1763999335.0425549
+      "duration": 0.8682501316070557,
+      "_start": 1764000154.4070468
     },
     "https://github.com/howie6879/weekly": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 3.209796905517578,
-      "_start": 1763999338.083043
+      "duration": 3.9422991275787354,
+      "_start": 1764000156.0800939
     },
     "https://github.com/tw93/weekly?tab=readme-ov-file": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 3.8367221355438232,
-      "_start": 1763999342.097931
+      "duration": 4.427993297576904,
+      "_start": 1764000160.8255308
     },
     "https://github.com/ljinkai/weekly": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 1.808154821395874,
-      "_start": 1763999346.738404
+      "duration": 3.7462940216064453,
+      "_start": 1764000166.0569448
     },
     "https://hn.buzzing.cc/": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 1.9383578300476074,
-      "_start": 1763999349.349843
+      "duration": 1.4022858142852783,
+      "_start": 1764000170.6057541
     },
     "https://morerss.com/zh": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 1.9325246810913086,
-      "_start": 1763999352.0929852
+      "duration": 1.4363529682159424,
+      "_start": 1764000172.813107
     },
     "https://x-daily.pages.dev/": {
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": "",
-      "duration": 1.8564412593841553,
-      "_start": 1763999354.826103
+      "duration": 0.8309071063995361,
+      "_start": 1764000175.0500638
     },
     "https://decohack.com/": {
       "ok": true,
-      "count": 6,
+      "count": 20,
       "error": "",
-      "duration": 2.7796878814697266,
-      "_start": 1763999357.486346
+      "duration": 6.697592258453369,
+      "_start": 1764000176.684588
     },
     "https://github.com/headllines/hackernews-monthly": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 1.9124729633331299,
-      "_start": 1763999361.068969
+      "duration": 8.354238033294678,
+      "_start": 1764000184.1860878
     },
     "https://weekly.howie6879.com/": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 1.5266430377960205,
-      "_start": 1763999363.785082
+      "duration": 0.7363319396972656,
+      "_start": 1764000193.3447309
     },
     "https://www.zhihu.com/people/githubdaily": {
       "ok": false,
       "count": 0,
       "error": "error: 403 Client Error: Forbidden for url: https://www.zhihu.com/people/githubdaily",
-      "duration": 0.11408877372741699,
-      "_start": 1763999366.112481
+      "duration": 1.1900949478149414,
+      "_start": 1764000194.883722
     },
     "https://github.com/GitHubDaily/GitHubDaily": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 7.716518878936768,
-      "_start": 1763999366.226645
+      "duration": 2.9572031497955322,
+      "_start": 1764000196.073866
     },
     "https://x.com/GitHub_Daily": {
       "ok": true,
       "count": 0,
       "error": "",
-      "duration": 1.0288989543914795,
-      "_start": 1763999374.743645
+      "duration": 1.4441280364990234,
+      "_start": 1764000199.833936
     },
     "https://hellogithub.com/": {
       "ok": true,
-      "count": 9,
+      "count": 4,
       "error": "",
-      "duration": 0.3474109172821045,
-      "_start": 1763999376.57298
+      "duration": 0.7117412090301514,
+      "_start": 1764000202.082064
     },
     "https://github.com/OpenGithubs/github-weekly-rank": {
       "ok": true,
-      "count": 0,
+      "count": 20,
       "error": "",
-      "duration": 5.262089014053345,
-      "_start": 1763999377.721878
+      "duration": 2.1377127170562744,
+      "_start": 1764000203.5982652
     },
     "https://open.itc.cn/": {
       "ok": true,
-      "count": 10,
+      "count": 20,
       "error": "",
-      "duration": 0.938316822052002,
-      "_start": 1763999383.7858381
+      "duration": 1.1646080017089844,
+      "_start": 1764000206.5398452
     },
     "https://www.github-zh.com/top": {
       "ok": true,
-      "count": 11,
+      "count": 20,
       "error": "",
-      "duration": 2.212207794189453,
-      "_start": 1763999385.52763
+      "duration": 3.3917176723480225,
+      "_start": 1764000208.5086532
     }
   },
   "items": [
+    {
+      "title": "sansan0 / TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "source": "github_trending",
+      "summary": "🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "google / adk-go",
+      "url": "https://github.com/google/adk-go",
+      "source": "github_trending",
+      "summary": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI ag...",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Go"
+      ]
+    },
+    {
+      "title": "TapXWorld / ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "source": "github_trending",
+      "summary": "所有小初高、大学PDF教材。",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "yeongpin / cursor-free-vip",
+      "url": "https://github.com/yeongpin/cursor-free-vip",
+      "source": "github_trending",
+      "summary": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "nvm-sh / nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "source": "github_trending",
+      "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "traefik / traefik",
+      "url": "https://github.com/traefik/traefik",
+      "source": "github_trending",
+      "summary": "The Cloud Native Application Proxy",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HKUDS / LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "source": "github_trending",
+      "summary": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "bobeff / open-source-games",
+      "url": "https://github.com/bobeff/open-source-games",
+      "source": "github_trending",
+      "summary": "A list of open source games.",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "volcengine / verl",
+      "url": "https://github.com/volcengine/verl",
+      "source": "github_trending",
+      "summary": "verl: Volcano Engine Reinforcement Learning for LLMs",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GibsonAI / Memori",
+      "url": "https://github.com/GibsonAI/Memori",
+      "source": "github_trending",
+      "summary": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "yangshun / tech-interview-handbook",
+      "url": "https://github.com/yangshun/tech-interview-handbook",
+      "source": "github_trending",
+      "summary": "Curated coding interview preparation materials for busy software engineers",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "microsoft / call-center-ai",
+      "url": "https://github.com/microsoft/call-center-ai",
+      "source": "github_trending",
+      "summary": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured ph...",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "MustardChef / WSABuilds",
+      "url": "https://github.com/MustardChef/WSABuilds",
+      "source": "github_trending",
+      "summary": "Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries wi...",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "playcanvas / engine",
+      "url": "https://github.com/playcanvas/engine",
+      "source": "github_trending",
+      "summary": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "iptv-org / iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "source": "github_trending",
+      "summary": "Collection of publicly available IPTV channels from all over the world",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Zie619 / n8n-workflows",
+      "url": "https://github.com/Zie619/n8n-workflows",
+      "source": "github_trending",
+      "summary": "all of the workflows of n8n i could find (also from the site itself)",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "milvus-io / milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "source": "github_trending",
+      "summary": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "wolfpld / tracy",
+      "url": "https://github.com/wolfpld/tracy",
+      "source": "github_trending",
+      "summary": "Frame profiler",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HackerNews CN",
+      "url": "https://hn.aimaker.dev/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "24小时热榜",
+      "url": "https://hn.aimaker.dev/category/top",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ViggoZ/hackernews-cn",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/decohack",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sponsored byAI Maker",
+      "url": "https://aimaker.dev",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
     {
       "title": "爱荷华城的公交车免费了，交通畅通无阻，空气也变得清新。",
       "url": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
@@ -268,6 +479,44 @@
       "title": "一位法国法官如何被美国数字切断联系",
       "url": "https://www.heise.de/en/news/How-a-French-judge-was-digitally-cut-off-by-the-USA-11087561.html",
       "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Cloudflare、X等服务出现故障。",
+      "url": "https://www.cloudflarestatus.com/?t=1",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Cloudflare"
+      ]
+    },
+    {
+      "title": "谷歌反重力",
+      "url": "https://antigravity.google/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "双子座3号",
+      "url": "https://blog.google/products/gemini/gemini-3/",
+      "source": "https://hn.aimaker.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "source": "hn_weekly",
       "summary": "",
       "author": "",
       "published_at": "",
@@ -420,9 +669,36 @@
       "tags": []
     },
     {
+      "title": "Nearly all UK drivers say headlights are too bright",
+      "url": "https://www.bbc.com/news/articles/c1j8ewy1p86o",
+      "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
       "title": "(comments)",
       "url": "https://news.ycombinator.com/item?id=45966251",
       "source": "hn_weekly",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Koala OSS Club",
+      "url": "https://koala-oss.app/",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "俱乐部视频",
+      "url": "https://koala-oss.app/course/",
+      "source": "https://koala-oss.app",
       "summary": "",
       "author": "",
       "published_at": "",
@@ -485,7 +761,663 @@
       ]
     },
     {
-      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-24",
+      "title": "Figma Weave | Figma 收购创意平台",
+      "url": "https://koala-oss.app/news/1475",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Valdi | Snapchat 开源跨平台框架",
+      "url": "https://koala-oss.app/news/1474",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Thermoptic | HTTP 隐身代理",
+      "url": "https://koala-oss.app/news/1473",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Gametje | 聚会小游戏大全",
+      "url": "https://koala-oss.app/news/1472",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Ratatui | 终端界面也能很现代",
+      "url": "https://koala-oss.app/news/1471",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Strix | AI 渗透测试工具",
+      "url": "https://koala-oss.app/news/1470",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Github 仓库",
+      "url": "https://github.com/Yuyz0112/koala-oss-app",
+      "source": "https://koala-oss.app",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fhowie6879%2Fweekly",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Copilot Write better code with AI",
+      "url": "https://github.com/features/copilot",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "GitHub Spark New Build and deploy intelligent apps",
+      "url": "https://github.com/features/spark",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Models New Manage and compare prompts",
+      "url": "https://github.com/features/models",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Advanced Security Find and fix vulnerabilities",
+      "url": "https://github.com/security/advanced-security",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Actions Automate any workflow",
+      "url": "https://github.com/features/actions",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Codespaces Instant dev environments",
+      "url": "https://github.com/features/codespaces",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Issues Plan and track work",
+      "url": "https://github.com/features/issues",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Code Review Manage code changes",
+      "url": "https://github.com/features/code-review",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Discussions Collaborate outside of code",
+      "url": "https://github.com/features/discussions",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Code Search Find more, search less",
+      "url": "https://github.com/features/code-search",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Why GitHub",
+      "url": "https://github.com/why-github",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Documentation",
+      "url": "https://docs.github.com",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Skills",
+      "url": "https://skills.github.com",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "GitHub Marketplace",
+      "url": "https://github.com/marketplace",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "MCP Registry",
+      "url": "https://github.com/mcp",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "View all features",
+      "url": "https://github.com/features",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Enterprises",
+      "url": "https://github.com/enterprise",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Small and medium teams",
+      "url": "https://github.com/team",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Startups",
+      "url": "https://github.com/enterprise/startups",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftw93%2Fweekly%3Ftab%3Dreadme-ov-file",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fljinkai%2Fweekly",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Hacker News 热门",
+      "url": "https://hn.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Buzzing 首页",
+      "url": "https://www.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "国外新闻头条",
+      "url": "https://news.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Reddit热门",
+      "url": "https://reddit.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Ars Technica",
+      "url": "https://arstechnica.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Reddit提问",
+      "url": "https://ask.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Show HN",
+      "url": "https://showhn.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Lobste",
+      "url": "https://lobste.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "经济学人最新",
+      "url": "https://economistnew.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Reddit新闻小组",
+      "url": "https://worldnews.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "大西洋周刊",
+      "url": "https://atlantic.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "华尔街日报",
+      "url": "https://wsj.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Business Insider",
+      "url": "https://businessinsider.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Politico",
+      "url": "https://politico.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Linux",
+      "url": "https://linux.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "Dev热门",
+      "url": "https://dev.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Nature",
+      "url": "https://nature.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "ScienceAlert",
+      "url": "https://sciencealert.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "BigThink",
+      "url": "https://bigthink.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Quora热门",
+      "url": "https://quora.buzzing.cc/",
+      "source": "https://hn.buzzing.cc",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "English",
+      "url": "https://morerss.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "科技爱好者周刊",
+      "url": "https://www.ruanyifeng.com/blog/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 5527",
+      "url": "https://morerss.com/%E7%A7%91%E6%8A%80%E7%88%B1%E5%A5%BD%E8%80%85%E5%91%A8%E5%88%8A",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HackerNews AI 摘要",
+      "url": "https://www.supertechfans.com/cn",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "订阅 507",
+      "url": "https://morerss.com/HackerNews%20AI%20%E6%91%98%E8%A6%81",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 621",
+      "url": "https://morerss.com/EST",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "BYVoid | 郭家宝",
+      "url": "https://byvoid.com/zhs/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 268",
+      "url": "https://morerss.com/BYVoid%20%7C%20%E9%83%AD%E5%AE%B6%E5%AE%9D",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "UNTAG",
+      "url": "https://utgd.net/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 175",
+      "url": "https://morerss.com/UNTAG",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "1Q43 | 虹线",
+      "url": "https://1q43.blog/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 918",
+      "url": "https://morerss.com/1Q43%20%7C%20%E8%99%B9%E7%BA%BF",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "forecho | 蔡正海",
+      "url": "https://blog.forecho.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 488",
+      "url": "https://morerss.com/forecho%20%7C%20%E8%94%A1%E6%AD%A3%E6%B5%B7",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "HelloDog | 王奥",
+      "url": "http://wsgzao.github.io",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 366",
+      "url": "https://morerss.com/HelloDog%20%7C%20%E7%8E%8B%E5%A5%A5",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 1509",
+      "url": "https://morerss.com/%E6%BD%AE%E6%B5%81%E5%91%A8%E5%88%8A",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "onojyun | 莫比烏斯",
+      "url": "https://onojyun.com",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "订阅 183",
+      "url": "https://morerss.com/onojyun%20%7C%20%E8%8E%AB%E6%AF%94%E7%83%8F%E6%96%AF",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "APPINN | 小众软件",
+      "url": "https://www.appinn.com/",
+      "source": "https://morerss.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Twitter List",
+      "url": "https://x.com/i/lists/1930877201362334190",
+      "source": "https://x-daily.pages.dev",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "DecoHack周刊",
+      "url": "https://decohack.com/category/decohack-weekly/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜",
+      "url": "https://decohack.com/category/producthunt/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-24",
       "url": "https://decohack.com/producthunt-daily-2025-11-24/",
       "source": "https://decohack.com",
       "summary": "",
@@ -494,7 +1426,7 @@
       "tags": []
     },
     {
-      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-23",
+      "title": "PH今日热榜 | 2025-11-23",
       "url": "https://decohack.com/producthunt-daily-2025-11-23/",
       "source": "https://decohack.com",
       "summary": "",
@@ -503,7 +1435,7 @@
       "tags": []
     },
     {
-      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-22",
+      "title": "PH今日热榜 | 2025-11-22",
       "url": "https://decohack.com/producthunt-daily-2025-11-22/",
       "source": "https://decohack.com",
       "summary": "",
@@ -512,7 +1444,7 @@
       "tags": []
     },
     {
-      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-21",
+      "title": "PH今日热榜 | 2025-11-21",
       "url": "https://decohack.com/producthunt-daily-2025-11-21/",
       "source": "https://decohack.com",
       "summary": "",
@@ -521,7 +1453,7 @@
       "tags": []
     },
     {
-      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-20",
+      "title": "PH今日热榜 | 2025-11-20",
       "url": "https://decohack.com/producthunt-daily-2025-11-20/",
       "source": "https://decohack.com",
       "summary": "",
@@ -530,7 +1462,7 @@
       "tags": []
     },
     {
-      "title": "PHä»Šæ—¥çƒ­æ¦œ | 2025-11-19",
+      "title": "PH今日热榜 | 2025-11-19",
       "url": "https://decohack.com/producthunt-daily-2025-11-19/",
       "source": "https://decohack.com",
       "summary": "",
@@ -539,8 +1471,206 @@
       "tags": []
     },
     {
-      "title": "æœ€æ–°",
-      "url": "https://hellogithub.com/?sort_by=featured",
+      "title": "PH今日热榜 | 2025-11-18",
+      "url": "https://decohack.com/producthunt-daily-2025-11-18/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-17",
+      "url": "https://decohack.com/producthunt-daily-2025-11-17/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "PH今日热榜 | 2025-11-16",
+      "url": "https://decohack.com/producthunt-daily-2025-11-16/",
+      "source": "https://decohack.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fheadllines%2Fhackernews-monthly",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "howie6879/weekly",
+      "url": "https://github.com/howie6879/weekly",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🌈 创刊寄语",
+      "url": "index.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🐮 2021 ~ 🐲 2024",
+      "url": "2024/12-23~12-29.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC173%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🐍 2025 年刊",
+      "url": "2025/09-01~09-21.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC201%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🍀 今日推荐",
+      "url": "recommend/index.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "💻 软件推荐",
+      "url": "soft/mac.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "👏 GPT Plus",
+      "url": "https://gpt5plus.com/?ref=howie6879_weekly",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "🔗 RSS订阅",
+      "url": "rss/rss.xml",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第172期 (12-16~12-22)",
+      "url": "2024/12-16~12-22.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC172%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第171期 (12-09~12-15)",
+      "url": "2024/12-09~12-15.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC171%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第170期 (11-25~12-08)",
+      "url": "2024/11-25~12-08.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC170%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第169期 (11-18~11-24)",
+      "url": "2024/11-18~11-24.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC169%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第168期 (11-11~11-17)",
+      "url": "2024/11-11~11-17.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC168%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第167期 (11-04~11-10)",
+      "url": "2024/11-04~11-10.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC167%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第166期 (10-28~11-03)",
+      "url": "2024/10-28~11-03.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC166%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第165期 (10-21~10-27)",
+      "url": "2024/10-21~10-27.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC165%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "第164期 (10-14~10-20)",
+      "url": "2024/10-14~10-20.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC164%E6%9C%9F%EF%BC%89.html",
+      "source": "https://weekly.howie6879.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FGitHubDaily%2FGitHubDaily",
+      "source": "https://github.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "服务器由提供",
+      "url": "https://www.ucloud.cn/site/active/kuaijiesale.html?utm_term=logo&utm_campaign=hellogithub&utm_source=otherdsp&utm_medium=display&ytag=logo_hellogithub_otherdsp_display",
       "source": "https://hellogithub.com",
       "summary": "",
       "author": "",
@@ -548,8 +1678,8 @@
       "tags": []
     },
     {
-      "title": "æœˆåº¦",
-      "url": "https://hellogithub.com/?rank_by=montly",
+      "title": "专业的提供云存储服务",
+      "url": "https://www.upyun.com/?from=hellogithub",
       "source": "https://hellogithub.com",
       "summary": "",
       "author": "",
@@ -557,8 +1687,8 @@
       "tags": []
     },
     {
-      "title": "å¹´åº¦",
-      "url": "https://hellogithub.com/?rank_by=yearly",
+      "title": "京ICP备17046648号-1",
+      "url": "https://beian.miit.gov.cn/",
       "source": "https://hellogithub.com",
       "summary": "",
       "author": "",
@@ -566,8 +1696,8 @@
       "tags": []
     },
     {
-      "title": "å…¨éƒ¨",
-      "url": "https://hellogithub.com/?sort_by=all",
+      "title": "京公网安备11011402013237号",
+      "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011402013237",
       "source": "https://hellogithub.com",
       "summary": "",
       "author": "",
@@ -575,43 +1705,101 @@
       "tags": []
     },
     {
-      "title": "å�‹æƒ…é“¾æ�¥",
-      "url": "https://hellogithub.com/links",
-      "source": "https://hellogithub.com",
+      "title": "Sign in",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FOpenGithubs%2Fgithub-weekly-rank",
+      "source": "https://github.com",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "ç”¨æˆ·å��è®®",
-      "url": "https://hellogithub.com/help/ats",
-      "source": "https://hellogithub.com",
+      "title": "数学动画的工具",
+      "url": "",
+      "source": "https://open.itc.cn",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "ç¤¾åŒºæº�ç �",
-      "url": "https://github.com/HelloGitHub-Team/geese",
-      "source": "https://hellogithub.com",
+      "title": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "source": "https://open.itc.cn",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "ç«™ç‚¹åœ°å›¾",
-      "url": "https://hellogithub.com/server-sitemap-index.xml",
-      "source": "https://hellogithub.com",
+      "title": "Databerry",
+      "url": "https://www.databerry.ai/",
+      "source": "https://open.itc.cn",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "Redisäº‘å¹³å�°",
+      "title": "gmpetrov/databerry",
+      "url": "https://github.com/gmpetrov/databerry",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Github开源项目精选10月月刊",
+      "url": "https://open.itc.cn/?tab=collection",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "chenzomi12/DeepLearningSystem",
+      "url": "https://github.com/chenzomi12/DeepLearningSystem",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "google-deepmind/alphafold",
+      "url": "https://github.com/google-deepmind/alphafold",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://www.deepseek.com/",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "source": "https://open.itc.cn",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Redis云平台",
       "url": "https://redis.io/",
       "source": "https://open.itc.cn",
       "summary": "",
@@ -629,129 +1817,319 @@
       "tags": []
     },
     {
-      "title": "æœˆåˆŠ",
-      "url": "https://open.itc.cn/?tab=collection&colType=3",
-      "source": "https://open.itc.cn",
+      "title": "GitHub 中文社区",
+      "url": "https://www.github-zh.com/",
+      "source": "https://www.github-zh.com",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "Githubå¼€æº�é¡¹ç›®ç²¾é€‰10æœˆæœˆåˆŠ",
-      "url": "https://open.itc.cn/?tab=collection",
-      "source": "https://open.itc.cn",
+      "title": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "source": "https://www.github-zh.com",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "å�³æ—¶è¯­éŸ³å…‹éš†AIå·¥å…·",
-      "url": "https://research.myshell.ai/open-voice",
-      "source": "https://open.itc.cn",
+      "title": "CodeCrafters@codecrafters-io",
+      "url": "https://github.com/codecrafters-io",
+      "source": "https://www.github-zh.com",
       "summary": "",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "myshell-ai/OpenVoice",
-      "url": "https://github.com/myshell-ai/OpenVoice",
-      "source": "https://open.itc.cn",
+      "title": "#学习与技能提升#",
+      "url": "https://www.github-zh.com/collections/learn-to-code",
+      "source": "https://www.github-zh.com",
       "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "tutorial-code",
+      "url": "https://www.github-zh.com/topics/tutorial-code",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "tutorial-exercises",
+      "url": "https://www.github-zh.com/topics/tutorial-exercises",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "freeCodeCamp.org@freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "learn-to-code",
+      "url": "https://www.github-zh.com/topics/learn-to-code",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "nonprofits",
+      "url": "https://www.github-zh.com/topics/nonprofits",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Node.js",
+      "url": "https://www.github-zh.com/topics/nodejs",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "React",
+      "url": "https://www.github-zh.com/topics/react",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Sindre Sorhus@sindresorhus",
+      "url": "https://github.com/sindresorhus",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Awesome Lists",
+      "url": "https://www.github-zh.com/topics/awesome",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "unicorns",
+      "url": "https://www.github-zh.com/topics/unicorns",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "lists",
+      "url": "https://www.github-zh.com/topics/lists",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "Hackathon-Kit",
+      "url": "https://www.github-zh.com/topics/resources",
+      "source": "https://www.github-zh.com",
+      "summary": "",
+      "author": "",
+      "published_at": "",
+      "tags": []
+    },
+    {
+      "title": "apache/superset 5.0.0",
+      "url": "https://github.com/apache/superset/releases/tag/5.0.0",
+      "source": "release_github",
+      "summary": "5.0.0",
       "author": "",
       "published_at": "",
       "tags": [
-        "AI"
+        "Apache"
       ]
     },
     {
-      "title": "xai-org/grok-1",
-      "url": "https://github.com/xai-org/grok-1",
-      "source": "https://open.itc.cn",
-      "summary": "",
+      "title": "apache/auron v6.0.0",
+      "url": "https://github.com/apache/auron/releases/tag/v6.0.0",
+      "source": "release_github",
+      "summary": "v6.0.0-incubating",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "apache/arrow-rs 57.0.0",
+      "url": "https://github.com/apache/arrow-rs/releases/tag/57.0.0",
+      "source": "release_github",
+      "summary": "arrow 57.0.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "google/gemma.cpp v0.1.4",
+      "url": "https://github.com/google/gemma.cpp/releases/tag/v0.1.4",
+      "source": "release_github",
+      "summary": "v0.1.4",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "è®ºå�›",
-      "url": "https://forum.github-zh.com",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/incubator-teaclave v0.6.0",
+      "url": "https://github.com/apache/teaclave/releases/tag/v0.6.0",
+      "source": "release_github",
+      "summary": "Apache Teaclave (incubating) 0.6.0",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "google/zerocopy v0.8.28",
+      "url": "https://github.com/google/zerocopy/releases/tag/v0.8.28",
+      "source": "release_github",
+      "summary": "v0.8.28",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "æ�’è¡Œæ¦œ",
-      "url": "https://www.github-zh.com/top",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "google/jimfs v1.3.1",
+      "url": "https://github.com/google/jimfs/releases/tag/v1.3.1",
+      "source": "release_github",
+      "summary": "1.3.1",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "è¶‹åŠ¿",
-      "url": "https://www.github-zh.com/trending",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/carbondata carbondata-parent-apache-carbondata-2.3.1-rc1",
+      "url": "https://github.com/apache/carbondata/releases/tag/carbondata-parent-apache-carbondata-2.3.1-rc1",
+      "source": "release_github",
+      "summary": "carbondata-parent-apache-carbondata-2.3.1-rc1",
+      "author": "",
+      "published_at": "",
+      "tags": [
+        "Apache"
+      ]
+    },
+    {
+      "title": "google/volley 1.2.1",
+      "url": "https://github.com/google/volley/releases/tag/1.2.1",
+      "source": "release_github",
+      "summary": "Volley 1.2.1",
       "author": "",
       "published_at": "",
       "tags": []
     },
     {
-      "title": "ç™»å½•",
-      "url": "https://www.github-zh.com/auth/github",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/helix helix-1.4.3",
+      "url": "https://github.com/apache/helix/releases/tag/helix-1.4.3",
+      "source": "release_github",
+      "summary": "Apache Helix 1.4.3",
       "author": "",
       "published_at": "",
-      "tags": []
+      "tags": [
+        "Apache"
+      ]
     },
     {
-      "title": "é›†å�ˆ",
-      "url": "https://www.github-zh.com/collections",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/cassandra cassandra-5.0.6",
+      "url": "https://github.com/apache/cassandra/releases/tag/cassandra-5.0.6",
+      "source": "release_github",
+      "summary": "cassandra-5.0.6",
       "author": "",
       "published_at": "",
-      "tags": []
+      "tags": [
+        "Apache"
+      ]
     },
     {
-      "title": "ä¸»é¢˜",
-      "url": "https://www.github-zh.com/topics",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/brpc 1.15.0",
+      "url": "https://github.com/apache/brpc/releases/tag/1.15.0",
+      "source": "release_github",
+      "summary": "Apache bRPC 1.15.0",
       "author": "",
       "published_at": "",
-      "tags": []
+      "tags": [
+        "Apache"
+      ]
     },
     {
-      "title": "ç¼–ç¨‹",
-      "url": "https://www.github-zh.com/topics/programming",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/datafusion python-0.4.0",
+      "url": "https://github.com/apache/datafusion/releases/tag/python-0.4.0",
+      "source": "release_github",
+      "summary": "python-0.4.0",
       "author": "",
       "published_at": "",
-      "tags": []
+      "tags": [
+        "Apache",
+        "Python"
+      ]
     },
     {
-      "title": "æ•™ç¨‹",
-      "url": "https://www.github-zh.com/topics/tutorials",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "apache/servicecomb-java-chassis 3.3.0",
+      "url": "https://github.com/apache/servicecomb-java-chassis/releases/tag/3.3.0",
+      "source": "release_github",
+      "summary": "Apache ServiceComb Java-Chassis 3.3.0",
       "author": "",
       "published_at": "",
-      "tags": []
+      "tags": [
+        "Apache"
+      ]
     },
     {
-      "title": "å…�è´¹",
-      "url": "https://www.github-zh.com/topics/free",
-      "source": "https://www.github-zh.com",
-      "summary": "",
+      "title": "google/nftables v0.3.0",
+      "url": "https://github.com/google/nftables/releases/tag/v0.3.0",
+      "source": "release_github",
+      "summary": "v0.3.0",
       "author": "",
       "published_at": "",
       "tags": []
@@ -761,17 +2139,6 @@
       "url": "https://github.com/apache/commons-pool/releases/tag/start@560659",
       "source": "release_github",
       "summary": "start@560659",
-      "author": "",
-      "published_at": "",
-      "tags": [
-        "Apache"
-      ]
-    },
-    {
-      "title": "apache/servicecomb-java-chassis 3.3.0",
-      "url": "https://github.com/apache/servicecomb-java-chassis/releases/tag/3.3.0",
-      "source": "release_github",
-      "summary": "Apache ServiceComb Java-Chassis 3.3.0",
       "author": "",
       "published_at": "",
       "tags": [
@@ -790,10 +2157,10 @@
       ]
     },
     {
-      "title": "apache/incubator-opendal v0.55.0",
-      "url": "https://github.com/apache/opendal/releases/tag/v0.55.0",
+      "title": "apache/arrow apache-arrow-22.0.0",
+      "url": "https://github.com/apache/arrow/releases/tag/apache-arrow-22.0.0",
       "source": "release_github",
-      "summary": "v0.55.0",
+      "summary": "Apache Arrow 22.0.0",
       "author": "",
       "published_at": "",
       "tags": [
@@ -801,53 +2168,10 @@
       ]
     },
     {
-      "title": "facebook/zstd v1.5.7",
-      "url": "https://github.com/facebook/zstd/releases/tag/v1.5.7",
+      "title": "facebook/sapling 0.2.20250521-115337+25ed6ac4",
+      "url": "https://github.com/facebook/sapling/releases/tag/0.2.20250521-115337%2B25ed6ac4",
       "source": "release_github",
-      "summary": "Zstandard v1.5.7",
-      "author": "",
-      "published_at": "",
-      "tags": []
-    },
-    {
-      "title": "apache/dubbo-spi-extensions v3.3.1",
-      "url": "https://github.com/apache/dubbo-spi-extensions/releases/tag/v3.3.1",
-      "source": "release_github",
-      "summary": "v3.3.1",
-      "author": "",
-      "published_at": "",
-      "tags": [
-        "Apache"
-      ]
-    },
-    {
-      "title": "apache/dubbo-go-pixiu v1.0.0-rc4",
-      "url": "https://github.com/apache/dubbo-go-pixiu/releases/tag/v1.0.0-rc4",
-      "source": "release_github",
-      "summary": "v1.0.0-rc4",
-      "author": "",
-      "published_at": "",
-      "tags": [
-        "Apache",
-        "Go"
-      ]
-    },
-    {
-      "title": "apache/cassandra cassandra-5.0.6",
-      "url": "https://github.com/apache/cassandra/releases/tag/cassandra-5.0.6",
-      "source": "release_github",
-      "summary": "cassandra-5.0.6",
-      "author": "",
-      "published_at": "",
-      "tags": [
-        "Apache"
-      ]
-    },
-    {
-      "title": "google/nftables v0.3.0",
-      "url": "https://github.com/google/nftables/releases/tag/v0.3.0",
-      "source": "release_github",
-      "summary": "v0.3.0",
+      "summary": "0.2.20250521-115337+25ed6ac4",
       "author": "",
       "published_at": "",
       "tags": []
